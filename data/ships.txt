@@ -1,6 +1,7 @@
 shipyard "Basic Ships"
 	"Regnum"
 	"Divisio"
+	"Ordo"
 	"Subvarietas"
 
 ship "Divisio"
@@ -90,6 +91,85 @@ ship "Divisio"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Divisio is a heavy battleship employed by the Sailors, intended to be a capital ship counterpart to the Regnum. Armed more heavily than any human ship could dream of being, it Divisio is designed for both anti-capital and anti-fighter roles, with heavy anti-missile defenses to ensure it remains effective in the face of long-range bombardments."
+
+ship "Ordo"
+	sprite "ship/ordo"
+	thumbnail "thumbnail/ordo"
+	attributes
+		category "Heavy Warship"
+		"cost" 20000000
+		"shields" 25300
+		"hull" 15200
+		"required crew" 412
+		"bunks" 451
+		"mass" 800
+		"drag" 15.2
+		"heat dissipation" .6
+		"fuel capacity" 900
+		"cargo space" 60
+		"outfit space" 2790
+		"weapon capacity" 1330
+		"engine capacity" 245
+		"barbettes" 3
+		weapon
+			"blast radius" 200
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 3200
+	outfits
+		"7-62 Twin Battery" 3
+		"4-26 Dual Turret" 4
+		"1-18 Anti-Fighter Rig" 8
+		"Formidable Anti-Missile" 4
+		
+		"10x Fusion Reactor"
+		"2x Fusion Reactor"
+		"Galaxy Battery"
+		"Temple-Class Breach Sealant"
+		"Spectral Jammer"
+		"AHDU (Large)" 2
+		"Security Station" 2
+		
+		"Orca Plasma Thruster"
+		"Chipmunk Plasma Thruster"
+		"Tyrant Plasma Steering"
+		"Greyhound Plasma Steering"
+		"Scram Drive"
+		
+	engine -26 253
+		zoom 1.1
+	engine 26 253
+		zoom 1.1
+	turret 0 -220.5
+	turret -30.5 -127 "4-26 Dual Turret"
+	turret 30.5 -127 "4-26 Dual Turret"
+	turret 0 -92
+	turret -35.5 -71
+	turret 35.5 -71
+	turret -35.5 -13 "Formidable Anti-Missile"
+	turret 35.5 -13 "Formidable Anti-Missile"
+	turret -35.5 46.5
+	turret 35.5 46.5
+	turret -35.5 104.5 "Formidable Anti-Missile"
+	turret 35.5 104.5 "Formidable Anti-Missile"
+	turret -35.5 163
+	turret 35.5 163
+	turret -21.5 223.5 "4-26 Dual Turret"
+	turret 21.5 223.5 "4-26 Dual Turret"
+	#Primary turrets below
+	turret 0 -164 "7-62 Twin Battery"
+	turret 0 20.5 "7-62 Twin Battery"
+	turret 0 165 "7-62 Twin Battery"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 30
+	explode "small explosion" 35
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description "The Ordo is a cruiser "
 
 ship "Regnum"
 	sprite "ship/regnum"
