@@ -460,6 +460,18 @@ outfit "AHDU (Small)"
 	"cooling" 36
 	description "This small Heat Dissipation Unit is designed as a small add-on for most Sailor Vessels, but has use as primary cooling on some of their smallest ships."
 	
+outfit "Fuel Distillery"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/liquid helium"
+	"mass" 150
+	"outfit space" -150
+	"fuel generation" 0.75
+	"energy consumption" 22.5
+	"heat generation" 55
+	description "Because their ships are designed to operate both in- and out-of-atmosphere, the Sailors have a particular distaste towards solar-reliant systems, and ramscoops are no exception. This large device distills fuel over time, allowing a ship to refuel even when solar energy is nonpresent."
+	description "	Due to the fact that its size and cooling requirements are on par with a midsized nuclear reactor, it is found only on support ships."
+	
 outfit "Spectral Jammer"
 	category "Systems"
 	cost 138000

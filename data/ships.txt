@@ -2,6 +2,7 @@ shipyard "Basic Ships"
 	"Regnum"
 	"Divisio"
 	"Ordo"
+	"Subclassis"
 	"Subvarietas"
 
 ship "Divisio"
@@ -169,13 +170,13 @@ ship "Ordo"
 	explode "large explosion" 30
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description "The Ordo is a cruiser "
+	description "The Ordo is a middleweight cruiser fielded by the Sailors, designed to provide an effective anti-fighter platform while still retaining some long-range, anti-capital capability as well. To this end, it has only 3 main guns of reduced size, providing it with the ability to provide long-ranged support between fending off fighter sorties."
 
 ship "Regnum"
 	sprite "ship/regnum"
 	thumbnail "thumbnail/regnum"
 	attributes
-		category "Heavy Warship"
+		category "Utility"
 		"cost" 30000000
 		"shields" 56400
 		"hull" 18000
@@ -372,6 +373,70 @@ ship "Regnum"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Sailors specialize in sea-to-space ship designs, and the mighty Regnum is their apex. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 42 fighters on tap, it's an impressive ship by all measures."
+
+ship "Subclassis"
+	sprite "ship/subclassis"
+	thumbnail "thumbnail/subclassis"
+	attributes
+		category "Utility"
+		"cost" 36000000
+		"shields" 32300
+		"hull" 14200
+		"required crew" 114
+		"bunks" 468
+		"mass" 880
+		"drag" 15.2
+		"heat dissipation" .5
+		"fuel capacity" 2400
+		"cargo space" 2335
+		"outfit space" 1765
+		"weapon capacity" 360
+		"engine capacity" 265
+		weapon
+			"blast radius" 200
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 3200
+	outfits
+		"4-26 Dual Turret" 2
+		"1-18 Anti-Fighter Rig" 4
+		"Formidable Anti-Missile"
+		
+		"6x Fusion Reactor"
+		"Galaxy Battery"
+		"Pantheon-Class Breach Sealant"
+		"Fuel Distillery"
+		"Spectral Jammer" 2
+		"AHDU (Large)"
+		"Security Station" 3
+		
+		"Orca Plasma Thruster"
+		"Chipmunk Plasma Thruster"
+		"Tyrant Plasma Steering"
+		"Impala Plasma Steering"
+		"Scram Drive"
+		
+	engine -42 174.5
+		zoom 1.2
+	engine 42 174.5
+		zoom 1.2
+	turret 0 -190.5 "4-26 Dual Turret"
+	turret 0 -98.5 "Formidable Anti-Missile"
+	turret -64 -63.5
+	turret 64 -63.5
+	turret -62 60
+	turret 62 60
+	turret 0 186 "4-26 Dual Turret"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 30
+	explode "small explosion" 35
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description "The Subclassis is designed as an all-in-one auxiliary ship for Sailor military fleets; it carries a large amount of passengers, cargo, and fuel as part of standard operations, though its armament leaves much to be desired compared to similarly sized warships like the Ordo."
 
 ship "Subvarietas"
 	plural "Subvarietas"
