@@ -187,8 +187,8 @@ ship "Regnum"
 		"heat dissipation" .35
 		"fuel capacity" 1200
 		"cargo space" 200
-		"outfit space" 2675
-		"weapon capacity" 590
+		"outfit space" 2735
+		"weapon capacity" 630
 		"engine capacity" 475
 		weapon
 			"blast radius" 300
@@ -197,6 +197,7 @@ ship "Regnum"
 			"hit force" 4500
 	outfits
 		"Phase Torpedo" 4
+		"1-18 Anti-Fighter Rig" 2
 		"Monolithic Anti-Missile"
 		
 		"10x Fusion Reactor"
@@ -206,6 +207,7 @@ ship "Regnum"
 		"Spectral Jammer" 2
 		"AHDU (Large)"
 		"AHDU (Medium)"
+		"AHDU (Small)"
 		"Security Station" 4
 		"Tactical Scanner" 8
 		
@@ -227,7 +229,9 @@ ship "Regnum"
 		under
 	gun 101 -158
 		under
-	turret -86.5 188
+	turret 80 -168.5 "1-18 Anti-Fighter Rig"
+	turret -86.5 188 "Monolithic Anti-Missile"
+	turret -83.5 299.5 "1-18 Anti-Fighter Rig"
 	bay "Fighter" -95.5 -89.5 #Start of column 1; 6 bays
 		"over"
 		"angle" -45
@@ -372,7 +376,7 @@ ship "Regnum"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Sailors specialize in sea-to-space ship designs, and the mighty Regnum is their apex. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 42 fighters on tap, it's an impressive ship by all measures."
+	description "The Sailors specialize in sea-to-space ship designs, and the mighty Regnum is their apex. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 46 fighters on tap, it's an impressive ship by all measures."
 
 ship "Subclassis"
 	sprite "ship/subclassis"
