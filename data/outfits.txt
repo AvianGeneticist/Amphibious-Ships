@@ -174,6 +174,35 @@ outfit "1-18 Round"
 		"shield damage" 3
 		"hull damage" 2
 
+outfit "THEL Node"
+	category "Turrets"
+	cost 10500000
+	thumbnail "outfit/heavy laser turret"
+	"mass" 116
+	"outfit space" -116
+	"weapon capacity" -116
+	"turret mounts" -1
+	"barbettes" -1
+	weapon
+		sprite "projectile/thel"
+			"frame rate" 1
+		"hardpoint sprite" "hardpoint/heavy laser turret"
+		"hardpoint offset" 8.
+		sound "heavy laser"
+		"hit effect" "heavy laser impact" 6
+		"inaccuracy" .4
+		"turret turn" 1.2
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 30
+		"firing heat" 34
+		"shield damage" 23
+		"hull damage" 15
+		"corrosion damage" 0.16
+	description `The Sailors have relatively little experience with beam technology compared to their tried and true "energy shell" designs. This prototypical weapon (dubbed the Tactical High Energy Laser) is their first such combat-practical design; a huge beam that carves through all but the thickest armor in its path, though compared to its projectile-based bretheren it suffers in the shield damage department.`
+	description `	While the weapon doesn't produce nearly as much firing force as its projectile-based counterparts, the energy and cooling requirements means it still needs a barbette to be handled properly.`
+
 outfit "3-22 Bombardier"
 	category "Guns"
 	cost 500000
@@ -206,7 +235,7 @@ outfit "3-22 Round"
 			"frame rate" 2
 		"hit effect" "proton impact"
 		"lifetime" 40
-		"hit force" 200
+		"hit force" 120
 		"shield damage" 125
 		"hull damage" 115
 

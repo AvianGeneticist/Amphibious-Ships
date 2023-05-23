@@ -1,6 +1,7 @@
 shipyard "Basic Ships"
 	"Regnum"
 	"Divisio"
+	"Phylum"
 	"Ordo"
 	"Subclassis"
 	"Subvarietas"
@@ -171,6 +172,83 @@ ship "Ordo"
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
 	description "The Ordo is a middleweight cruiser fielded by the Sailors, designed to provide an effective anti-fighter platform while still retaining some long-range, anti-capital capability as well. To this end, it has only 3 main guns of reduced size, providing it with the ability to provide long-ranged support between fending off fighter sorties."
+
+ship "Phylum"
+	sprite "ship/phylum"
+	thumbnail "thumbnail/phylum"
+	attributes
+		category "Heavy Warship"
+		"cost" 36000000
+		"shields" 36600
+		"hull" 24400
+		"required crew" 698
+		"bunks" 714
+		"mass" 1300
+		"drag" 35.4
+		"heat dissipation" .52
+		"fuel capacity" 1200
+		"cargo space" 130
+		"outfit space" 4515
+		"weapon capacity" 1990
+		"engine capacity" 340
+		"barbettes" 10
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"10-77 Twin Battery" 4
+		"7-62 Twin Battery" 2
+		"THEL Node" 4
+		"4-26 Dual Turret" 4
+		"Formidable Anti-Missile" 2
+		
+		"10x Fusion Reactor" 2
+		"Cluster Battery"
+		"Pantheon-Class Breach Sealant"
+		"Spectral Jammer" 2
+		"AHDU (Large)" 4
+		"Security Station" 4
+		"Tactical Scanner" 6
+		
+		"Tyrant Plasma Thruster"
+		"Greyhound Plasma Thruster"
+		"Tyrant Plasma Steering"
+		"Orca Plasma Steering"
+		"Scram Drive"
+		
+	engine -42 152.5
+		zoom 1.5
+	engine 42 152.5
+		zoom 1.5
+	turret 0 -291.5 "4-26 Dual Turret"
+	turret -62 -151.5 "Formidable Anti-Missile"
+	turret 62 -151.5 "4-26 Dual Turret"
+	turret -62 151.5 "4-26 Dual Turret"
+	turret 62 151.5 "Formidable Anti-Missile"
+	turret 0 292 "4-26 Dual Turret"
+	#Primary turrets below
+	turret 0 -232.5 "10-77 Twin Battery"
+	turret 0 -139.5 "10-77 Twin Battery"
+	turret 0 157.5 "10-77 Twin Battery"
+	turret 0 241 "10-77 Twin Battery"
+	turret -73.5 -92.5 "THEL Node"
+	turret 73.5 -92.5 "THEL Node"
+	turret -91 1.5 "7-62 Twin Battery"
+	turret 91 1.5 "7-62 Twin Battery"
+	turret -73.5 94.5 "THEL Node"
+	turret 73.5 94.5 "THEL Node"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `The Phylum is an experimental battleship featuring a number of new and exciting technologies by the Sailors; most notably, their new beam weapon, the THEL. Armed for heavy anti-capital duty, the Phylum is a fearsome ship to engage, however a reduced amount of deck space compared to the tried and true Divisio means that the ships tend to fare well in different conditions, rather than one being overwhelmingly favourable compared to the other.`
 
 ship "Regnum"
 	sprite "ship/regnum"
