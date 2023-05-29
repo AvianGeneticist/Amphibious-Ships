@@ -11,9 +11,9 @@ ship "Divisio"
 	thumbnail "thumbnail/divisio"
 	attributes
 		category "Heavy Warship"
-		"cost" 28000000
-		"shields" 42600
-		"hull" 22400
+		"cost" 84000000
+		"shields" 202600
+		"hull" 128400
 		"required crew" 588
 		"bunks" 618
 		"mass" 1100
@@ -99,9 +99,9 @@ ship "Ordo"
 	thumbnail "thumbnail/ordo"
 	attributes
 		category "Heavy Warship"
-		"cost" 20000000
-		"shields" 25300
-		"hull" 15200
+		"cost" 60000000
+		"shields" 122300
+		"hull" 119200
 		"required crew" 412
 		"bunks" 451
 		"mass" 800
@@ -178,9 +178,9 @@ ship "Phylum"
 	thumbnail "thumbnail/phylum"
 	attributes
 		category "Heavy Warship"
-		"cost" 36000000
-		"shields" 36600
-		"hull" 24400
+		"cost" 108000000
+		"shields" 196600
+		"hull" 214400
 		"required crew" 698
 		"bunks" 714
 		"mass" 1300
@@ -255,9 +255,9 @@ ship "Regnum"
 	thumbnail "thumbnail/regnum"
 	attributes
 		category "Utility"
-		"cost" 30000000
-		"shields" 56400
-		"hull" 18000
+		"cost" 90000000
+		"shields" 366400
+		"hull" 158000
 		"required crew" 289
 		"bunks" 432
 		"mass" 1750
@@ -461,9 +461,9 @@ ship "Subclassis"
 	thumbnail "thumbnail/subclassis"
 	attributes
 		category "Utility"
-		"cost" 36000000
-		"shields" 32300
-		"hull" 14200
+		"cost" 96000000
+		"shields" 142300
+		"hull" 121200
 		"required crew" 114
 		"bunks" 468
 		"mass" 880
@@ -526,9 +526,9 @@ ship "Subvarietas"
 	thumbnail "thumbnail/subvarietas"
 	attributes
 		category "Fighter"
-		"cost" 1500000
-		"shields" 4800
-		"hull" 4200
+		"cost" 4500000
+		"shields" 12800
+		"hull" 11200
 		"automaton" 1
 		"mass" 15
 		"drag" 1.5
