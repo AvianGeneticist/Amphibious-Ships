@@ -17,7 +17,9 @@ outfit "10-77 Twin Battery"
 	weapon
 		sound "detainer"
 		"hardpoint sprite" "hardpoint/10 77"
-		"hardpoint offset" 28.5
+		"fire effect" "small explosion" 2
+		"fire effect" "smoke" 10
+		"hardpoint offset" 12.5
 		"turret turn" 0.8
 		"inaccuracy" .2
 		"velocity" 16
@@ -173,6 +175,46 @@ outfit "1-18 Round"
 		"hit force" 5
 		"shield damage" 4
 		"hull damage" 2.5
+		
+outfit "1-24 Anti-Fighter Array"
+	category "Turrets"
+	cost 300000
+	thumbnail "outfit/proton gun"
+	series "Caliber Turrets: Sailors"
+	index 180
+	"mass" 92
+	"outfit space" -92
+	"weapon capacity" -92
+	"turret mounts" -1
+	weapon
+		sprite "projectile/proton"
+		sound "proton"
+		"hit effect" "proton impact" 6
+		"inaccuracy" 14
+		"submunition" "1-24 Round" 8
+		"turret turn" 3
+		"velocity" 36
+		"lifetime" 1
+		"reload" 1.2
+		"burst count" 5
+		"burst reload" 1
+		"firing energy" 18.4
+		"firing force" 40
+		"firing heat" 42.4
+		"cluster"
+	description "Developed for the Regio-class carrier, this larger implementation of the 1-18 model autocannon is designed to saturate an area in anti-fighter fire. Improvements to the design also include greatly improved velocity, and subsequently, increased range."
+
+outfit "1-24 Round"
+	weapon
+		sprite "projectile/proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "proton impact"
+		"inaccuracy" 6
+		"lifetime" 20
+		"hit force" 5
+		"shield damage" 4
+		"hull damage" 2.5
 
 outfit "THEL Node"
 	category "Turrets"
@@ -235,7 +277,7 @@ outfit "3-22 Round"
 			"frame rate" 2
 		"hit effect" "proton impact"
 		"lifetime" 40
-		"hit force" 120
+		"hit force" 60
 		"shield damage" 180
 		"hull damage" 150
 
@@ -269,7 +311,7 @@ outfit "0.6-16 Shell"
 			"frame rate" 2
 		"hit effect" "proton impact"
 		"lifetime" 25
-		"hit force" 5
+		"hit force" 1
 		"shield damage" 3.4
 		"hull damage" 2.2
 		"blast radius" 10
