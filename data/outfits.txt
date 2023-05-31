@@ -2,7 +2,7 @@ outfit "10-77 Twin Battery"
 	category "Turrets"
 	cost 10000000
 	thumbnail "outfit/10 77"
-	series "Caliber Turrets: Sailors"
+	series "Caliber Turrets: Navarchs"
 	index 1000
 	"mass" 182
 	"outfit space" -182
@@ -29,7 +29,7 @@ outfit "10-77 Twin Battery"
 		"firing heat" 11400
 		"blast radius" 80
 		"cluster"
-	description "This is the primary weapon for the Sailors' large battleships: a twin-barreled, wide-bore cannon that's slow to aim and fire but deals impeccable damage once it connects. The significant firing forces produced by the weapon require a special armored hardpoint (a barbette) to be installed."
+	description "This is the primary weapon for the Navarchs' large battleships: a twin-barreled, wide-bore cannon that's slow to aim and fire but deals impeccable damage once it connects. The significant firing forces produced by the weapon require a special armored hardpoint (a barbette) to be installed."
 
 outfit "10-77 Shell"
 	weapon
@@ -50,7 +50,7 @@ outfit "7-62 Twin Battery"
 	category "Turrets"
 	cost 7000000
 	thumbnail "outfit/10 77"
-	series "Caliber Turrets: Sailors"
+	series "Caliber Turrets: Navarchs"
 	index 800
 	"mass" 124
 	"outfit space" -124
@@ -96,7 +96,7 @@ outfit "4-26 Dual Turret"
 	category "Turrets"
 	cost 1000000
 	thumbnail "outfit/proton gun"
-	series "Caliber Turrets: Sailors"
+	series "Caliber Turrets: Navarchs"
 	index 700
 	"mass" 61
 	"outfit space" -61
@@ -116,7 +116,7 @@ outfit "4-26 Dual Turret"
 		"firing force" 80
 		"firing heat" 1010
 		"cluster"
-	description "The 4-26 is designed as a secondary turret for the Sailors' large battleships, or a more primary role for their smaller ships. One turret is not particularly impressive by itself, but when equipped en masse, they can be effective at wearing down opponents at a fair distance."
+	description "The 4-26 is designed as a secondary turret for the Navarchs' large battleships, or a more primary role for their smaller ships. One turret is not particularly impressive by itself, but when equipped en masse, they can be effective at wearing down opponents at a fair distance."
 
 outfit "4-26 Shell"
 	weapon
@@ -135,7 +135,7 @@ outfit "1-18 Anti-Fighter Rig"
 	category "Turrets"
 	cost 300000
 	thumbnail "outfit/proton gun"
-	series "Caliber Turrets: Sailors"
+	series "Caliber Turrets: Navarchs"
 	index 200
 	"mass" 19
 	"outfit space" -19
@@ -157,7 +157,7 @@ outfit "1-18 Anti-Fighter Rig"
 		"firing force" 6
 		"firing heat" 10.6
 		"cluster"
-	description "For anti-fighter roles, this tiny, snappy turret is the Sailors' first choice. Small enough to be mounted on nearly anything and capable of a freakishly high rate of fire, this turret is designed for close-ranged anti-swarm combat, with a wild spray and considerable damage output."
+	description "For anti-fighter roles, this tiny, snappy turret is the Navarchs' first choice. Small enough to be mounted on nearly anything and capable of a freakishly high rate of fire, this turret is designed for close-ranged anti-swarm combat, with a wild spray and considerable damage output."
 
 outfit "1-18 Round"
 	weapon
@@ -175,7 +175,7 @@ outfit "1-24 Anti-Fighter Array"
 	category "Turrets"
 	cost 300000
 	thumbnail "outfit/proton gun"
-	series "Caliber Turrets: Sailors"
+	series "Caliber Turrets: Navarchs"
 	index 180
 	"mass" 92
 	"outfit space" -92
@@ -237,7 +237,7 @@ outfit "THEL Node"
 		"shield damage" 26
 		"hull damage" 20
 		"corrosion damage" 0.18
-	description `The Sailors have relatively little experience with beam technology compared to their tried and true "energy shell" designs. This prototypical weapon (dubbed the Tactical High Energy Laser) is their first such combat-practical design; a huge beam that carves through all but the thickest armor in its path, though compared to its projectile-based bretheren it suffers in the shield damage department.`
+	description `The Navarchs have relatively little experience with beam technology compared to their tried and true "energy shell" designs. This prototypical weapon (dubbed the Tactical High Energy Laser) is their first such combat-practical design; a huge beam that carves through all but the thickest armor in its path, though compared to its projectile-based bretheren it suffers in the shield damage department.`
 	description `	While the weapon doesn't produce nearly as much firing force as its projectile-based counterparts, the energy and cooling requirements means it still needs a barbette to be handled properly.`
 
 outfit "3-22 Bombardier"
@@ -320,6 +320,8 @@ outfit "Monolithic Anti-Missile"
 	"outfit space" -240
 	"weapon capacity" -240
 	"turret mounts" -1
+	series "Anti-Missile: Navarchs"
+	index 300
 	weapon
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
@@ -330,7 +332,7 @@ outfit "Monolithic Anti-Missile"
 		"reload" 4
 		"firing energy" 80
 		"firing heat" 40
-	description "On carriers, the Sailors rarely put more than one or two turret mounts, conserving deck space for carrying capability. This enormous anti-missile can project missile denial over a massive area, though its fire rate can leave something to be desired when defending against a large fleet."
+	description "On carriers, the Navarchs rarely put more than one or two turret mounts, conserving deck space for carrying capability. This enormous anti-missile can project missile denial over a massive area, though its fire rate can leave something to be desired when defending against a large fleet."
 
 effect "monolithic anti-missile"
 	sprite "effect/monolithic anti missile"
@@ -348,6 +350,8 @@ outfit "Formidable Anti-Missile"
 	"outfit space" -140
 	"weapon capacity" -140
 	"turret mounts" -1
+	series "Anti-Missile: Navarchs"
+	index 200
 	weapon
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
@@ -368,6 +372,28 @@ effect "formidable anti-missile"
 	"lifetime" 41
 	"velocity scale" 1
 	
+outfit "Intimidating Anti-Missile"
+	category "Turrets"
+	cost 2000000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	series "Anti-Missile: Navarchs"
+	index 100
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 22
+		"velocity" 200
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 22
+		"firing heat" 15
+	description "Designed for light ships with a large amount of hardpoints, the Intimidating Anti-Missile is the smallest anti-missile system offered by the Navarchs. Its range is quite unimpressive compared to their larger anti-missile systems, but allows a ship to keep itself clear of enemy missile barrages."
+
 	
 outfit "Phase Torpedo"
 	category "Guns"
@@ -405,7 +431,7 @@ outfit "Phase Torpedo"
 	description "Named for their ability to move through space, air, or water, these heavy torpedoes consume massive amounts of energy and move slowly, but inflict devastating damage on hit, to the point where no shield can prevent at least some hull damage from leaking through."
 
 outfit "Lathe Mine Bay"
-	category "Secondary Weapons"
+	category "Guns"
 	cost 1500000
 	thumbnail "outfit/korath minelayer"
 	"mass" 21
@@ -458,25 +484,112 @@ outfit "Lathe Mine"
 		"hit force" 75
 		"missile strength" 63
 		
+outfit "Ransacker ALS"
+	category "Guns"
+	cost 2500000
+	thumbnail "outfit/korath minelayer"
+	"mass" 54
+	"outfit space" -54
+	"weapon capacity" -54
+	"gun ports" -1
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "minelayer"
+		"fire effect" "smoke"
+		"hit effect" "huge explosion"
+		"submunition" "Ransacker Parent"
+			offset 0 0
+		"submunition" "Ransacker Parent"
+			offset 3.5 0
+		"submunition" "Ransacker Parent"
+			offset -3.5 0
+		"submunition" "Ransacker Parent"
+			offset 3.5 1.5
+		"submunition" "Ransacker Parent"
+			offset 0 1.5
+		"submunition" "Ransacker Parent"
+			offset -3.5 1.5
+		"submunition" "Ransacker Parent"
+			offset 3.5 -1.5
+		"submunition" "Ransacker Parent"
+			offset 0 -1.5
+		"submunition" "Ransacker Parent"
+			offset -3.5 -1.5
+		"inaccuracy" 1
+		"velocity" 5
+		"velocity override" 27
+		"lifetime" 1
+		"reload" 480
+		"firing energy" 3100
+		"firing force" 180
+		"firing heat" 6700
+		"turn" 3.5
+		"homing" 4
+		"acceleration" 1
+		"drag" .03
+		"radar tracking" 0.8
+		"optical tracking" 0.8
+		"missile strength" 196
+		"stream"
+	description `Ransacker Missiles are a surprisingly unrefined weapon; easily replaceable missiles that split into a wide barrage of smaller explosives, pelting enemy fleets with an enormous amount of cluster munitions.`
+	description `	Ransackers are launched at a reduced launch pressure, reducing load on the ship and allowing 9 to be launched from a relatively compact platform. However, the fact that the projectiles are assembled on the spot means reload time leaves something to be desired.`
+
+outfit "Ransacker Parent"
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		"hit effect" "large explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 3
+		"lifetime" 360
+		"submunition" "Ransacker Child" 5
+		"turn" 3.5
+		"homing" 4
+		"acceleration" 0.8
+		"drag" .03
+		"radar tracking" 0.8
+		"optical tracking" 0.8
+		"missile strength" 88
+		"split range" 250
+
+outfit "Ransacker Child"
+	weapon
+		sprite "projectile/meteor"
+			"random start frame"
+			"no repeat"
+			"frame rate" .25
+		"hit effect" "small explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 16
+		"random velocity" 8.33
+		"lifetime" 900
+		"shield damage" 151
+		"hull damage" 138
+		"hit force" 20
+		"missile strength" 22
+
 
 outfit "Pantheon-Class Breach Sealant"
 	category "Systems"
 	cost 4000000
 	thumbnail "outfit/huge shield"
-	series "Shields: Sailors"
+	series "Shields: Navarchs"
 	index 300
 	"mass" 435
 	"outfit space" -435
 	"shield generation" 44.8
 	"shield energy" 56
 	"hull repair rate" 11.2
-	description "When the Sailors needed a shield generator for their largest ships, they sought to make a shield generator that would be able to level the playing field with any alien armada. This shield generator is so powerful that the shield often leaks into the hull, effectively replacing lost surface hull until a more permanent fix can be implemented."
+	description "When the Navarchs needed a shield generator for their largest ships, they sought to make a shield generator that would be able to level the playing field with any alien armada. This shield generator is so powerful that the shield often leaks into the hull, effectively replacing lost surface hull until a more permanent fix can be implemented."
 
 outfit "Temple-Class Breach Sealant"
 	category "Systems"
 	cost 1740000
 	thumbnail "outfit/large shield"
-	series "Shields: Sailors"
+	series "Shields: Navarchs"
 	index 200
 	"mass" 221
 	"outfit space" -221
@@ -489,7 +602,7 @@ outfit "Throne-Class Breach Sealant"
 	category "Systems"
 	cost 760000
 	thumbnail "outfit/small shield"
-	series "Shields: Sailors"
+	series "Shields: Navarchs"
 	index 100
 	"mass" 47
 	"outfit space" -47
@@ -502,6 +615,8 @@ outfit "10x Fusion Reactor"
 	category "Power"
 	cost 142000000
 	thumbnail "outfit/core"
+	series "Reactors: Navarchs"
+	index 900
 	"mass" 520
 	"outfit space" -520
 	"energy generation" 168.9
@@ -512,26 +627,44 @@ outfit "6x Fusion Reactor"
 	category "Power"
 	cost 66000000
 	thumbnail "outfit/core"
+	series "Reactors: Navarchs"
+	index 500
 	"mass" 260
 	"outfit space" -260
 	"energy generation" 81.45
 	"heat generation" 150
-	description "This smaller reactor serves as a secondary power source for the Sailors' larger vessels."
+	description "This smaller reactor serves as a secondary power source for the Navarchs' larger vessels."
+
+outfit "4x Fusion Reactor"
+	category "Power"
+	cost 28000000
+	thumbnail "outfit/core"
+	series "Reactors: Navarchs"
+	index 300
+	"mass" 130
+	"outfit space" -130
+	"energy generation" 40.6
+	"heat generation" 78
+	description "This small fusion reactor serves as a midstep between the Navarchs' fighter-scale reactors and their much larger capital ship reactors, often not large enough to power a ship by itself, but small enough it can serve as a secondary reactor."
 
 outfit "2x Fusion Reactor"
 	category "Power"
 	cost 12000000
 	thumbnail "outfit/core"
+	series "Reactors: Navarchs"
+	index 100
 	"mass" 65
 	"outfit space" -65
 	"energy generation" 20.1
 	"heat generation" 40
-	description "For their fighters, the Sailors simply scaled down their pre-existing reactor design. This isn't a particularly elegant solution, but provides the necessary energy to run all of a Subvarietas' systems and weapons."
+	description "For their fighters, the Navarchs simply scaled down their pre-existing reactor design. This isn't a particularly elegant solution, but provides the necessary energy to run all of a Subvarietas' systems and weapons."
 
 outfit "Cluster Battery"
 	category "Power"
 	cost 320000
 	thumbnail "outfit/huge battery"
+	series "Energy Storage: Navarchs"
+	index 600
 	"mass" 140
 	"outfit space" -140
 	"energy capacity" 192000
@@ -541,6 +674,8 @@ outfit "Galaxy Battery"
 	category "Power"
 	cost 320000
 	thumbnail "outfit/large battery"
+	series "Energy Storage: Navarchs"
+	index 500
 	"mass" 110
 	"outfit space" -110
 	"energy capacity" 150000
@@ -550,6 +685,8 @@ outfit "Planet Battery"
 	category "Power"
 	cost 320000
 	thumbnail "outfit/large battery"
+	series "Energy Storage: Navarchs"
+	index 400
 	"mass" 80
 	"outfit space" -80
 	"energy capacity" 100000
@@ -559,10 +696,12 @@ outfit "Comet Capacitor"
 	category "Power"
 	cost 20000
 	thumbnail "outfit/tiny battery"
+	series "Energy Storage: Navarchs"
+	index 100
 	"mass" 10
 	"outfit space" -10
 	"energy capacity" 10800
-	description "This is a moderately sized capacitor, designed by the Sailors for their fighters."
+	description "This is a moderately sized capacitor, designed by the Navarchs for their fighters."
 
 outfit "AHDU (Large)"
 	category "Systems"
@@ -589,7 +728,7 @@ outfit "AHDU (Small)"
 	"mass" 20
 	"outfit space" -20
 	"cooling" 43.2
-	description "This small Heat Dissipation Unit is designed as a small add-on for most Sailor Vessels, but has use as primary cooling on some of their smallest ships."
+	description "This small Heat Dissipation Unit is designed as a small add-on for most Navarch Vessels, but has use as primary cooling on some of their smallest ships."
 	
 outfit "Fuel Distillery"
 	category "Systems"
@@ -600,7 +739,7 @@ outfit "Fuel Distillery"
 	"fuel generation" 0.75
 	"energy consumption" 22.5
 	"heat generation" 55
-	description "Because their ships are designed to operate both in- and out-of-atmosphere, the Sailors have a particular distaste towards solar-reliant systems, and ramscoops are no exception. This large device distills fuel over time, allowing a ship to refuel even when solar energy is nonpresent."
+	description "Because their ships are designed to operate both in- and out-of-atmosphere, the Navarchs have a particular distaste towards solar-reliant systems, and ramscoops are no exception. This large device distills fuel over time, allowing a ship to refuel even when solar energy is nonpresent."
 	description "	Due to the fact that its size and cooling requirements are on par with a midsized nuclear reactor, it is found only on support ships."
 	
 outfit "Spectral Jammer"
@@ -612,3 +751,23 @@ outfit "Spectral Jammer"
 	"radar jamming" 12
 	"optical jamming" 12
 	description "This jammer broadcasts broad-wave light across radar and visible wavelengths, making it far more difficult for missiles to maintain a lock."
+
+outfit "Analysis Scope"
+	category "Systems"
+	cost 800000
+	thumbnail "outfit/tactical scanner"
+	"mass" 8
+	"outfit space" -8
+	"tactical scan power" 256
+	description "The Navarchs engage in combat at distances far greater than most species, so their scanners are tuned to work at extreme ranges. Despite only being twice the size of a human tactical scanner, this advanced scope is nearly 8 times as powerful."
+
+outfit "Navarch Boarding Supremacy"
+	category "Hand to Hand"
+	cost 20000
+	thumbnail "outfit/security station"
+	"mass" 2
+	"outfit space" -2
+	"capture defense" 1215
+	"capture attack" 710
+	"unplunderable" 1
+	description "With the claws in their arms acting as electrified harpoons, the Navarchs rarely have a need for artificial weapons; not to mention, they are unlikely to refuse to sell their technology to others, for the right price. However, should someone attempt to capture a Navarch ship by force, this labyrinthine network of choke-points, hidden flanks, automated defenses, and heavy gear for on-board personnel awaits them."

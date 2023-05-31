@@ -35,8 +35,8 @@ ship "Divisio"
 		"Pantheon-Class Breach Sealant"
 		"Spectral Jammer"
 		"AHDU (Large)" 3
-		"Security Station" 4
-		"Tactical Scanner" 6
+		"Navarch Boarding Supremacy" 4
+		"Analysis Scope" 3
 		
 		"Tyrant Plasma Thruster"
 		"Tyrant Plasma Steering"
@@ -122,7 +122,7 @@ ship "Ordo"
 		"Temple-Class Breach Sealant"
 		"Spectral Jammer"
 		"AHDU (Large)" 2
-		"Security Station" 2
+		"Navarch Boarding Supremacy" 2
 		
 		"Orca Plasma Thruster"
 		"Chipmunk Plasma Thruster"
@@ -166,6 +166,7 @@ ship "Ordo"
 	description "The Ordo is a middleweight cruiser fielded by the Sailors, designed to provide an effective anti-fighter platform while still retaining some long-range, anti-capital capability as well. To this end, it has only 3 main guns of reduced size, providing it with the ability to provide long-ranged support between fending off fighter sorties."
 
 ship "Phylum"
+	plural "Phyla"
 	sprite "ship/phylum"
 	thumbnail "thumbnail/phylum"
 	attributes
@@ -202,7 +203,7 @@ ship "Phylum"
 		"Spectral Jammer" 2
 		"AHDU (Large)" 4
 		"Security Station" 4
-		"Tactical Scanner" 6
+		"Analysis Scope" 3
 		
 		"Tyrant Plasma Thruster"
 		"Greyhound Plasma Thruster"
@@ -276,8 +277,8 @@ ship "Regio"
 		"Throne-Class Breach Sealant"
 		"Spectral Jammer" 4
 		"AHDU (Large)" 2
-		"Security Station" 6
-		"Tactical Scanner" 12
+		"Navarch Boarding Supremacy" 6
+		"Analysis Scope" 6
 		
 		"Tyrant Plasma Thruster" 2
 		"Greyhound Plasma Thruster"
@@ -520,8 +521,8 @@ ship "Regnum"
 		"AHDU (Large)"
 		"AHDU (Medium)"
 		"AHDU (Small)"
-		"Security Station" 4
-		"Tactical Scanner" 8
+		"Navarch Boarding Supremacy" 4
+		"Analysis Scope" 4
 		
 		"Tyrant Plasma Thruster"
 		"Orca Plasma Thruster"
@@ -691,6 +692,7 @@ ship "Regnum"
 	description "The Sailors specialize in sea-to-space ship designs, and the mighty Regnum is their apex. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 46 fighters on tap, it's an impressive ship by all measures."
 
 ship "Subclassis"
+	plural "Subclassis"
 	sprite "ship/subclassis"
 	thumbnail "thumbnail/subclassis"
 	attributes
@@ -724,7 +726,7 @@ ship "Subclassis"
 		"Fuel Distillery"
 		"Spectral Jammer" 2
 		"AHDU (Large)"
-		"Security Station" 3
+		"Navarch Boarding Supremacy" 3
 		
 		"Orca Plasma Thruster"
 		"Chipmunk Plasma Thruster"
@@ -753,6 +755,92 @@ ship "Subclassis"
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
 	description "The Subclassis is designed as an all-in-one auxiliary ship for Sailor military fleets; it carries a large amount of passengers, cargo, and fuel as part of standard operations, though its armament leaves much to be desired compared to similarly sized warships like the Ordo."
+
+ship "Subfamilia"
+	sprite "ship/subfamilia"
+	thumbnail "thumbnail/subfamilia"
+	attributes
+		category "Light Warship"
+		"cost" 28000000
+		"shields" 83700
+		"hull" 60700
+		"required crew" 198
+		"bunks" 216
+		"mass" 475
+		"drag" 9.6
+		"heat dissipation" .75
+		"fuel capacity" 1200
+		"cargo space" 30
+		"outfit space" 2100
+		"weapon capacity" 1095
+		"engine capacity" 195
+		weapon
+			"blast radius" 120
+			"shield damage" 1250
+			"hull damage" 725
+			"hit force" 2400
+	outfits
+		"4-26 Dual Turret"
+		"1-18 Anti-Fighter Rig" 9
+		"Monolithic Anti-Missile"
+		"Intimidating Anti-Missile" 2
+		"Ransacker ALS" 10
+		
+		"6x Fusion Reactor"
+		"4x Fusion Reactor"
+		"Planet Battery"
+		"Throne-Class Breach Sealant" 3
+		"Spectral Jammer" 2
+		"Navarch Boarding Supremacy"
+		"AHDU (Large)"
+		
+		"Impala Plasma Thruster"
+		"Greyhound Plasma Thruster"
+		"Tyrant Plasma Steering"
+		"Scram Drive"
+		
+	engine -23 136.5
+	engine 23 136.5
+	gun 0 -154.5
+	gun 0 -148
+	gun -21.5 -132
+		angle -10
+	gun 21.5 -132
+		angle 10
+	gun -30 -101.5
+		angle -20
+	gun 30 -101.5
+		angle 20
+	gun -36.5 -74
+		angle -25
+	gun 36.5 -74
+		angle 25
+	gun 0 82.5
+	gun 0 96.5
+	turret -12.5 -61.5
+	turret 12.5 -61.5
+	turret -39 -39.5
+	turret 39 -39.5
+	turret -27.5 29 "Intimidating Anti-Missile"
+	turret 27.5 29 "Intimidating Anti-Missile"
+	turret -25.5 66
+	turret 25.5 66
+	turret -27.5 93.5
+	turret 27.5 93.5
+	turret 0 149.5
+	#Primary Turrets below
+	turret 0 -85.5 "4-26 Dual Turret"
+	turret 0 -19 "Monolithic Anti-Missile"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 30
+	explode "small explosion" 35
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description `Compared to its sister ship, the Subfamilia is specialized for long-ranged missile combat rather than minelaying. In addition to 10 launch bays for Ransacker Missile swarms, the ship features a Monolithic Anti-Missile as one of its "main guns", allowing it to sweep mines and block missiles from enormous distances as it bombards the opposition from long range.`
 
 ship "Subvarietas"
 	plural "Subvarietas"
@@ -803,6 +891,7 @@ ship "Subvarietas"
 	description `	It's actually quite impressive how highly engineered these ships are; armor is strategically placed around every outfit compartment, reducing both the space and mass the armor takes up while providing maximum protection.`
 
 ship "Tribus"
+	plural "Tribus"
 	sprite "ship/tribus"
 	thumbnail "thumbnail/tribus"
 	attributes
@@ -837,7 +926,7 @@ ship "Tribus"
 		"Throne-Class Breach Sealant" 3
 		"Spectral Jammer"
 		"AHDU (Large)"
-		"Security Station"
+		"Navarch Boarding Supremacy"
 		
 		"Impala Plasma Thruster"
 		"Greyhound Plasma Thruster"
@@ -911,4 +1000,4 @@ ship "Tribus"
 	explode "large explosion" 30
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description
+	description "The Tribus is a minelaying destroyer used by the Navarchs to saturate a system in lathe mins; though one Tribus is already capable of outputting a significant quantity of mines, they Tribus' relatively small size and low cost means they are frequently fielded in sorties of 3 or more."

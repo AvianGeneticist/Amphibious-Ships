@@ -43,6 +43,7 @@ system Palyanad
 	pos -1116.736 -1053.176
 	government Uninhabited
 	link Arragandant
+	link Pellatagad
 	fleet "Small Navarch" 1600
 	fleet "Medium Navarch" 3400
 	fleet "Large Navarch" 8000
@@ -51,8 +52,8 @@ system Palyanad
 		offset 300
 
 planet "Navarch Wormhole"
-	government "Navarch Wormhole"
 	spaceport ""
+	government "Navarch Wormhole"
 	wormhole "Navarch Wormhole"
 
 wormhole "Navarch Wormhole"
@@ -64,10 +65,11 @@ system Arragandant
 	pos -1178.273 -1022.463
 	government Navarch
 	link Palyanad
-	trade Food 392
+	link Pellatagad
 	trade Clothing 321
 	trade Electronics 883
 	trade Equipment 578
+	trade Food 392
 	trade "Heavy Metals" 1292
 	trade Industrial 803
 	trade "Luxury Goods" 932
@@ -106,10 +108,55 @@ planet Gulfosala
 	landscape land/beach1
 	description "This is one of the few worlds with enough notable landmass for the Navarchs to have built landbound ship facilities. Besides that, it is also a super-ocean world, with a surface area nearly 6 times larger than Earth, nearly 98% of which is water. As such, it serves as the perfect staging ground for the Navarchs' massive warfleets."
 	spaceport "The spaceport sprawls all over and around a lone continent around the size of south america; large ships wait at port around the coast, with several channels reserved for ships coming in for landing. Each dock here could hold 5-6 human ships of any size."
-	outfitter "Navarch Basics"
-	outfitter "Navarch Intermediate"
-	outfitter "Navarch Advanced"
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
 	shipyard "Navarch Advanced"
 	shipyard "Navarch Expert"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Advanced"
+
+system Pellatagad
+	pos -1098.398 -1021.972
+	government Navarch
+	link Arragandant
+	link Palyanad
+	trade Clothing 270
+	trade Electronics 658
+	trade Equipment 523
+	trade Food 410
+	trade "Heavy Metals" 1017
+	trade Industrial 837
+	trade "Luxury Goods" 1187
+	trade Medical 653
+	trade Metal 419
+	trade Plastic 290
+	fleet "Small Navarch" 1200
+	fleet "Medium Navarch" 3000
+	fleet "Large Navarch" 8000
+	object
+		sprite star/g0
+	object
+		sprite planet/venus
+		distance 440
+		period 79
+		object
+			sprite planet/desert4
+			distance 140
+			period 28
+	object
+		sprite planet/callisto
+		distance 785
+		period 148
+	object Chukchi
+		sprite planet/ocean8-b
+		distance 1480
+		period 612
+
+planet Chukchi
+	landscape land/sea3
+	description "Chukchi was originally a military outpost, but has since been rebranded a large-scale fishing colony due to the presence of many species of hyper-productive fish; this one planet alone is capable of sustaining the food needs of nearly a fifth of the Navarchs' population."
+	spaceport `The spaceport here is entirely seabound, with large "runways" for ships to land on the water. As expected, the scope is truly massive; each dock here is roughly six times the size of the largest human space docks.`
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	outfitter "Navarch Basics"
