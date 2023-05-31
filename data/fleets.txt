@@ -1,0 +1,101 @@
+fleet "Small Navarch"
+	government "Navarch"
+	names "civilian"
+	cargo 2
+	personality
+		confusion 10
+		heroic vindictive
+	variant 10
+		"Subclassis" 2
+		"Ordo"
+		"Tribus" 2
+	variant 8
+		"Subclassis" 2
+		"Ordo" 2
+		"Tribus"
+	variant 6
+		"Subclassis" 3
+		"Ordo"
+		"Tribus"
+	variant 6
+		"Subclassis" 2
+		"Divisio"
+	variant 6
+		"Subclassis" 2
+		"Regnum"
+		"Subvarietas" 46
+
+fleet "Medium Navarch"
+	government "Navarch"
+	names "civilian"
+	cargo 3
+	personality
+		confusion 10
+		heroic vindictive
+	variant 10
+		"Subclassis" 3
+		"Ordo" 3
+		"Tribus" 4
+	variant 8
+		"Subclassis" 4
+		"Divisio"
+		"Ordo" 2
+	variant 8
+		"Subclassis" 3
+		"Regnum"
+		"Subvarietas" 46
+		"Tribus" 2
+	variant 6
+		"Subclassis" 3
+		"Phylum"
+		"Tribus" 1
+	variant 6
+		"Subclassis" 2
+		"Regio"
+		"Subvarietas" 96
+		"Tribus" 2
+	variant 6
+		"Subclassis" 2
+		"Regio"
+		"Subvarietas" 96
+		"Ordo"
+	
+fleet "Large Navarch"
+	government "Navarch"
+	names "civilian"
+	cargo 4
+	personality
+		confusion 10
+		heroic vindictive
+	variant 10
+		"Subclassis" 4
+		"Regio"
+		"Subvarietas" 96
+		"Divisio" 2
+		"Ordo"
+		"Tribus" 4
+	variant 8
+		"Subclassis" 4
+		"Regio"
+		"Subvarietas" 96
+		"Divisio"
+		"Phylum"
+		"Ordo"
+		"Tribus" 4
+	variant 6
+		"Subclassis" 4
+		"Regio"
+		"Subvarietas" 96
+		"Phylum" 2
+		"Ordo" 2
+		"Tribus" 2
+	variant 4
+		"Subclassis" 4
+		"Regio"
+		"Regnum"
+		"Subvarietas" 142
+		"Divisio"
+		"Phylum"
+		"Ordo"
+		"Tribus" 4
+	

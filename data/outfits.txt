@@ -1,8 +1,3 @@
-outfitter "Basic Outfits"
-	"Pantheon-Class Breach Sealant"
-	"Temple-Class Breach Sealant"
-	"Throne-Class Breach Sealant"
-
 outfit "10-77 Twin Battery"
 	category "Turrets"
 	cost 10000000
@@ -159,7 +154,7 @@ outfit "1-18 Anti-Fighter Rig"
 		"burst count" 5
 		"burst reload" 1
 		"firing energy" 4.6
-		"firing force" 10
+		"firing force" 6
 		"firing heat" 10.6
 		"cluster"
 	description "For anti-fighter roles, this tiny, snappy turret is the Sailors' first choice. Small enough to be mounted on nearly anything and capable of a freakishly high rate of fire, this turret is designed for close-ranged anti-swarm combat, with a wild spray and considerable damage output."
@@ -199,7 +194,7 @@ outfit "1-24 Anti-Fighter Array"
 		"burst count" 5
 		"burst reload" 1
 		"firing energy" 18.4
-		"firing force" 40
+		"firing force" 24
 		"firing heat" 42.4
 		"cluster"
 	description "Developed for the Regio-class carrier, this larger implementation of the 1-18 model autocannon is designed to saturate an area in anti-fighter fire. Improvements to the design also include greatly improved velocity, and subsequently, increased range."
@@ -373,6 +368,7 @@ effect "formidable anti-missile"
 	"lifetime" 41
 	"velocity scale" 1
 	
+	
 outfit "Phase Torpedo"
 	category "Guns"
 	cost 5000000
@@ -407,6 +403,61 @@ outfit "Phase Torpedo"
 		"missile strength" 80
 		"cluster"
 	description "Named for their ability to move through space, air, or water, these heavy torpedoes consume massive amounts of energy and move slowly, but inflict devastating damage on hit, to the point where no shield can prevent at least some hull damage from leaking through."
+
+outfit "Lathe Mine Bay"
+	category "Secondary Weapons"
+	cost 1500000
+	thumbnail "outfit/korath minelayer"
+	"mass" 21
+	"outfit space" -21
+	"weapon capacity" -21
+	"gun ports" -1
+	weapon
+		sprite "projectile/korath minelayer"
+			"frame rate" .6
+			"no repeat"
+		sound "minelayer"
+		"fire effect" "minelayer fire"
+		"hit effect" "huge explosion"
+		"die effect" "minelayer split" 5
+		"submunition" "Lathe Mine" 6
+		"inaccuracy" 10
+		"velocity" 3
+		"lifetime" 15
+		"reload" 288
+		"firing energy" 800
+		"firing heat" 2400
+		"turn" 12
+		"homing" 4
+		"radar tracking" 1
+		"missile strength" 282
+		"shield damage" -1200
+		"hull damage" -1000
+		"hit force" -150
+		"stream"
+	description "Lathe Mines are a particularly brutal type of obstacle that the Navarchs designed to be laid out in great numbers, dealing crushing damage to any ship who dares to stumble into them. Using similar technology to the phase torpedo, Lathe Mines cause heavy damage even through shields."
+	description "The unique design of the Lathe mines means that, though they're intended as a trap, they are capable of serving as a form of anti-area projectile in the right conditions."
+
+outfit "Lathe Mine"
+	weapon
+		sprite "projectile/korath mine"
+			"frame rate" 1
+			"no repeat"
+		"hit effect" "large explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 40
+		"velocity" 32
+		"random velocity" 8
+		"lifetime" 1200
+		"random lifetime" 120
+		"acceleration" .00001
+		"drag" .05
+		"shield damage" 600
+		"hull damage" 500
+		"piercing" 0.55
+		"hit force" 75
+		"missile strength" 63
+		
 
 outfit "Pantheon-Class Breach Sealant"
 	category "Systems"
@@ -494,6 +545,15 @@ outfit "Galaxy Battery"
 	"outfit space" -110
 	"energy capacity" 150000
 	description "Whether used as a support to a larger battery pack or on its own, this battery grants its host ship a significant boost to energy capacity."
+
+outfit "Planet Battery"
+	category "Power"
+	cost 320000
+	thumbnail "outfit/large battery"
+	"mass" 80
+	"outfit space" -80
+	"energy capacity" 100000
+	description "This battery is only suitable for medium or light warships employed by the Navarchs, but for most other species, its size and capacity would better fit large capital warships."
 	
 outfit "Comet Capacitor"
 	category "Power"

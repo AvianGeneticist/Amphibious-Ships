@@ -1,0 +1,115 @@
+system Sadalekig
+	pos -103.56 496.259
+	government Uninhabited
+	"jump range" 35
+	object Palendra
+		sprite planet/dust0-b
+
+planet Palendra
+	attributes uninhabited
+	description "There doesn't seem to be anything here, save for a single tower with a small terminal."
+
+system Hevrualikat
+	pos -157.819 -278.037
+	government Uninhabited
+	"jump range" 50
+	object Enpaldra
+		sprite planet/ice0
+
+planet Enpaldra
+	attributes uninhabited
+	description "Save for a single small tower with a terminal for interfacing, there doesn't seem to be anything here."
+
+system "Ki Wak Telik"
+	pos -1080.625 334.25
+	government Uninhabited
+	"jump range" 50
+	object Drepalen
+		sprite planet/rock0
+
+planet Drepalen
+	attributes uninhabited
+	description "Save for a small tower with a terminal for basic operations, nothing is here."
+
+system Theranid
+	hidden
+	pos -236.792 -530.62
+	government Uninhabited
+	object "Navarch Wormhole"
+		sprite planet/wormhole
+		offset 120
+
+system Palyanad
+	pos -1116.736 -1053.176
+	government Uninhabited
+	link Arragandant
+	fleet "Small Navarch" 1600
+	fleet "Medium Navarch" 3400
+	fleet "Large Navarch" 8000
+	object "Navarch Wormhole"
+		sprite planet/wormhole
+		offset 300
+
+planet "Navarch Wormhole"
+	government "Navarch Wormhole"
+	spaceport ""
+	wormhole "Navarch Wormhole"
+
+wormhole "Navarch Wormhole"
+	mappable
+	link Theranid Palyanad
+	link Palyanad Theranid
+
+system Arragandant
+	pos -1178.273 -1022.463
+	government Navarch
+	link Palyanad
+	trade Food 392
+	trade Clothing 321
+	trade Electronics 883
+	trade Equipment 578
+	trade "Heavy Metals" 1292
+	trade Industrial 803
+	trade "Luxury Goods" 932
+	trade Medical 638
+	trade Metal 503
+	trade Plastic 301
+	fleet "Small Navarch" 1200
+	fleet "Medium Navarch" 2400
+	fleet "Large Navarch" 4800
+	object
+		sprite star/a5
+	object
+		sprite planet/gas0-hot
+		distance 450
+		period 41
+		object
+			sprite planet/lava1
+			distance 210
+	object Gulfosala
+		sprite planet/ocean2
+		distance 970
+		period 492
+	object
+		sprite planet/dust2
+		distance 1340
+		period 704
+	object
+		sprite planet/luna
+		distance 2148
+		object
+			sprite planet/europa-b
+			distance 90
+			period 52
+
+planet Gulfosala
+	landscape land/beach1
+	description "This is one of the few worlds with enough notable landmass for the Navarchs to have built landbound ship facilities. Besides that, it is also a super-ocean world, with a surface area nearly 6 times larger than Earth, nearly 98% of which is water. As such, it serves as the perfect staging ground for the Navarchs' massive warfleets."
+	spaceport "The spaceport sprawls all over and around a lone continent around the size of south america; large ships wait at port around the coast, with several channels reserved for ships coming in for landing. Each dock here could hold 5-6 human ships of any size."
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Advanced"
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Advanced"
+	shipyard "Navarch Expert"
