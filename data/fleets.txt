@@ -1,6 +1,7 @@
 fleet "Small Navarch"
 	government "Navarch"
-	names "civilian"
+	names "Navarch Names"
+	fighters "Navarch Fighters"
 	cargo 2
 	personality
 		confusion 10
@@ -36,10 +37,14 @@ fleet "Small Navarch"
 		"Subclassis" 2
 		"Regnum"
 		"Subvarietas" 46
+	variant 4
+		"Imperium"
+		"Subvarietas" 4
 
 fleet "Medium Navarch"
 	government "Navarch"
-	names "civilian"
+	names "Navarch Names"
+	fighters "Navarch Fighters"
 	cargo 3
 	personality
 		confusion 10
@@ -77,6 +82,11 @@ fleet "Medium Navarch"
 		"Phylum"
 		"Tribus" 1
 	variant 6
+		"Imperium"
+		"Divisio"
+		"Subvarietas" 4
+		"Tribus" 1
+	variant 6
 		"Subclassis" 2
 		"Phylum"
 		"Subfamilia" 3
@@ -90,49 +100,60 @@ fleet "Medium Navarch"
 		"Regio"
 		"Subvarietas" 96
 		"Ordo"
+	variant 4
+		"Imperium"
+		"Ordo" 2
+		"Subfamilia" 3
+		"Subvarietas" 4
 	
 fleet "Large Navarch"
 	government "Navarch"
-	names "civilian"
+	names "Navarch Names"
+	fighters "Navarch Fighters"
 	cargo 4
 	personality
 		confusion 10
 		heroic vindictive
 	variant 10
-		"Subclassis" 4
+		"Subclassis"
+		"Imperium"
 		"Regio"
-		"Subvarietas" 96
+		"Subvarietas" 100
 		"Divisio" 2
 		"Ordo"
 		"Tribus" 4
 	variant 8
-		"Subclassis" 4
+		"Subclassis"
+		"Imperium"
 		"Regio"
-		"Subvarietas" 96
+		"Subvarietas" 100
 		"Divisio"
 		"Phylum"
 		"Ordo"
 		"Tribus" 4
 	variant 7
-		"Subclassis" 4
+		"Subclassis"
+		"Imperium"
 		"Regio"
-		"Subvarietas" 96
+		"Subvarietas" 100
 		"Divisio"
 		"Phylum"
 		"Ordo"
 		"Subfamilia" 4
 	variant 6
-		"Subclassis" 4
+		"Subclassis"
+		"Imperium"
 		"Regio"
-		"Subvarietas" 96
+		"Subvarietas" 100
 		"Phylum" 2
 		"Ordo" 2
 		"Tribus" 2
 	variant 4
-		"Subclassis" 4
+		"Subclassis"
+		"Imperium"
 		"Regio"
 		"Regnum"
-		"Subvarietas" 142
+		"Subvarietas" 146
 		"Divisio"
 		"Phylum"
 		"Ordo"

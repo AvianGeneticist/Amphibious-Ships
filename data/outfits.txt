@@ -553,7 +553,7 @@ outfit "Ransacker Parent"
 		"radar tracking" 0.8
 		"optical tracking" 0.8
 		"missile strength" 88
-		"split range" 250
+		"split range" 400
 
 outfit "Ransacker Child"
 	weapon

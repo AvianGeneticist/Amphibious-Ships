@@ -11,6 +11,7 @@ shipyard "Navarch Advanced"
 	"Regnum"
 	"Divisio"
 	"Phylum"
+	"Imperium"
 	
 shipyard "Navarch Expert"
 	"Regio"

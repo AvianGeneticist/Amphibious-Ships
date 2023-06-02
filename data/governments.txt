@@ -1,5 +1,5 @@
 government Navarch
-	swizzle 13
+	swizzle 4
 	color 0.006 0.099 0.637
 	"crew attack" 3
 	"crew defense" 8

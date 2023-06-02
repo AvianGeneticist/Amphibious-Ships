@@ -86,6 +86,100 @@ ship "Divisio"
 	"final explode" "final explosion large"
 	description "The Divisio is a heavy battleship employed by the Sailors, intended to be a capital ship counterpart to the Regnum. Armed more heavily than any human ship could dream of being, it Divisio is designed for both anti-capital and anti-fighter roles, with heavy anti-missile defenses to ensure it remains effective in the face of long-range bombardments."
 
+ship "Imperium"
+	plural "Imperia"
+	sprite "ship/imperium"
+	thumbnail "thumbnail/imperium"
+	attributes
+		category "Utility"
+		"cost" 264000000
+		"shields" 442200
+		"hull" 377800
+		"required crew" 412
+		"bunks" 1368
+		"mass" 2725
+		"drag" 35.7
+		"heat dissipation" .3
+		"fuel capacity" 6000
+		"cargo space" 6285
+		"outfit space" 4070
+		"weapon capacity" 1290
+		"engine capacity" 335
+		weapon
+			"blast radius" 500
+			"shield damage" 5000
+			"hull damage" 3000
+			"hit force" 9200
+	outfits
+		"7-62 Twin Battery" 3
+		"4-26 Dual Turret" 4
+		"1-18 Anti-Fighter Rig" 6
+		"Formidable Anti-Missile" 4
+		
+		"10x Fusion Reactor"
+		"4x Fusion Reactor"
+		"2x Fusion Reactor"
+		"Cluster Battery"
+		"Pantheon-Class Breach Sealant" 2
+		"Fuel Distillery" 2
+		"Spectral Jammer" 3
+		"AHDU (Large)" 2
+		"AHDU (Medium)"
+		"Navarch Boarding Supremacy" 7
+		
+		"Tyrant Plasma Thruster"
+		"Tyrant Plasma Steering" 2
+		"Scram Drive"
+		
+	engine -64.5 266
+		zoom 1.6
+	engine 64.5 266
+		zoom 1.6
+	engine -29 365
+		zoom 0.9
+	engine 29 365
+		zoom 0.9
+	turret -36.5 -367
+	turret 36.5 -367
+	turret -87.5 -205 "4-26 Dual Turret"
+	turret 87.5 -205 "4-26 Dual Turret"
+	turret -94 -98
+	turret 94 -98
+	turret -21 -81.5 "Formidable Anti-Missile"
+	turret 21 -81.5 "Formidable Anti-Missile"
+	turret -20.5 51.5 "Formidable Anti-Missile"
+	turret 20.5 51.5 "Formidable Anti-Missile"
+	turret -75.5 267 "4-26 Dual Turret"
+	turret 75.5 267 "4-26 Dual Turret"
+	turret -39.5 355.5
+	turret 39.5 355.5
+	#Primary turrets below
+	turret 0.5 -303 "7-62 Twin Battery"
+	turret 0.5 92 "7-62 Twin Battery"
+	turret 0.5 265 "7-62 Twin Battery"
+	bay "Fighter" -75.5 70.5
+		over
+		angle -5
+	bay "Fighter" 75.5 70.5
+		over
+		angle 5
+	bay "Fighter" -69 121
+		over
+		angle -5
+	bay "Fighter" 69 121
+		over
+		angle 5
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 30
+	explode "small explosion" 35
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description `The Imperium-class Auxiliary makes the Republic Navy's own auxiliary look pitiful in comparison; carrying a formidable main battery in its own right with nearly triple the capacity of its smaller sibling on all fronts, the Imperium is a staple of large Navarch fleets.`
+	
 ship "Ordo"
 	sprite "ship/ordo"
 	thumbnail "thumbnail/ordo"
