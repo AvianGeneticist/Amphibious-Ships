@@ -351,7 +351,7 @@ ship "Regalis"
 		"drag" 46.1
 		"heat dissipation" .4
 		"fuel capacity" 1200
-		"cargo space" 110
+		"cargo space" 210
 		"outfit space" 8735
 		"weapon capacity" 4430
 		"engine capacity" 375
