@@ -44,6 +44,7 @@ system Palyanad
 	government Uninhabited
 	link Arragandant
 	link Pellatagad
+	link Onirigad
 	fleet "Small Navarch" 1600
 	fleet "Medium Navarch" 3400
 	fleet "Large Navarch" 8000
@@ -66,6 +67,8 @@ system Arragandant
 	government Navarch
 	link Palyanad
 	link Pellatagad
+	link Onirigad
+	link Galparahad
 	trade Clothing 321
 	trade Electronics 883
 	trade Equipment 578
@@ -160,3 +163,475 @@ planet Chukchi
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
 	outfitter "Navarch Basics"
+	
+system Galparahad
+	pos -1229.694 -1074.694
+	government Navarch
+	habitable 1080
+	belt 1442
+	belt 1513 7
+	link Arragandant
+	link Letarad
+	link Onirigad
+	asteroids "small rock" 4 0.929
+	asteroids "medium rock" 63 1.187
+	asteroids "large rock" 37 0.944
+	asteroids "small metal" 11 0.929
+	asteroids "medium metal" 5 1.144
+	asteroids "large metal" 21 1.158
+	minables silver 9 1.19
+	minables aluminum 32 1.517
+	minables iron 14 1.292
+	trade Clothing 305
+	trade Electronics 872
+	trade Equipment 541
+	trade Food 361
+	trade "Heavy Metals" 1251
+	trade Industrial 784
+	trade "Luxury Goods" 939
+	trade Medical 649
+	trade Metal 506
+	trade Plastic 211
+	fleet "Small Navarch" 1600
+	fleet "Medium Navarch" 3400
+	fleet "Large Navarch" 8000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud1
+		distance 2133.708
+		period 148.933
+		object
+			sprite planet/rhea-b
+			distance 203
+			period 89.954
+	object Easibe
+		sprite planet/water1
+		distance 772.983
+		period 569.852
+	object
+		sprite planet/lava5
+		distance 1426.847
+		period 928.742
+		object
+			sprite planet/lava0
+			distance 168
+			period 56.988
+	object
+		sprite planet/gas10-hot
+		distance 3099.185
+		period 3521.002
+	object
+		sprite planet/browndwarf-t
+		distance 4828.813
+		period 4736.297
+		object
+			sprite planet/dust5-b
+			distance 288
+			period 127.911
+
+system Letarad
+	pos -1224.806 -1131.88
+	government Navarch
+	habitable 3650
+	belt 1550 10
+	link Galparahad
+	link Qetarapad
+	asteroids "large metal" 6 4.056
+	asteroids "small metal" 15 1.8
+	minables gold 7 2.1
+	trade Clothing 334
+	trade Electronics 859
+	trade Equipment 500
+	trade Food 299
+	trade "Heavy Metals" 1271
+	trade Industrial 776
+	trade "Luxury Goods" 951
+	trade Medical 628
+	trade Metal 392
+	trade Plastic 245
+	fleet "Small Navarch" 2000
+	fleet "Medium Navarch" 4000
+	fleet "Large Navarch" 10000
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/ganymede-b
+		distance 363
+		period 45.79
+	object Laptev
+		sprite planet/ocean3
+		distance 2577.383
+		period 145.619
+	object
+		sprite planet/gas5-b
+		distance 1002.85
+		period 367.458
+		object
+			sprite planet/dust0-b
+			distance 252
+			period 246.374
+		object
+			sprite planet/rock7
+			distance 376
+			period 344.9
+	object
+		sprite planet/gas1-b
+		distance 1893.626
+		period 833.572
+
+system Qetarapad
+	pos -1199.694 -1160.843
+	government Navarch
+	habitable 6301.446
+	belt 1829 2
+	belt 5200 6
+	link Letarad
+	link Palletad
+	asteroids "small rock" 17 4.362
+	asteroids "large rock" 12 6.445
+	asteroids "large metal" 13 4.687
+	minables aluminum 78 9.888
+	minables copper 95 8.1
+	minables uranium 56 5.2
+	minables titanium 82 19.5
+	trade Clothing 345
+	trade Electronics 833
+	trade Equipment 454
+	trade Food 305
+	trade "Heavy Metals" 1068
+	trade Industrial 783
+	trade "Luxury Goods" 939
+	trade Medical 579
+	trade Metal 248
+	trade Plastic 246
+	fleet "Small Navarch" 1800
+	fleet "Medium Navarch" 3800
+	fleet "Large Navarch" 9000
+	object
+		sprite star/m8
+		distance 112.157
+		period 40.649
+		offset 180
+	object
+		sprite star/b3
+		distance 18.343
+		period 40.649
+	object
+		sprite planet/rock1
+		distance 436
+		period 45.874
+		object
+			sprite planet/rock20
+			distance 168
+			period 82.312
+	object
+		sprite planet/ocean4-b
+		distance 974
+		period 153.172
+	object
+		sprite planet/gas6-b
+		distance 1799
+		period 384.491
+	object
+		sprite planet/gas0-b
+		distance 2685
+		period 701.062
+		object
+			sprite planet/lava0-b
+			distance 312
+			period 144.228
+	object
+		sprite planet/gas2
+		distance 5549
+		period 2082.869
+		object Pechora
+			sprite planet/ice0
+			distance 287
+			period 183.791
+		object
+			sprite planet/rock0
+			distance 431
+			period 338.233
+	object
+		sprite planet/saturn
+		distance 8541
+		period 3977.434
+
+system Palletad
+	pos -1174.806 -1136.546
+	government Navarch
+	habitable 490.918
+	belt 1341
+	belt 1597 4
+	link Opelailad
+	link Peranigad
+	link Qetarapad
+	asteroids "small rock" 27 2.083
+	asteroids "medium rock" 12 1.966
+	asteroids "large rock" 7 2.012
+	asteroids "small metal" 3 2.059
+	asteroids "large metal" 3 1.919
+	minables lead 1 2.935
+	minables iron 13 2.337
+	trade Clothing 314
+	trade Electronics 698
+	trade Equipment 504
+	trade Food 286
+	trade "Heavy Metals" 1068
+	trade Industrial 852
+	trade "Luxury Goods" 983
+	trade Medical 634
+	trade Metal 342
+	trade Plastic 337
+	fleet "Small Navarch" 1000
+	fleet "Medium Navarch" 2200
+	fleet "Large Navarch" 6000
+	object
+		sprite star/k0
+		distance 2.481
+		period 28.549
+	object
+		sprite star/l-dwarf
+		distance 70.019
+		period 28.549
+		offset 180
+	object
+		sprite planet/forest0
+		distance 282.5
+		period 85.72
+	object Fochexa
+		sprite planet/ocean0
+		distance 739
+		period 362.679
+		object
+			sprite planet/dust5-b
+			distance 180
+			period 63.201
+	object
+		sprite planet/ice5
+		distance 1235
+		period 783.531
+	object
+		sprite planet/jupiter-b
+		distance 2530
+		period 2297.399
+		object
+			sprite planet/rock20
+			distance 306
+			period 202.34
+
+system Peranigad
+	pos -1194.657 -1093.879
+	government Navarch
+	link Opelailad
+	link Palletad
+	asteroids "small rock" 3 5.702
+	asteroids "medium rock" 42 2.97
+	asteroids "large rock" 11 3.089
+	asteroids "small metal" 37 4.039
+	asteroids "medium metal" 7 5.049
+	asteroids "large metal" 70 3.208
+	minables yottrite 14 6.2
+	minables platinum 8 5.1
+	minables tungsten 31 4.6
+	trade Clothing 253
+	trade Electronics 634
+	trade Equipment 630
+	trade Food 328
+	trade "Heavy Metals" 969
+	trade Industrial 827
+	trade "Luxury Goods" 1022
+	trade Medical 753
+	trade Metal 477
+	trade Plastic 476
+	fleet "Small Navarch" 2400
+	fleet "Medium Navarch" 3200
+	fleet "Large Navarch" 12000
+	object
+		sprite star/nova
+		period 9836
+	object
+		sprite star/nova-core
+		period 9826
+	object Beaufort
+		sprite planet/dust1
+		distance 213
+		period 71
+
+system Opelailad
+	pos -1143.398 -1124.991
+	government Navarch
+	habitable 4256.595
+	belt 1497 5
+	belt 1531
+	belt 2015 5
+	link Palletad
+	link Peranigad
+	asteroids "small rock" 3 2.174
+	asteroids "large rock" 1 2.394
+	asteroids "small metal" 3 2.835
+	asteroids "medium metal" 27 2.363
+	asteroids "large metal" 3 1.575
+	minables aluminum 2 3.022
+	minables copper 4 2.334
+	trade Clothing 313
+	trade Electronics 631
+	trade Equipment 531
+	trade Food 267
+	trade "Heavy Metals" 1091
+	trade Industrial 836
+	trade "Luxury Goods" 974
+	trade Medical 717
+	trade Metal 388
+	trade Plastic 412
+	fleet "Small Navarch" 1600
+	fleet "Medium Navarch" 3400
+	fleet "Large Navarch" 8000
+	object
+		sprite star/f8
+		distance 263.786
+		period 142.519
+	object
+		sprite star/g-giant
+		distance 87.214
+		period 142.519
+		offset 180
+	object
+		sprite planet/ice1-b
+		distance 510
+		period 70.613
+	object
+		sprite planet/neptune-b
+		distance 923
+		period 171.922
+	object
+		sprite planet/gas8
+		distance 1631
+		period 403.84
+		object
+			sprite planet/io
+			distance 340
+			period 236.984
+	object
+		sprite planet/gas0
+		distance 2495
+		period 764.073
+		object
+			sprite planet/rock7
+			distance 305
+			period 251.977
+	object
+		sprite planet/gas6-b
+		distance 5607
+		period 2574.096
+	object
+		sprite planet/gas7-hot
+		distance 9799
+		period 5947.048
+		object
+			sprite planet/dust5
+			distance 224
+			period 87.738
+
+planet Easibe
+	landscape land/sea11-sfiera
+	description "Easibe is a very warm, prosperous ocean world, with large stakes in the industries of both farming and deep-sea drilling for oil."
+	spaceport "The spaceport here is unremarkable by Navarch standards, though there is a surprisingly active tourism industry despite the Navarchs' lack of civilian ships."
+	shipyard "Navarch Basics"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+
+planet Laptev
+	landscape land/sea5
+	description "Laptev is a temperate and calm, but otherwise boreing ocean world; it is valued by the Navarchs only as a staging point for military fleets."
+	spaceport "The spaceport here is almost comparable to a rural human spaceport, despite the size of the individual docks; parked vessels awaiting launches for patrols are a frequent sight, drifting idly through the mist."
+	
+planet Pechora
+	landscape land/snow5
+	description "Pechora is an ice world, but plays home to some crucial material refineries; as such, large channels of water have been carved out of the multiple-kilomter-thick ice sheets that evenly obscure the true surface of the planet, with small ships patrolling and using small heat rays to ensure the channels don't refreeze."
+	spaceport "The spaceport on Pechora is highly organized and automated; even the Navarchs' largest cargo ships are very swiftly loaded with kilotons of refined metals for export."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	
+planet Beaufort
+	landscape land/asteroid0
+	description "Beaufort is an artificial planet made from aeons of accumulated metal slag painstakingly melted together using its parent star's residual heat, before being poulated with large water channels to accomodate a limited Navarch presence here. Beaufort's value comes from the presence of yottrite in its home system, which the Navarchs use in their ships and weapons."
+	spaceport "Beaufort's spaceport seems to have been formed of molten metal slag like much of the rest of its surface, with natural outcrops serving as docking bays. Though the planet's surface is surprisingly temperate and has enough gravity to hold the water channels in place, it has no noticeable atmosphere."
+	shipyard "Navarch Basics"
+	outfitter "Navarch Basics"
+	
+planet Fochexa
+	landscape land/sea8
+	description "Fochexa is a warm ocean world with high, sharp spires of rock that stretch from the ocean floor to the surface, forming small islands anywhere from a few feet to a mile across. These landmasses arne't large enough to establish any sort of presence on, but they do lend the Navarchs a helping hand when it comes to monitoring the drifting of the spaceport."
+	spaceport "The spaceport is a sprawling complex of docks and channels, serving many military fleets as they pass through here. This planet serves as a critical chokepoint, and as such, is heavily guarded."
+	security 0.9
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Advanced"
+	shipyard "Navarch Expert"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Advanced"
+
+system Onirigad
+	pos -1175.051 -1041.403
+	habitable 3500.7
+	belt 1629 10
+	link Arragandant
+	link Galparahad
+	link Palyanad
+	asteroids "small rock" 95 1.089
+	asteroids "medium rock" 42 1.077
+	asteroids "large rock" 39 0.835
+	asteroids "small metal" 5 0.992
+	asteroids "medium metal" 7 0.762
+	asteroids "large metal" 2 0.799
+	minables neodymium 4 1.737
+	minables titanium 10 1.996
+	minables iron 31 1.564
+	fleet "Small Navarch" 2000
+	fleet "Medium Navarch" 3600
+	fleet "Large Navarch" 7200
+	object
+		sprite star/g3
+		distance 127.62
+		period 47.447
+		offset 180
+	object
+		sprite star/f5-old
+		distance 40.38
+		period 47.447
+	object
+		sprite planet/ice3-b
+		distance 357
+		period 45.602
+	object
+		sprite planet/desert4-b
+		distance 725
+		period 131.974
+	object
+		sprite planet/gas15-b
+		distance 1348
+		period 334.593
+		object
+			sprite planet/desert4
+			distance 209
+			period 142.933
+	object
+		sprite planet/gas7-hot
+		distance 2709
+		period 953.226
+		object
+			sprite planet/dust0
+			distance 216
+			period 195.513
+	object
+		sprite planet/io-b
+		distance 3821
+		period 1596.791
+

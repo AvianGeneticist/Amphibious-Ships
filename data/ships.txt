@@ -38,9 +38,8 @@ ship "Divisio"
 		"Navarch Boarding Supremacy" 4
 		"Analysis Scope" 3
 		
-		"Tyrant Plasma Thruster"
-		"Tyrant Plasma Steering"
-		"Impala Plasma Steering"
+		"Nanoplasma Thruster (Huge)"
+		"Nanoplasma Steering (Giant)"
 		"Scram Drive"
 		
 	engine -35 309
@@ -91,7 +90,7 @@ ship "Imperium"
 	sprite "ship/imperium"
 	thumbnail "thumbnail/imperium"
 	attributes
-		category "Utility"
+		category "Heavy Freighter"
 		"cost" 264000000
 		"shields" 442200
 		"hull" 377800
@@ -127,8 +126,10 @@ ship "Imperium"
 		"AHDU (Medium)"
 		"Navarch Boarding Supremacy" 7
 		
-		"Tyrant Plasma Thruster"
-		"Tyrant Plasma Steering" 2
+		"Nanoplasma Thruster (Huge)"
+		"Nanoplasma Thruster (Tiny)"
+		"Nanoplasma Steering (Giant)"
+		"Nanoplasma Steering (Medium)"
 		"Scram Drive"
 		
 	engine -64.5 266
@@ -218,10 +219,10 @@ ship "Ordo"
 		"AHDU (Large)" 2
 		"Navarch Boarding Supremacy" 2
 		
-		"Orca Plasma Thruster"
-		"Chipmunk Plasma Thruster"
-		"Tyrant Plasma Steering"
-		"Greyhound Plasma Steering"
+		"Nanoplasma Thruster (Large)"
+		"Nanoplasma Thruster (Tiny)"
+		"Nanoplasma Steering (Huge)"
+		"Nanoplasma Steering (Small)"
 		"Scram Drive"
 		
 	engine -26 253
@@ -296,13 +297,12 @@ ship "Phylum"
 		"Pantheon-Class Breach Sealant"
 		"Spectral Jammer" 2
 		"AHDU (Large)" 4
-		"Security Station" 4
+		"Navarch Boarding Supremacy" 4
 		"Analysis Scope" 3
 		
-		"Tyrant Plasma Thruster"
-		"Greyhound Plasma Thruster"
-		"Tyrant Plasma Steering"
-		"Orca Plasma Steering"
+		"Nanoplasma Thruster (Giant)"
+		"Nanoplasma Steering (Giant)"
+		"Nanoplasma Steering (Tiny)"
 		"Scram Drive"
 		
 	engine -42 152.5
@@ -337,6 +337,127 @@ ship "Phylum"
 	"final explode" "final explosion large"
 	description `The Phylum is an experimental battleship featuring a number of new and exciting technologies by the Sailors; most notably, their new beam weapon, the THEL. Armed for heavy anti-capital duty, the Phylum is a fearsome ship to engage, however a reduced amount of deck space compared to the tried and true Divisio means that the ships tend to fare well in different conditions, rather than one being overwhelmingly favourable compared to the other.`
 
+ship "Regalis"
+	sprite "ship/regalis"
+	thumbnail "thumbnail/regalis"
+	attributes
+		category "Heavy Warship"
+		"cost" 161000000
+		"shields" 496400
+		"hull" 344000
+		"required crew" 1004
+		"bunks" 1128
+		"mass" 2800
+		"drag" 46.1
+		"heat dissipation" .4
+		"fuel capacity" 1200
+		"cargo space" 110
+		"outfit space" 8735
+		"weapon capacity" 4430
+		"engine capacity" 375
+		"barbettes" 6
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Phase Torpedo" 10
+		"14-103 Twin Battery" 6
+		"4-26 Dual Turret" 12
+		"1-18 Anti-Fighter Rig" 13
+		"Formidable Anti-Missile" 7
+		
+		"14x Fusion Reactor"
+		"10x Fusion Reactor"
+		"6x Fusion Reactor"
+		"Cluster Battery"
+		"Planet Battery"
+		"Pantheon-Class Breach Sealant" 2
+		"Spectral Jammer" 2
+		"AHDU (Large)" 7
+		"AHDU (Medium)"
+		"Navarch Boarding Supremacy" 6
+		"Analysis Scope" 4
+		
+		"Nanoplasma Thruster (Huge)"
+		"Nanoplasma Thruster (Small)"
+		"Nanoplasma Steering (Giant)"
+		"Nanoplasma Steering (Large)"
+		"Scram Drive"
+		
+	engine -85.5 455.5
+		zoom 1.7
+	engine 85.5 455.5
+		zoom 1.7
+	engine -49 575.5
+		zoom 1.2
+	engine 49 575.5
+		zoom 1.2
+	gun -52.5 -425.5
+	gun 52.5 -425.5
+	gun -68.5 -376.5
+	gun 68.5 -376.5
+	gun -85.5 -328.5
+	gun 85.5 -328.5
+	gun -43 -318.5
+	gun 43 -318.5
+	gun -60.5 -260.5
+	gun 60.5 -260.5
+	turret -18 -555
+	turret 18 -555
+	turret -128 -213.5
+	turret 128 -213.5
+	turret -44 -203.5 "4-26 Dual Turret"
+	turret 44 -203.5 "4-26 Dual Turret"
+	turret -87.5 -157
+	turret 87.5 -157
+	turret -51 -95.5 "4-26 Dual Turret"
+		under
+	turret 51 -95.5 "4-26 Dual Turret"
+		under
+	turret -44.5 -55 "Formidable Anti-Missile"
+		under
+	turret 44.5 -55 "Formidable Anti-Missile"
+		under
+	turret -86.5 -16
+	turret 86.5 -16
+	turret 0 7 "Formidable Anti-Missile"
+	turret -145.5 13.5 "4-26 Dual Turret"
+	turret 145.5 13.5 "4-26 Dual Turret"
+	turret -46 120
+	turret 46 120
+	turret -39.5 169.5 "4-26 Dual Turret"
+	turret 39.5 169.5 "4-26 Dual Turret"
+	turret 0 180
+	turret -86.5 227.5 "Formidable Anti-Missile"
+	turret 86.5 227.5 "Formidable Anti-Missile"
+	turret -128.5 254.5
+	turret 128.5 254.5
+	turret -71 391 "4-26 Dual Turret"
+	turret 71 391 "4-26 Dual Turret"
+	turret -53 542.5 "4-26 Dual Turret"
+	turret 53 542.5 "4-26 Dual Turret"
+	turret -26.5 588.5
+	turret 26.5 588.5
+	#Primary turrets below
+	turret 0 -428.5 "14-103 Twin Battery"
+	turret 0 -287.5 "14-103 Twin Battery"
+	turret 0 -161.5 "14-103 Twin Battery"
+	turret 0 68 "14-103 Twin Battery"
+	turret 0 351 "14-103 Twin Battery"
+	turret 0 480.5 "14-103 Twin Battery"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion huge"
+	description `The Regalis Super Battleship is a sight to behold. Featuring 6 barbettes carrying some of the largest turrets the Navarchs have ever designed, it is capable of annihilating most ships with a single blast from its main battery. However, the ship is also coated in anti-missile and anti-fighter turrets, with powerful Phase Torpedoes to strike distant foes. Perhaps expectedly, the ship's only major weakness is its speed.`
+	
 ship "Regio"
 	sprite "ship/regio"
 	thumbnail "thumbnail/regio"
@@ -374,10 +495,11 @@ ship "Regio"
 		"Navarch Boarding Supremacy" 6
 		"Analysis Scope" 6
 		
-		"Tyrant Plasma Thruster" 2
-		"Greyhound Plasma Thruster"
-		"Tyrant Plasma Steering" 3
-		"Greyhound Plasma Steering"
+		"Nanoplasma Thruster (Giant)"
+		"Nanoplasma Thruster (Large)"
+		"Nanoplasma Steering (Giant)" 2
+		"Nanoplasma Steering (Medium)"
+		"Nanoplasma Steering (Small)"
 		"Scram Drive"
 		
 	engine -61.5 387.5
@@ -618,10 +740,11 @@ ship "Regnum"
 		"Navarch Boarding Supremacy" 4
 		"Analysis Scope" 4
 		
-		"Tyrant Plasma Thruster"
-		"Orca Plasma Thruster"
-		"Tyrant Plasma Steering" 2
-		"Impala Plasma Steering"
+		"Nanoplasma Thruster (Giant)"
+		"Nanoplasma Thruster (Small)"
+		"Nanoplasma Thruster (Tiny)"
+		"Nanoplasma Steering (Giant)"
+		"Nanoplasma Steering (Huge)"
 		"Scram Drive"
 		
 	engine -59 388
@@ -790,7 +913,7 @@ ship "Subclassis"
 	sprite "ship/subclassis"
 	thumbnail "thumbnail/subclassis"
 	attributes
-		category "Utility"
+		category "Light Freighter"
 		"cost" 96000000
 		"shields" 142300
 		"hull" 121200
@@ -822,10 +945,10 @@ ship "Subclassis"
 		"AHDU (Large)"
 		"Navarch Boarding Supremacy" 3
 		
-		"Orca Plasma Thruster"
-		"Chipmunk Plasma Thruster"
-		"Tyrant Plasma Steering"
-		"Impala Plasma Steering"
+		"Nanoplasma Thruster (Large)"
+		"Nanoplasma Thruster (Tiny)"
+		"Nanoplasma Steering (Huge)"
+		"Nanoplasma Steering (Medium)"
 		"Scram Drive"
 		
 	engine -42 174.5
@@ -888,9 +1011,9 @@ ship "Subfamilia"
 		"Navarch Boarding Supremacy"
 		"AHDU (Large)"
 		
-		"Impala Plasma Thruster"
-		"Greyhound Plasma Thruster"
-		"Tyrant Plasma Steering"
+		"Nanoplasma Thruster (Medium)"
+		"Nanoplasma Thruster (Small)"
+		"Nanoplasma Steering (Huge)"
 		"Scram Drive"
 		
 	engine -23 136.5
@@ -966,8 +1089,8 @@ ship "Subvarietas"
 		"Comet Capacitor"
 		"2x Fusion Reactor"
 		
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
+		"Nanoplasma Thruster (Small)"
+		"Nanoplasma Steering (Small)"
 	engine -17 27.5
 		zoom 0.8
 		angle 10
@@ -1022,9 +1145,9 @@ ship "Tribus"
 		"AHDU (Large)"
 		"Navarch Boarding Supremacy"
 		
-		"Impala Plasma Thruster"
-		"Greyhound Plasma Thruster"
-		"Tyrant Plasma Steering"
+		"Nanoplasma Thruster (Medium)"
+		"Nanoplasma Thruster (Small)"
+		"Nanoplasma Steering (Huge)"
 		"Scram Drive"
 		
 	engine -7 197.5
