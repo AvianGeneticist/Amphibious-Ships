@@ -83,7 +83,7 @@ ship "Divisio"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Divisio is a heavy battleship employed by the Sailors, intended to be a capital ship counterpart to the Regnum. Armed more heavily than any human ship could dream of being, it Divisio is designed for both anti-capital and anti-fighter roles, with heavy anti-missile defenses to ensure it remains effective in the face of long-range bombardments."
+	description "The Divisio is a heavy battleship employed by the Navarchs, intended to be a capital ship counterpart to the Regnum. Armed more heavily than any human ship could dream of being, it Divisio is designed for both anti-capital and anti-fighter roles, with heavy anti-missile defenses to ensure it remains effective in the face of long-range bombardments."
 
 ship "Imperium"
 	plural "Imperia"
@@ -258,7 +258,7 @@ ship "Ordo"
 	explode "large explosion" 30
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description "The Ordo is a middleweight cruiser fielded by the Sailors, designed to provide an effective anti-fighter platform while still retaining some long-range, anti-capital capability as well. To this end, it has only 3 main guns of reduced size, providing it with the ability to provide long-ranged support between fending off fighter sorties."
+	description "The Ordo is a middleweight cruiser fielded by the Navarchs, designed to provide an effective anti-fighter platform while still retaining some long-range, anti-capital capability as well. To this end, it has only 3 main guns of reduced size, providing it with the ability to provide long-ranged support between fending off fighter sorties."
 
 ship "Phylum"
 	plural "Phyla"
@@ -335,7 +335,7 @@ ship "Phylum"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description `The Phylum is an experimental battleship featuring a number of new and exciting technologies by the Sailors; most notably, their new beam weapon, the THEL. Armed for heavy anti-capital duty, the Phylum is a fearsome ship to engage, however a reduced amount of deck space compared to the tried and true Divisio means that the ships tend to fare well in different conditions, rather than one being overwhelmingly favourable compared to the other.`
+	description `The Phylum is an experimental battleship featuring a number of new and exciting technologies by the Navarchs; most notably, their new beam weapon, the THEL. Armed for heavy anti-capital duty, the Phylum is a fearsome ship to engage, however a reduced amount of deck space compared to the tried and true Divisio means that the ships tend to fare well in different conditions, rather than one being overwhelmingly favourable compared to the other.`
 
 ship "Regalis"
 	sprite "ship/regalis"
@@ -906,7 +906,7 @@ ship "Regnum"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Sailors specialize in sea-to-space ship designs, and the mighty Regnum is their apex. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 46 fighters on tap, it's an impressive ship by all measures."
+	description "The Navarchs specialize in sea-to-space ship designs, and the mighty Regnum is their apex. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 46 fighters on tap, it's an impressive ship by all measures."
 
 ship "Subclassis"
 	plural "Subclassis"
@@ -971,7 +971,7 @@ ship "Subclassis"
 	explode "large explosion" 30
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description "The Subclassis is designed as an all-in-one auxiliary ship for Sailor military fleets; it carries a large amount of passengers, cargo, and fuel as part of standard operations, though its armament leaves much to be desired compared to similarly sized warships like the Ordo."
+	description "The Subclassis is designed as an all-in-one auxiliary ship for Navarch military fleets; it carries a large amount of passengers, cargo, and fuel as part of standard operations, though its armament leaves much to be desired compared to similarly sized warships like the Ordo."
 
 ship "Subfamilia"
 	sprite "ship/subfamilia"
@@ -1104,7 +1104,7 @@ ship "Subvarietas"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
-	description `With their fighters being deployed in such significant numbers with the expectation of casualties, the Sailors invested heavily in advanced automation designs. The resultant fighters, known as the Subvarietas, are practically miniature warships, able to soak up an absurd amount of damage while doling out both anti-capital and anti-fighter fire.`
+	description `With their fighters being deployed in such significant numbers with the expectation of casualties, the Navarchs invested heavily in advanced automation designs. The resultant fighters, known as the Subvarietas, are practically miniature warships, able to soak up an absurd amount of damage while doling out both anti-capital and anti-fighter fire.`
 	description `	It's actually quite impressive how highly engineered these ships are; armor is strategically placed around every outfit compartment, reducing both the space and mass the armor takes up while providing maximum protection.`
 
 ship "Tribus"
