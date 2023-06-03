@@ -450,27 +450,29 @@ outfit "Intimidating Anti-Missile"
 outfit "Phase Torpedo"
 	category "Guns"
 	cost 5000000
-	thumbnail "outfit/pug seeker"
+	thumbnail "outfit/phase torpedo"
 	"mass" 86
 	"outfit space" -86
 	"weapon capacity" -86
 	"gun ports" -1
 	weapon
-		sprite "projectile/seeker"
-			"frame rate" 20
+		sprite "projectile/phasetorp"
+			"frame rate" 3
 			"random start frame"
 		sound "seeker"
 		"hit effect" "seeker impact" 3
 		"hit effect" "small explosion"
 		"die effect" "seeker impact"
 		"inaccuracy" 2
-		"velocity" 8
+		"velocity" 12
 		"lifetime" 300
 		"reload" 66
+		"burst count" 3
+		"burst reload" 6
 		"firing energy" 1000
 		"firing heat" 2200
 		"acceleration" 4
-		"drag" 0.5
+		"drag" 0.33
 		"turn" 4.2
 		"homing" 4
 		"tracking" .6
@@ -478,7 +480,7 @@ outfit "Phase Torpedo"
 		"hull damage" 1120
 		"piercing" 0.4
 		"hit force" 86
-		"missile strength" 80
+		"missile strength" 96
 		"cluster"
 	description "Named for their ability to move through space, air, or water, these heavy torpedoes consume massive amounts of energy and move slowly, but inflict devastating damage on hit, to the point where no shield can prevent at least some hull damage from leaking through."
 
