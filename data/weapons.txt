@@ -376,13 +376,15 @@ outfit "Monolithic Anti-Missile"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
 		"hit effect" "monolithic anti-missile"
-		"anti-missile" 40
+		"anti-missile" 62
 		"velocity" 800
 		"lifetime" 1
-		"reload" 4
-		"firing energy" 80
-		"firing heat" 40
-	description "On carriers, the Navarchs rarely put more than one or two turret mounts, conserving deck space for carrying capability. This enormous anti-missile can project missile denial over a massive area, though its fire rate can leave something to be desired when defending against a large fleet."
+		"reload" 1.5
+		"burst count" 2
+		"burst reload" 1
+		"firing energy" 45
+		"firing heat" 35
+	description "This Anti-Missile system is specially designed for carriers or other ships with few hardpoints, but otherwise large capacity for weapons. Though the Formidable Anti-Missile offers more balanced performance, the Monolithic model has supreme range, allowing it to cast a wide net of defense over an allied fleet."
 
 effect "monolithic anti-missile"
 	sprite "effect/monolithic anti missile"
@@ -406,13 +408,13 @@ outfit "Formidable Anti-Missile"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
 		"hit effect" "formidable anti-missile"
-		"anti-missile" 32
+		"anti-missile" 52
 		"velocity" 400
 		"lifetime" 1
-		"reload" 3
-		"firing energy" 50
+		"reload" 2
+		"firing energy" 35
 		"firing heat" 25
-	description "Compared to the Monolithic Anti-Missile, the Formidable doesn't have nearly the range to project over a fleet, but it does fire faster and is much smaller."
+	description "The Formidable Anti-Missile is the standard-issue missile defense system for Navarch ships. Though it doesn't quite pack as much punch-per-ton as its smaller brother, it has greater range and higher per-shot power, massively increasing the likelihood a single shot will be needed to thwart a missile."
 
 effect "formidable anti-missile"
 	sprite "effect/formidable anti missile"
@@ -436,11 +438,11 @@ outfit "Intimidating Anti-Missile"
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
 		"hit effect" "large anti-missile"
-		"anti-missile" 22
+		"anti-missile" 24
 		"velocity" 200
 		"lifetime" 1
 		"reload" 3
-		"firing energy" 22
+		"firing energy" 18
 		"firing heat" 15
 	description "Designed for light ships with a large amount of hardpoints, the Intimidating Anti-Missile is the smallest anti-missile system offered by the Navarchs. Its range is quite unimpressive compared to their larger anti-missile systems, but allows a ship to keep itself clear of enemy missile barrages."
 
