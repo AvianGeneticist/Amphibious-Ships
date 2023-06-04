@@ -122,13 +122,24 @@ outfit "Galaxy Battery"
 outfit "Planet Battery"
 	category "Power"
 	cost 320000
-	thumbnail "outfit/large battery"
+	thumbnail "outfit/medium battery"
 	series "Energy Storage: Navarchs"
 	index 400
 	"mass" 80
 	"outfit space" -80
 	"energy capacity" 100000
 	description "This battery is only suitable for medium or light warships employed by the Navarchs, but for most other species, its size and capacity would better fit large capital warships."
+
+outfit "Moon Battery"
+	category "Power"
+	cost 160000
+	thumbnail "outfit/small battery"
+	series "Energy Storage: Navarchs"
+	index 300
+	"mass" 50
+	"outfit space" -50
+	"energy capacity" 56000
+	description "This relatively compact battery is used by small Navarch ships with low energy needs, such as their light carriers."
 	
 outfit "Comet Capacitor"
 	category "Power"

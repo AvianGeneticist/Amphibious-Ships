@@ -4,3 +4,4 @@ category "series"
 	"Anti-Missile: Navarchs" 1200
 	"Energy Storage: Navarchs" 600
 	"Reactors: Navarchs" 900
+	"Engines: Navarchs" 4000

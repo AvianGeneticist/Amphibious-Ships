@@ -2,6 +2,8 @@ outfit "Nanoplasma Thruster (Tiny)"
 	category "Engines"
 	"cost" 40000
 	thumbnail "outfit/tiny plasma thruster"
+	series "Engines: Navarchs"
+	index 100
 	"mass" 19
 	"outfit space" -19
 	"engine capacity" -19
@@ -19,6 +21,8 @@ outfit "Nanoplasma Thruster (Small)"
 	category "Engines"
 	"cost" 95000
 	thumbnail "outfit/small plasma thruster"
+	series "Engines: Navarchs"
+	index 200
 	"mass" 33
 	"outfit space" -33
 	"engine capacity" -33
@@ -36,6 +40,8 @@ outfit "Nanoplasma Thruster (Medium)"
 	category "Engines"
 	"cost" 220000
 	thumbnail "outfit/medium plasma thruster"
+	series "Engines: Navarchs"
+	index 300
 	"mass" 57
 	"outfit space" -57
 	"engine capacity" -57
@@ -53,6 +59,8 @@ outfit "Nanoplasma Thruster (Large)"
 	category "Engines"
 	"cost" 560000
 	thumbnail "outfit/large plasma thruster"
+	series "Engines: Navarchs"
+	index 400
 	"mass" 96
 	"outfit space" -96
 	"engine capacity" -96
@@ -70,6 +78,8 @@ outfit "Nanoplasma Thruster (Huge)"
 	category "Engines"
 	"cost" 1080000
 	thumbnail "outfit/huge plasma thruster"
+	series "Engines: Navarchs"
+	index 500
 	"mass" 127
 	"outfit space" -127
 	"engine capacity" -127
@@ -87,6 +97,8 @@ outfit "Nanoplasma Thruster (Giant)"
 	category "Engines"
 	"cost" 2140000
 	thumbnail "outfit/huge plasma thruster"
+	series "Engines: Navarchs"
+	index 600
 	"mass" 181
 	"outfit space" -181
 	"engine capacity" -181
@@ -105,6 +117,8 @@ outfit "Nanoplasma Steering (Tiny)"
 	category "Engines"
 	"cost" 16000
 	thumbnail "outfit/tiny plasma steering"
+	series "Engines: Navarchs"
+	index 150
 	"mass" 14
 	"outfit space" -14
 	"engine capacity" -14
@@ -122,6 +136,8 @@ outfit "Nanoplasma Steering (Small)"
 	category "Engines"
 	"cost" 36000
 	thumbnail "outfit/small plasma steering"
+	series "Engines: Navarchs"
+	index 250
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
@@ -133,13 +149,14 @@ outfit "Nanoplasma Steering (Small)"
 	"steering flare sound" "plasma small"
 	"force protection" 0.05
 	"slowing resistance" 0.026
-	description "The Greyhound class plasma propulsion systems are Delta V's most popular product, suitable for a wide range of small starships."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "This is the standard steering system for Navarch fighters, and for good reason; it provides decent thrust for its size, while being compact and providing resistance against enemy displacement attacks."
 
 outfit "Nanoplasma Steering (Medium)"
 	category "Engines"
 	"cost" 79000
 	thumbnail "outfit/medium plasma steering"
+	series "Engines: Navarchs"
+	index 350
 	"mass" 42
 	"outfit space" -42
 	"engine capacity" -42
@@ -151,13 +168,14 @@ outfit "Nanoplasma Steering (Medium)"
 	"steering flare sound" "plasma medium"
 	"force protection" 0.09
 	"slowing resistance" 0.05
-	description "Impala class plasma steering systems are suitable for most freighters and all but the largest warships, and are also considerably more compact than the ion propulsion systems produced by the Syndicate."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "Commonly used as a secondary steering system, this medium-sized nanoplasma thruster offers good all-around performance. Like its sister thruster, it is often used as a benchmarking device."
 
 outfit "Nanoplasma Steering (Large)"
 	category "Engines"
 	"cost" 174000
 	thumbnail "outfit/large plasma steering"
+	series "Engines: Navarchs"
+	index 450
 	"mass" 72
 	"outfit space" -72
 	"engine capacity" -72
@@ -169,13 +187,14 @@ outfit "Nanoplasma Steering (Large)"
 	"steering flare sound" "plasma large"
 	"force protection" 0.16
 	"slowing resistance" 0.09
-	description "An Orca class steering system will allow any mid-sized ship to turn as quickly as a fighter, and is powerful enough to serve even the largest of warships."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "A nanoplasma engine of this size is said to contain more micro-propulsion blocks than a standard human body has cells. As such, it's no surprise that it's powerful while providing utility in the form of protecting from unexpected jerks in spaceflight as well as engine interference."
 
 outfit "Nanoplasma Steering (Huge)"
 	category "Engines"
 	"cost" 324700
 	thumbnail "outfit/huge plasma steering"
+	series "Engines: Navarchs"
+	index 550
 	"mass" 99
 	"outfit space" -99
 	"engine capacity" -99
@@ -187,13 +206,14 @@ outfit "Nanoplasma Steering (Huge)"
 	"steering flare sound" "plasma huge"
 	"force protection" 0.24
 	"slowing resistance" 0.14
-	description "As with the corresponding thruster, the Tyrant class steering system is so large and powerful that very few ships can make use of it."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "This steering system is generally either adequate or too large for most ships produced by the Navarchs, providing any ship a noticeable increase in agility while reducing the likelihood that an enemy attack leaves a ship still in the sky."
 
 outfit "Nanoplasma Steering (Giant)"
 	category "Engines"
 	"cost" 324700
 	thumbnail "outfit/huge plasma steering"
+	series "Engines: Navarchs"
+	index 650
 	"mass" 139
 	"outfit space" -139
 	"engine capacity" -139
@@ -205,6 +225,5 @@ outfit "Nanoplasma Steering (Giant)"
 	"steering flare sound" "plasma huge"
 	"force protection" 0.32
 	"slowing resistance" 0.2
-	description "As with the corresponding thruster, the Tyrant class steering system is so large and powerful that very few ships can make use of it."
-	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
+	description "The largest nanoplasma steering set is reserved only for the largest of ships assembled by the Navarchs. Navarchs commonly joke that engines like these would be terrifying weapons, if only they had a practical amount of range."
 

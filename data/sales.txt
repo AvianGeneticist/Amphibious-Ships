@@ -1,21 +1,23 @@
 shipyard "Navarch Basics"
 	"Subvarietas"
 	"Tribus"
+	"Genus"
 	"Subfamilia"
 
 shipyard "Navarch Intermediate"
 	"Ordo"
 	"Subclassis"
+	"Legio"
 
 shipyard "Navarch Advanced"
 	"Regnum"
 	"Divisio"
 	"Phylum"
-	"Imperium"
 	
 shipyard "Navarch Expert"
 	"Regio"
 	"Regalis"
+	"Imperium"
 	
 outfitter "Navarch Basics"
 	"1-18 Anti-Fighter Rig"
