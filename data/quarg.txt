@@ -1,0 +1,164 @@
+government "Quarg (Automata)"
+	swizzle 0
+	color .88 .77 0
+	"display name" "Quarg"
+	
+	"player reputation" -1000
+	"attitude toward"
+		"Quarg (Hai)" 1
+		"Quarg (Kor Efret)" 1
+		"Quarg (Gegno)" 1
+		"Navarch" -1000
+	"death sentence" "quarg imprisonment"
+	"hostile hail" "hostile quarg"
+	"hostile disabled hail" "hostile quarg"
+
+ship "Quarg Wardragon" "Quarg Wardragon (Automaton)"
+	add attributes
+		"bunks" -185
+		"required crew" -160
+		"automaton" 1
+		"self destruct chance" 0.99
+		"shields" 20000
+		"hull" 40000
+		"hull repair rate" 3
+		"hull energy" 3
+		"quarg rift access" 1
+	outfits
+		"Quarg Skylance" 2
+		"Quarg Anti-Missile" 2
+		
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+	turret "Quarg Skylance"
+	turret "Quarg Skylance"
+	turret "Quarg Anti-Missile"
+	turret "Quarg Anti-Missile"
+	
+ship "Quarg Wardragon" "Quarg Wardragon (Automaton, Offense)"
+	add attributes
+		"bunks" -185
+		"required crew" -160
+		"automaton" 1
+		"self destruct chance" 0.99
+		"shields" 20000
+		"hull" 40000
+		"hull repair rate" 3
+		"hull energy" 3
+		"outfit space" 40
+		"weapon capacity" 40
+		"quarg rift access" 1
+	outfits
+		"Quarg Skylance" 4
+		"Quarg Anti-Missile" 2
+		
+		"Antimatter Core"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+	turret -28 7 "Quarg Skylance"
+	turret 28 7 "Quarg Skylance"
+	turret -9 -14 "Quarg Skylance"
+	turret 9 -14 "Quarg Skylance"
+	
+shipyard "Navarch Basics"
+	"Quarg Battleproteus"
+	
+ship "Quarg Battleproteus"
+	sprite "ship/_quarg battleproteus"
+	thumbnail "ship/_quarg battleproteus"
+	attributes
+		category "Interceptor"
+		"cost" 2000000
+		"shields" 60000
+		"hull" 25000
+		"automaton" 1
+		"mass" 200
+		"drag" 3.3
+		"heat dissipation" 1.4
+		"outfit space" 380
+		"weapon capacity" 60
+		"engine capacity" 120
+		"hull repair rate" 2
+		"hull energy" 2
+		"quarg rift access" 1
+		"energy capacity" 25000
+		weapon
+			"blast radius" 700
+			"shield damage" 7500
+			"hull damage" 6000
+			"hit force" 3000
+	outfits
+		"Quarg Skylance"
+		
+		"Antimatter Core"
+		"Quantum Shield Generator"
+		
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		
+	engine 0 33
+	turret 0 -35
+		under
+	explode "tiny explosion" 8
+	explode "small explosion" 12
+	"final explode" "final explosion large"
+	description "These are light, blindingly fast automatons used by the Quarg. On death, they overload their antimatter core, causing an uncharacteristically massive explosion."
+
+
+fleet "Quarg Automata (Swarmer)"
+	government "Quarg (Automata)"
+	names "quarg"
+	cargo 1
+	personality
+		launching heroic staying vindictive
+	variant 3
+		"Quarg Battleproteus" 3
+	variant 2
+		"Quarg Battleproteus" 5
+	variant 1
+		"Quarg Battleproteus" 6
+	
+		
+fleet "Quarg Automata"
+	government "Quarg (Automata)"
+	names "quarg"
+	cargo 1
+	personality
+		launching heroic staying vindictive
+	variant 3
+		"Quarg Wardragon (Automaton)" 1
+		"Quarg Battleproteus" 2
+	variant 4
+		"Quarg Wardragon (Automaton)" 2
+		"Quarg Battleproteus" 2
+	variant 4
+		"Quarg Wardragon (Automaton)" 1
+		"Quarg Wardragon (Automaton, Offense)" 1
+		"Quarg Battleproteus" 2
+	variant 2
+		"Quarg Wardragon (Automaton)" 3
+		"Quarg Battleproteus" 2
+	variant 2
+		"Quarg Wardragon (Automaton)" 2
+		"Quarg Wardragon (Automaton, Offense)" 1
+		"Quarg Battleproteus" 2
+	variant 1
+		"Quarg Wardragon (Automaton)" 4
+		"Quarg Battleproteus" 2
+	variant 1
+		"Quarg Wardragon (Automaton)" 2
+		"Quarg Wardragon (Automaton, Offense)" 2
+		"Quarg Battleproteus" 2
+	
+planet "quarg automata source a"
+	government "Quarg (Automata)"
+	description ""
+	spaceport ""
+	attributes "requires: quarg rift access"

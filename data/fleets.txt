@@ -238,7 +238,7 @@ fleet "Large Navarch"
 	variant 2
 		"Subvarietas" 20
 		"Subclassis" 6
-		"Imperium" 50
+		"Imperium" 5
 	variant 2
 		"Tribus"
 		"Genus"

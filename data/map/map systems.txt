@@ -518,6 +518,8 @@ system Onirigad
 	fleet "Small Navarch" 2000
 	fleet "Medium Navarch" 3600
 	fleet "Large Navarch" 7200
+	fleet "Quarg Automata (Swarmer)" 2800
+	fleet "Quarg Automata" 6400
 	object
 		sprite star/g3
 		distance 127.62
@@ -535,6 +537,10 @@ system Onirigad
 		sprite planet/desert4-b
 		distance 725
 		period 131.974
+	object "quarg automata source a"
+		sprite ""
+		distance 1000
+		period -200
 	object
 		sprite planet/gas15-b
 		distance 1348
