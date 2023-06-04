@@ -91,7 +91,7 @@ ship "Genus"
 	thumbnail "thumbnail/genus"
 	attributes
 		category "Light Warship"
-		"cost" 18000000
+		"cost" 14000000
 		"shields" 75700
 		"hull" 37800
 		"required crew" 182
