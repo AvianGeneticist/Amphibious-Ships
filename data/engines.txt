@@ -10,8 +10,8 @@ outfit "Nanoplasma Thruster (Tiny)"
 	"thrust" 11.9
 	"thrusting energy" 1.0
 	"thrusting heat" 1.8
-	"flare sprite" "effect/plasma flare/tiny"
-		"frame rate" 5
+	"flare sprite" "effect/nanoplasma flare/tiny"
+		"frame rate" 2
 	"flare sound" "plasma tiny"
 	"force protection" 0.03
 	"slowing resistance" 0.02
@@ -29,8 +29,8 @@ outfit "Nanoplasma Thruster (Small)"
 	"thrust" 22.9
 	"thrusting energy" 1.8
 	"thrusting heat" 3.4
-	"flare sprite" "effect/plasma flare/small"
-		"frame rate" 6
+	"flare sprite" "effect/nanoplasma flare/small"
+		"frame rate" 2
 	"flare sound" "plasma small"
 	"force protection" 0.06
 	"slowing resistance" 0.04
@@ -48,8 +48,8 @@ outfit "Nanoplasma Thruster (Medium)"
 	"thrust" 43.7
 	"thrusting energy" 3.2
 	"thrusting heat" 6.5
-	"flare sprite" "effect/plasma flare/medium"
-		"frame rate" 7
+	"flare sprite" "effect/nanoplasma flare/medium"
+		"frame rate" 2
 	"flare sound" "plasma medium"
 	"force protection" 0.1
 	"slowing resistance" 0.06
@@ -67,8 +67,8 @@ outfit "Nanoplasma Thruster (Large)"
 	"thrust" 88.0
 	"thrusting energy" 5.8
 	"thrusting heat" 12.3
-	"flare sprite" "effect/plasma flare/large"
-		"frame rate" 8
+	"flare sprite" "effect/nanoplasma flare/large"
+		"frame rate" 2
 	"flare sound" "plasma large"
 	"force protection" 0.18
 	"slowing resistance" 0.10
@@ -86,8 +86,8 @@ outfit "Nanoplasma Thruster (Huge)"
 	"thrust" 131.2
 	"thrusting energy" 8.6
 	"thrusting heat" 19.1
-	"flare sprite" "effect/plasma flare/huge"
-		"frame rate" 9
+	"flare sprite" "effect/nanoplasma flare/huge"
+		"frame rate" 2
 	"flare sound" "plasma huge"
 	"force protection" 0.24
 	"slowing resistance" 0.16
@@ -105,8 +105,8 @@ outfit "Nanoplasma Thruster (Giant)"
 	"thrust" 201.9
 	"thrusting energy" 12.6
 	"thrusting heat" 28.1
-	"flare sprite" "effect/plasma flare/huge"
-		"frame rate" 9
+	"flare sprite" "effect/nanoplasma flare/giant"
+		"frame rate" 2
 	"flare sound" "plasma huge"
 	"force protection" 0.38
 	"slowing resistance" 0.24
@@ -125,7 +125,7 @@ outfit "Nanoplasma Steering (Tiny)"
 	"turn" 337
 	"turning energy" .5
 	"turning heat" 1.1
-	"steering flare sprite" "effect/plasma flare/tiny"
+	"steering flare sprite" "effect/nanoplasma flare/tiny"
 		"frame rate" 5
 	"steering flare sound" "plasma tiny"
 	"force protection" 0.026
@@ -144,8 +144,8 @@ outfit "Nanoplasma Steering (Small)"
 	"turn" 650
 	"turning energy" 0.9
 	"turning heat" 2.1
-	"steering flare sprite" "effect/plasma flare/small"
-		"frame rate" 6
+	"steering flare sprite" "effect/nanoplasma flare/small"
+		"frame rate" 2
 	"steering flare sound" "plasma small"
 	"force protection" 0.05
 	"slowing resistance" 0.026
@@ -163,8 +163,8 @@ outfit "Nanoplasma Steering (Medium)"
 	"turn" 1243
 	"turning energy" 1.6
 	"turning heat" 4.1
-	"steering flare sprite" "effect/plasma flare/medium"
-		"frame rate" 7
+	"steering flare sprite" "effect/nanoplasma flare/medium"
+		"frame rate" 2
 	"steering flare sound" "plasma medium"
 	"force protection" 0.09
 	"slowing resistance" 0.05
@@ -182,8 +182,8 @@ outfit "Nanoplasma Steering (Large)"
 	"turn" 2403
 	"turning energy" 2.9
 	"turning heat" 7.7
-	"steering flare sprite" "effect/plasma flare/large"
-		"frame rate" 8
+	"steering flare sprite" "effect/nanoplasma flare/large"
+		"frame rate" 2
 	"steering flare sound" "plasma large"
 	"force protection" 0.16
 	"slowing resistance" 0.09
@@ -201,8 +201,8 @@ outfit "Nanoplasma Steering (Huge)"
 	"turn" 3899
 	"turning energy" 4.4
 	"turning heat" 12.5
-	"steering flare sprite" "effect/plasma flare/huge"
-		"frame rate" 9
+	"steering flare sprite" "effect/nanoplasma flare/huge"
+		"frame rate" 2
 	"steering flare sound" "plasma huge"
 	"force protection" 0.24
 	"slowing resistance" 0.14
@@ -220,8 +220,8 @@ outfit "Nanoplasma Steering (Giant)"
 	"turn" 5592
 	"turning energy" 6.3
 	"turning heat" 17.1
-	"steering flare sprite" "effect/plasma flare/huge"
-		"frame rate" 9
+	"steering flare sprite" "effect/nanoplasma flare/giant"
+		"frame rate" 2
 	"steering flare sound" "plasma huge"
 	"force protection" 0.32
 	"slowing resistance" 0.2
