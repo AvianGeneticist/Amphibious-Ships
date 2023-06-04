@@ -54,11 +54,21 @@ fleet "Small Navarch"
 		"Subvarietas" 46
 		"Subclassis" 2
 	variant 4
+		"Ordo"
+		"Regnum"
+		"Subvarietas" 46
+		"Subclassis" 2
+	variant 4
 		"Divisio"
 		"Subclassis" 3
 	variant 3
 		"Phylum"
 		"Subclassis" 3
+	variant 2
+		"Divisio"
+		"Regnum"
+		"Subvarietas" 46
+		"Subclassis"
 	variant 2
 		"Tribus"
 		"Genus"

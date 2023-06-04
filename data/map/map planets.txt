@@ -1,0 +1,100 @@
+planet Palendra
+	attributes uninhabited
+	description "There doesn't seem to be anything here, save for a single tower with a small terminal."
+
+planet Drepalen
+	attributes uninhabited
+	description "Save for a small tower with a terminal for basic operations, nothing is here."
+
+planet Enpaldra
+	attributes uninhabited
+	description "Save for a single small tower with a terminal for interfacing, there doesn't seem to be anything here."
+
+planet "Navarch Wormhole"
+	spaceport ""
+	government "Navarch Wormhole"
+	wormhole "Navarch Wormhole"
+
+wormhole "Navarch Wormhole"
+	mappable
+	link Theranid Palyanad
+	link Palyanad Theranid
+	color 0.1 0.1 1.0
+
+planet Gulfosala
+	landscape land/beach1
+	description "This is one of the few worlds with enough notable landmass for the Navarchs to have built landbound ship facilities. Besides that, it is also a super-ocean world, with a surface area nearly 6 times larger than Earth, nearly 98% of which is water. As such, it serves as the perfect staging ground for the Navarchs' massive warfleets."
+	spaceport "The spaceport sprawls all over and around a lone continent around the size of south america; large ships wait at port around the coast, with several channels reserved for ships coming in for landing. Each dock here could hold 5-6 human ships of any size."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Advanced"
+	shipyard "Navarch Expert"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Advanced"
+
+planet Chukchi
+	landscape land/sea3
+	description "Chukchi was originally a military outpost, but has since been rebranded a large-scale fishing colony due to the presence of many species of hyper-productive fish; this one planet alone is capable of sustaining the food needs of nearly a fifth of the Navarchs' population."
+	spaceport `The spaceport here is entirely seabound, with large "runways" for ships to land on the water. As expected, the scope is truly massive; each dock here is roughly six times the size of the largest human space docks.`
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	outfitter "Navarch Basics"
+	
+planet Easibe
+	landscape land/sea11-sfiera
+	description "Easibe is a very warm, prosperous ocean world, with large stakes in the industries of both farming and deep-sea drilling for oil."
+	spaceport "The spaceport here is unremarkable by Navarch standards, though there is a surprisingly active tourism industry despite the Navarchs' lack of civilian ships."
+	shipyard "Navarch Basics"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+
+planet Laptev
+	landscape land/sea5
+	description "Laptev is a temperate and calm, but otherwise boreing ocean world; it is valued by the Navarchs only as a staging point for military fleets."
+	spaceport "The spaceport here is almost comparable to a rural human spaceport, despite the size of the individual docks; parked vessels awaiting launches for patrols are a frequent sight, drifting idly through the mist."
+	
+planet Pechora
+	landscape land/snow5
+	description "Pechora is an ice world, but plays home to some crucial material refineries; as such, large channels of water have been carved out of the multiple-kilomter-thick ice sheets that evenly obscure the true surface of the planet, with small ships patrolling and using small heat rays to ensure the channels don't refreeze."
+	spaceport "The spaceport on Pechora is highly organized and automated; even the Navarchs' largest cargo ships are very swiftly loaded with kilotons of refined metals for export."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	
+planet Beaufort
+	landscape land/asteroid0
+	description "Beaufort is an artificial planet made from aeons of accumulated metal slag painstakingly melted together using its parent star's residual heat, before being poulated with large water channels to accomodate a limited Navarch presence here. Beaufort's value comes from the presence of yottrite in its home system, which the Navarchs use in their ships and weapons."
+	spaceport "Beaufort's spaceport seems to have been formed of molten metal slag like much of the rest of its surface, with natural outcrops serving as docking bays. Though the planet's surface is surprisingly temperate and has enough gravity to hold the water channels in place, it has no noticeable atmosphere."
+	shipyard "Navarch Basics"
+	outfitter "Navarch Basics"
+	
+planet Fochexa
+	landscape land/sea8
+	description "Fochexa is a warm ocean world with high, sharp spires of rock that stretch from the ocean floor to the surface, forming small islands anywhere from a few feet to a mile across. These landmasses arne't large enough to establish any sort of presence on, but they do lend the Navarchs a helping hand when it comes to monitoring the drifting of the spaceport."
+	spaceport "The spaceport is a sprawling complex of docks and channels, serving many military fleets as they pass through here. This planet serves as a critical chokepoint, and as such, is heavily guarded."
+	security 0.9
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Advanced"
+	shipyard "Navarch Expert"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Advanced"
+
+planet Norvik
+	description `Norvik is a large ocean world ripe with many rare and exotic metals, and is a critical mining planet for the Navarchs; however, twice an orbit, the moon "dips" in the rings of its parent planet, causing horrific meteor showers. As such, all ships staioned here are above a certain size, to avoid damage incurred by the showers.`
+	spaceport "The spacport here consists only of large docks, and are heavily reinforced; in fact, you aren't walking along the metal structure at all, but instead shields over 2 feet thick. Meteoroids of various sizes are littered throughout the spaceport's scaffoldlike walkways, and there always seems to be some part under repair."
+	shipyard "Navarch Expert"
+	shipyard "Navarch Advanced"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	
+planet Gomerce
+	description "Beneath a thick layer of fog lies a planet with a vibrant rest-hued ocean, coloured so because of the absurdly high iron content of the water. Navarch ships here have to land with shields fully enabled to avoid iron particulate clinging to the exterior of their hulls. The iron here is, in fact, so infused into the water, that occasionally large enough storm clouds will have the mineral content necessary to rain iron as if it were clean water, requiring all of the ships and buildings here to run their shields all the time to avoid being petrified like the few small species of tree native to the islands."
+	spaceport `The spaceport is encased in a large, domular shield that protects it from the "rust rain". Despite this, there is a rather robust shipyard located here, taking advantage of the practically limitless sources of raw materials in the waters and small islands around the spaceport.`
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Advanced"
+	outfitter "Navarch Basics"
