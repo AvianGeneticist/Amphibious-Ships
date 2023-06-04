@@ -7,58 +7,70 @@ fleet "Small Navarch"
 		confusion 10
 		heroic vindictive
 	variant 10
-		"Subclassis" 2
-		"Ordo"
 		"Tribus" 2
-	variant 10
-		"Subclassis" 2
 		"Ordo"
-		"Subfamilia" 2
-	variant 10
-		"Subclassis" 2
-		"Ordo"
-		"Genus" 2
-	variant 9
-		"Subclassis" 2
-		"Subfamilia" 2
-		"Tribus" 2
-	variant 9
-		"Subclassis" 2
-		"Genus"
-		"Subfamilia"
-		"Tribus" 2
-	variant 8
-		"Subclassis" 2
-		"Ordo" 2
-		"Tribus"
-	variant 6
-		"Subclassis" 3
-		"Ordo"
-		"Tribus"
-	variant 6
-		"Subclassis" 2
-		"Divisio"
-	variant 6
 		"Subclassis"
+	variant 10
+		"Genus" 2
+		"Ordo"
+		"Subclassis"
+	variant 10
+		"Subfamilia" 2
+		"Ordo"
+		"Subclassis"
+	variant 8
+		"Subfamilia" 2
 		"Legio"
 		"Subvarietas" 26
-		"Genus"
-	variant 6
 		"Subclassis"
+	variant 8
+		"Genus" 2
+		"Legio"
+		"Subvarietas" 26
+		"Subclassis"
+	variant 8
+		"Legio"
+		"Subvarietas" 30
+		"Imperium"
+	variant 8
+		"Tribus"
+		"Ordo"
+		"Subclassis" 3
+	variant 8
+		"Genus"
 		"Divisio"
-		"Subfamilia" 2
-	variant 6
 		"Subclassis" 2
+	variant 8
+		"Subfamilia"
+		"Divisio"
+		"Subclassis" 2
+	variant 8
+		"Tribus"
+		"Phylum"
+		"Subclassis" 2
+	variant 6
+		"Subfamilia"
 		"Regnum"
 		"Subvarietas" 46
-	variant 4
 		"Subclassis" 2
-		"Legio" 2
-		"Subvarietas" 52
 	variant 4
+		"Divisio"
+		"Subclassis" 3
+	variant 3
+		"Phylum"
+		"Subclassis" 3
+	variant 2
+		"Tribus"
+		"Genus"
 		"Imperium"
-		"Subvarietas" 4
-
+	variant 2
+		"Regalis"
+		"Subclassis"
+	variant 2
+		"Regio"
+		"Subvarietas" 96
+		"Subclassis"
+	
 fleet "Medium Navarch"
 	government "Navarch"
 	names "Navarch Names"
@@ -68,88 +80,88 @@ fleet "Medium Navarch"
 		confusion 10
 		heroic vindictive
 	variant 10
-		"Subclassis" 3
-		"Ordo" 3
-		"Tribus" 4
-	variant 10
-		"Subclassis" 3
-		"Ordo" 3
-		"Tribus" 2
-		"Subfamilia" 2
-	variant 8
-		"Subclassis" 3
-		"Ordo"
-		"Subfamilia" 3
-		"Tribus" 2
-	variant 8
+		"Tribus" 3
+		"Ordo" 2
+		"Legio" 2
+		"Subvarietas" 52
 		"Subclassis" 4
-		"Divisio"
+	variant 10
+		"Genus" 2
 		"Ordo" 2
-	variant 8
-		"Subclassis" 3
-		"Regnum"
-		"Subvarietas" 46
-		"Tribus" 2
-	variant 8
-		"Subclassis" 3
-		"Regnum"
-		"Subvarietas" 46
+		"Legio" 2
+		"Subvarietas" 52
+		"Subclassis" 4
+	variant 10
 		"Subfamilia" 2
-	variant 6
-		"Subclassis" 3
-		"Phylum"
-		"Tribus" 1
-	variant 6
-		"Imperium"
-		"Divisio"
-		"Subvarietas" 4
-		"Tribus" 1
-	variant 6
-		"Imperium"
-		"Legio"
-		"Subvarietas" 30
-		"Genus" 3
-		"Tribus" 4
-	variant 6
-		"Imperium"
-		"Legio"
-		"Subvarietas" 30
-		"Genus" 3
-		"Subfamilia" 3
-	variant 6
-		"Subclassis" 2
-		"Phylum"
-		"Subfamilia" 3
-	variant 6
-		"Subclassis" 2
-		"Phylum"
-		"Legio"
-		"Subvarietas" 26
-	variant 6
-		"Subclassis" 2
-		"Regio"
-		"Subvarietas" 96
-		"Tribus" 2
-	variant 6
-		"Subclassis" 2
-		"Regio"
-		"Subvarietas" 96
-		"Ordo"
-	variant 4
-		"Subclassis" 2
-		"Regio"
-		"Subvarietas" 122
-		"Legio"
-	variant 4
-		"Imperium"
 		"Ordo" 2
+		"Legio" 2
+		"Subvarietas" 52
+		"Subclassis" 4
+	variant 10
 		"Subfamilia" 3
-		"Subvarietas" 4
-	variant 2
+		"Ordo" 2
+		"Regnum"
+		"Subvarietas" 46
+		"Subclassis" 4
+	variant 10
+		"Genus" 3
+		"Ordo" 2
+		"Regnum"
+		"Subvarietas" 46
+		"Subclassis" 4
+	variant 10
+		"Divisio"
+		"Phylum" 2
+		"Subclassis"
+	variant 10
+		"Genus" 2
+		"Subfamilia"
+		"Divisio"
+		"Phylum"
+		"Subclassis"
+	variant 8
+		"Tribus" 4
+		"Divisio" 2
 		"Imperium"
+	variant 8
+		"Tribus" 4
+		"Divisio"
+		"Phylum"
+		"Imperium"
+	variant 8
+		"Tribus" 4
+		"Phylum" 2
+		"Imperium"
+	variant 8
+		"Tribus" 3
+		"Genus"
+		"Divisio"
+		"Regnum"
+		"Subvarietas" 50
+		"Imperium"
+	variant 8
+		"Tribus" 4
+		"Phylum"
+		"Regnum"
+		"Subvarietas" 50
+		"Imperium"
+	variant 6
+		"Phylum" 2
+		"Regio"
+		"Subvarietas" 96
+		"Subclassis" 3
+	variant 6
+		"Ordo" 3
+		"Legio" 2
+		"Subvarietas" 56
+		"Subclassis"
+		"Imperium"
+	variant 4
 		"Regalis"
-		"Subvarietas" 4
-	
+		"Regio"
+		"Subvarietas" 100
+		"Imperium"
+		
 fleet "Large Navarch"
 	government "Navarch"
 	names "Navarch Names"
@@ -159,71 +171,75 @@ fleet "Large Navarch"
 		confusion 10
 		heroic vindictive
 	variant 10
-		"Subclassis"
-		"Imperium"
-		"Regio"
-		"Subvarietas" 100
-		"Divisio" 2
-		"Ordo"
 		"Tribus" 4
-	variant 10
-		"Imperium"
-		"Regio"
-		"Subvarietas" 100
-		"Regalis"
-		"Ordo"
-		"Tribus" 4
-	variant 10
-		"Imperium"
-		"Regio"
-		"Subvarietas" 100
-		"Regalis"
-		"Ordo"
-		"Genus" 3
-	variant 8
-		"Subclassis"
-		"Imperium"
-		"Regio"
-		"Subvarietas" 100
-		"Divisio"
-		"Phylum"
-		"Ordo"
-		"Tribus" 4
-	variant 7
-		"Subclassis"
-		"Imperium"
-		"Regio"
-		"Subvarietas" 100
-		"Divisio"
-		"Phylum"
-		"Ordo"
-		"Subfamilia" 4
-	variant 6
-		"Subclassis"
-		"Imperium"
-		"Regio"
-		"Subvarietas" 100
-		"Phylum" 2
-		"Ordo" 2
-		"Tribus" 2
-	variant 4
-		"Imperium"
-		"Regnum"
-		"Subvarietas" 50
-		"Regalis" 2
-		"Subfamilia"
-		"Tribus" 3
-	variant 2
-		"Subclassis"
-		"Imperium"
-		"Regio"
-		"Regnum"
-		"Subvarietas" 146
-		"Divisio"
-		"Phylum"
-		"Regalis"
-		"Ordo"
 		"Genus" 2
-		"Subfamilia" 2
+		"Divisio"
+		"Phylum"
+		"Regalis"
+		"Imperium" 2
+	variant 10
+		"Tribus" 4
+		"Genus" 2
+		"Divisio" 2
+		"Regalis"
+		"Imperium" 2
+	variant 10
 		"Tribus" 3
-	
+		"Genus" 2
+		"Phylum" 2
+		"Regalis"
+		"Imperium" 2
+	variant 6
+		"Regalis" 2
+		"Regio" 2
+		"Subvarietas" 200
+		"Imperium" 2
+	variant 4
+		"Tribus" 4
+		"Subfamilia" 3
+		"Ordo"
+		"Divisio"
+		"Regalis"
+		"Legio" 2
+		"Regio"
+		"Subvarietas" 152
+		"Subclassis" 2
+		"Imperium"
+	variant 4
+		"Tribus" 7
+		"Genus" 3
+		"Subfamilia" 3
+		"Ordo" 3
+		"Legio" 3
+		"Subvarietas" 78
+		"Subclassis" 7
+	variant 2
+		"Ordo" 4
+		"Divisio" 2
+		"Phylum" 2
+		"Regalis"
+		"Imperium"
+	variant 2
+		"Legio" 3
+		"Regnum" 2
+		"Regio" 2
+		"Subvarietas" 320
+		"Imperium" 2
+	variant 2
+		"Subvarietas" 20
+		"Subclassis" 6
+		"Imperium" 50
+	variant 2
+		"Tribus"
+		"Genus"
+		"Subfamilia"
+		"Ordo"
+		"Divisio"
+		"Phylum"
+		"Regalis"
+		"Legio"
+		"Regnum"
+		"Regio"
+		"Subvarietas" 172
+		"Subclassis"
+		"Imperium"
