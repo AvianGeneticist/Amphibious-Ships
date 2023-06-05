@@ -579,3 +579,360 @@ ship "Regnum"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Navarchs specialize in sea-to-space ship designs, and the mighty Regnum is a premiere. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 46 fighters on tap, it's an impressive ship by all measures."
+
+ship "Supravitae"
+	sprite "ship/supravitae"
+	thumbnail "thumbnail/supravitae"
+	attributes
+		category "Superheavy"
+		"cost" 300000000
+		"shields" 820000
+		"hull" 480000
+		"required crew" 1463
+		"bunks" 2551
+		"mass" 4300
+		"drag" 79.1
+		"heat dissipation" .35
+		"fuel capacity" 3000
+		"cargo space" 2395
+		"outfit space" 14505
+		"weapon capacity" 6940
+		"engine capacity" 520
+		"barbettes" 14
+		"super barbettes" 2
+		weapon
+			"blast radius" 800
+			"shield damage" 8000
+			"hull damage" 7000
+			"hit force" 12000
+	outfits
+		"Hyperdrive Malformer" 2
+		"14-103 Twin Battery" 4
+		"10-77 Twin Battery" 6
+		"THEL Node" 4
+		"4-26 Dual Turret" 26
+		"Monolithic Anti-Missile" 4
+		"Formidable Anti-Missile" 8
+		
+		"20x Fusion Reactor"
+		"14x Fusion Reactor"
+		"Cluster Battery" 2
+		"Pantheon-Class Breach Sealant" 4
+		"Spectral Jammer" 4
+		"AHDU (Large)" 13
+		"Fuel Distillery"
+		"Navarch Boarding Supremacy" 10
+		"Analysis Scope" 8
+		
+		"Nanoplasma Thruster (Giant)"
+		"Nanoplasma Thruster (Medium)"
+		"Nanoplasma Steering (Giant)" 2
+		"Scram Drive"
+		
+	engine -306.5 336
+		zoom 1.3
+	engine 306.5 336
+		zoom 1.3
+	engine -234 364
+		zoom 1.5
+	engine 234 364
+		zoom 1.5
+	engine -92.5 479
+		zoom 2.1
+	engine 92.5 479
+		zoom 2.1
+	turret 0 -559 "Monolithic Anti-Missile"
+	turret -53 -534
+	turret 53 -534
+	turret -135 -432
+	turret 135 -432
+	turret -33.5 -425 "Formidable Anti-Missile"
+	turret 33.5 -425 "Formidable Anti-Missile"
+	turret -153 -377.5
+	turret 153 -377.5
+	turret -62 -361
+	turret 62 -361
+	turret -24 -298.5
+	turret 24 -298.5
+	turret -45.5 -243
+	turret 45.5 -243
+	turret -127 -205.5
+	turret 127 -205.5
+	turret -45 -118.5
+	turret 45 -118.5 
+	turret -126 -90 "Formidable Anti-Missile"
+	turret 126 -90 "Formidable Anti-Missile"
+	turret 0 -61 "Monolithic Anti-Missile"
+	turret -126.5 106.5
+	turret 126.5 106.5
+	turret -43 110.5
+	turret 43 110.5
+	turret -126.5 223.5
+	turret 126.5 223.5
+	turret 0 241 "Monolithic Anti-Missile"
+	turret -63.5 366.5
+	turret 63.5 366.5
+	turret -39.5 425.5 "Formidable Anti-Missile"
+	turret 39.5 425.5 "Formidable Anti-Missile"
+	turret -135 437.5
+	turret 135 437.5
+	turret -53 540.5
+	turret 53 540.5
+	turret 0 565 "Monolithic Anti-Missile"
+	#Barbettes below
+	turret -92.5 -482 "THEL Node"
+	turret 92.5 -482 "THEL Node"
+	turret -140.5 -296.5 "10-77 Twin Battery"
+	turret 140.5 -296.5 "10-77 Twin Battery"
+	turret -109.5 -145 "14-103 Twin Battery"
+	turret 109.5 -145 "14-103 Twin Battery"
+	turret -141 8.5 "10-77 Twin Battery"
+	turret 141 8.5 "10-77 Twin Battery"
+	turret -111.5 167 "14-103 Twin Battery"
+	turret 111.5 167 "14-103 Twin Battery"
+	turret -141 317.5 "10-77 Twin Battery"
+	turret 141 317.5 "10-77 Twin Battery"
+	turret -92.5 487 "THEL Node"
+	turret 92.5 487 "THEL Node"
+	#Super barbettes below
+	turret 0 -369
+	turret 0 373
+	#Fighter column 1; 16 bays * 2
+	bay "Fighter" -228.5 -346.5
+		over
+		angle 45
+	bay "Fighter" -228.5 -301.5
+		over
+		angle 45
+	bay "Fighter" -228.5 -256.5
+		over
+		angle 45
+	bay "Fighter" -228.5 -211.5
+		over
+		angle 45
+	bay "Fighter" -228.5 -166.5
+		over
+		angle 45
+	bay "Fighter" -228.5 -121.5
+		over
+		angle 45
+	bay "Fighter" -228.5 -76.5
+		over
+		angle 45
+	bay "Fighter" -228.5 -31.5
+		over
+		angle 45
+	bay "Fighter" -228.5 14.5
+		over
+		angle 45
+	bay "Fighter" -228.5 59.5
+		over
+		angle 45
+	bay "Fighter" -228.5 104.5
+		over
+		angle 45
+	bay "Fighter" -228.5 149.5
+		over
+		angle 45
+	bay "Fighter" -228.5 194.5
+		over
+		angle 45
+	bay "Fighter" -228.5 239.5
+		over
+		angle 45
+	bay "Fighter" -228.5 284.5
+		over
+		angle 45
+	bay "Fighter" -228.5 329.5
+		over
+		angle -45
+	#Mirror column 1
+	bay "Fighter" 228.5 -346.5
+		over
+		angle -45
+	bay "Fighter" 228.5 -301.5
+		over
+		angle -45
+	bay "Fighter" 228.5 -256.5
+		over
+		angle -45
+	bay "Fighter" 228.5 -211.5
+		over
+		angle -45
+	bay "Fighter" 228.5 -166.5
+		over
+		angle -45
+	bay "Fighter" 228.5 -121.5
+		over
+		angle -45
+	bay "Fighter" 228.5 -76.5
+		over
+		angle -45
+	bay "Fighter" 228.5 -31.5
+		over
+		angle -45
+	bay "Fighter" 228.5 14.5
+		over
+		angle -45
+	bay "Fighter" 228.5 59.5
+		over
+		angle -45
+	bay "Fighter" 228.5 104.5
+		over
+		angle -45
+	bay "Fighter" 228.5 149.5
+		over
+		angle -45
+	bay "Fighter" 228.5 194.5
+		over
+		angle -45
+	bay "Fighter" 228.5 239.5
+		over
+		angle -45
+	bay "Fighter" 228.5 284.5
+		over
+		angle -45
+	bay "Fighter" 228.5 329.5
+		over
+		angle -45
+	#Column 1.5; 9 bays * 2
+	bay "Fighter" -282.5 -59.5
+		over
+	bay "Fighter" -282.5 -14.5
+		over
+	bay "Fighter" -282.5 31.5
+		over
+	bay "Fighter" -282.5 76.5
+		over
+		angle 45
+	bay "Fighter" -282.5 121.5
+		over
+		angle 45
+	bay "Fighter" -282.5 116.5
+		over
+		angle 45
+	bay "Fighter" -282.5 211.5
+		over
+		angle 45
+	bay "Fighter" -282.5 256.5
+		over
+		angle 45
+	bay "Fighter" -282.5 301.5
+		over
+		angle 45
+	#Mirror column 1.5
+	bay "Fighter" 282.5 -59.5
+		over
+	bay "Fighter" 282.5 -14.5
+		over
+	bay "Fighter" 282.5 31.5
+		over
+	bay "Fighter" 282.5 76.5
+		over
+		angle -45
+	bay "Fighter" 282.5 121.5
+		over
+		angle -45
+	bay "Fighter" 282.5 116.5
+		over
+		angle -45
+	bay "Fighter" 282.5 211.5
+		over
+		angle -45
+	bay "Fighter" 282.5 256.5
+		over
+		angle -45
+	bay "Fighter" 282.5 301.5
+		over
+		angle -45
+	#Column 2; 13 bays * 2
+	bay "Fighter" -335.5 -279
+		over
+		angle 45
+	bay "Fighter" -335.5 -234
+		over
+		angle 45
+	bay "Fighter" -335.5 -189
+		over
+		angle 45
+	bay "Fighter" -335.5 -144
+		over
+		angle 45
+	bay "Fighter" -335.5 -99
+		over
+		angle 45
+	bay "Fighter" -335.5 -54
+		over
+		angle 45
+	bay "Fighter" -335.5 -9
+		over
+		angle 45
+	bay "Fighter" -335.5 36
+		over
+		angle 45
+	bay "Fighter" -335.5 81
+		over
+		angle 45
+	bay "Fighter" -335.5 126
+		over
+		angle 45
+	bay "Fighter" -335.5 171
+		over
+		angle 45
+	bay "Fighter" -335.5 216
+		over
+		angle 45
+	bay "Fighter" -335.5 261
+		over
+		angle 45
+	#Mirror column 2
+	bay "Fighter" -335.5 -279
+		over
+		angle -45
+	bay "Fighter" 335.5 -234
+		over
+		angle -45
+	bay "Fighter" 335.5 -189
+		over
+		angle -45
+	bay "Fighter" 335.5 -144
+		over
+		angle -45
+	bay "Fighter" 335.5 -99
+		over
+		angle -45
+	bay "Fighter" 335.5 -54
+		over
+		angle -45
+	bay "Fighter" 335.5 -9
+		over
+		angle -45
+	bay "Fighter" 335.5 36
+		over
+		angle -45
+	bay "Fighter" 335.5 81
+		over
+		angle -45
+	bay "Fighter" 335.5 126
+		over
+		angle -45
+	bay "Fighter" 335.5 171
+		over
+		angle -45
+	bay "Fighter" 335.5 216
+		over
+		angle -45
+	bay "Fighter" 335.5 261
+		over
+		angle -45
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 60
+	explode "huge explosion" 25
+	"final explode" "final explosion huge"
+	description `To command a Supravitae is the highest honor a Navarch can achieve; and serving aboard one isn't very farm behind. The Supravitae has a more formidable armament than any other Navarch ship, and support for a whopping 76 fighters, putting it between the Regnum and Regio in terms of fighter payload. Also aboard are some more logistical facilities, such as a notably sized cargo bay, and a large amount of spare bunks for reserve crew or ground troops.`
+	description `	Of course, the Supravitae is not an easy ship to build or obtain; purchasing one will almost certainly leave a significant dent in any captain's budget for a long time.`

@@ -626,3 +626,62 @@ outfit "Ransacker Child"
 		"hit force" 20
 		"missile strength" 22
 
+outfit "Hyperdrive Malformer"
+	category "Turrets"
+	cost 100000000
+	thumbnail "outfit/10 77"
+	"mass" 312
+	"outfit space" -312
+	"weapon capacity" -312
+	"turret mounts" -1
+	"super barbettes" -1
+	weapon
+		sprite ""
+		sound "detainer"
+		"hardpoint sprite" "hardpoint/10 77"
+		"hardpoint offset" 12.5
+		"turret turn" 0.3
+		"inaccuracy" 0
+		"velocity override" 2000
+		"range override" 2000
+		"velocity" 1
+		"lifetime" 1
+		"reload" 900
+		"submunition" "Hyperdrive Explosion"
+			"offset" 0 -2000
+		"firing energy" 35000
+		"firing fuel" 1000
+		"firing force" 5000
+		"firing heat" 140000
+		"blast radius" 100
+		"stream"
+		"safe"
+	description `True to its name, this weapon works in a similar method to a commonplace hyperdrive; it uses a large quantity of deuterium to produce a large explosion. However, instead of tucking it into a safe region of spacetime to accelerate the ship, the device warps the explosion a good distance in front of the firing ship, causing a devastating explosion. According to Navarch legend, this was the weapon that caused the Drak and Quarg to seal the Navarchs away.`
+	description `	Somehow, the Navarchs have found a way to program the explosion in a way that it doesn't harm allied ships, meaning that, for a weapon of mass destruction, it's surprisingly safe to use.`
+	
+outfit "Hyperdrive Explosion"
+	weapon
+		sprite ""
+		"hit effect" "nuke explosion" 3
+		"target effect" "large explosion" 4
+		"hit effect" "hyperdrive explosion residue" 125
+		"hit effect" "nuke residue fast" 25
+		"hit effect" "nuke residue slow" 25
+		"die effect" "huge explosion"
+		"inaccuracy" 0.05
+		"lifetime" 5
+		"trigger radius" 1750
+		"blast radius" 1750
+		"shield damage" 75000
+		"hull damage" 75000
+		"hit force" 10000
+		"safe"
+		
+effect "hyperdrive explosion residue"
+	sprite "effect/explosion/huge"
+		"no repeat"
+		"frame rate" 15
+	"lifetime" 36
+	"random angle" 360
+	"random spin" 5
+	"random velocity" 40

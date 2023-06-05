@@ -18,6 +18,7 @@ shipyard "Navarch Expert"
 	"Regio"
 	"Regalis"
 	"Imperium"
+	"Supravitae"
 	
 outfitter "Navarch Basics"
 	"1-18 Anti-Fighter Rig"

@@ -37,6 +37,18 @@ outfit "Throne-Class Breach Sealant"
 	"hull repair rate" 1.12
 	description "Utilizing techniques discovered during the creation of the larger Pantheon-Class Breach Sealant, the Throne-Class is a far smaller rig designed for small torpedo boats or fighters. A little over one-tenth the size of the Pantheon-Class, the Throne-Class serves its role well."
 
+outfit "20x Fusion Reactor"
+	category "Power"
+	cost 712000000
+	thumbnail "outfit/core"
+	series "Reactors: Navarchs"
+	index 1500
+	"mass" 2080
+	"outfit space" -2080
+	"energy generation" 755.2
+	"heat generation" 1320
+	description "Though the design was not ever intended for reactors larger than the 10x, the Navarchs' super battleship design required energy beyond the realm of the 10x. This colossal rig's power output is enough to run a moderately sized spaceport."
+
 outfit "14x Fusion Reactor"
 	category "Power"
 	cost 304000000

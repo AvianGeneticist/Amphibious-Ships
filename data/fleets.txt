@@ -171,6 +171,10 @@ fleet "Medium Navarch"
 		"Regio"
 		"Subvarietas" 100
 		"Imperium"
+	variant 2
+		"Tribus" 2
+		"Supravitae"
+		"Subvarietas" 76
 		
 fleet "Large Navarch"
 	government "Navarch"
@@ -199,11 +203,27 @@ fleet "Large Navarch"
 		"Phylum" 2
 		"Regalis"
 		"Imperium" 2
+	variant 8
+		"Tribus" 3
+		"Subfamilia"
+		"Ordo"
+		"Divisio"
+		"Supravitae"
+		"Regnum"
+		"Subvarietas" 126
+		"Imperium"
 	variant 6
 		"Regalis" 2
 		"Regio" 2
 		"Subvarietas" 200
 		"Imperium" 2
+	variant 6
+		"Tribus" 3
+		"Genus" 2
+		"Ordo" 4
+		"Supravitae"
+		"Subvarietas" 80
+		"Imperium"
 	variant 4
 		"Tribus" 4
 		"Subfamilia" 3
@@ -223,6 +243,13 @@ fleet "Large Navarch"
 		"Legio" 3
 		"Subvarietas" 78
 		"Subclassis" 7
+	variant 4
+		"Tribus" 2
+		"Ordo" 3
+		"Regalis"
+		"Supravitae"
+		"Subclassis" 8
+		"Imperium"
 	variant 2
 		"Ordo" 4
 		"Divisio" 2
@@ -240,6 +267,12 @@ fleet "Large Navarch"
 		"Subclassis" 6
 		"Imperium" 5
 	variant 2
+		"Subfamilia" 4
+		"Supravitae"
+		"Regio"
+		"Subvarietas" 180
+		"Imperium" 2
+	variant 1
 		"Tribus"
 		"Genus"
 		"Subfamilia"
@@ -247,6 +280,7 @@ fleet "Large Navarch"
 		"Divisio"
 		"Phylum"
 		"Regalis"
+		"Supravitae"
 		"Legio"
 		"Regnum"
 		"Regio"
