@@ -18,7 +18,7 @@ ship "Quarg Wardragon" "Quarg Wardragon (Automaton)"
 		"bunks" -185
 		"required crew" -160
 		"automaton" 1
-		"self destruct chance" 0.99
+		"self destruct" 0.99
 		"shields" 20000
 		"hull" 40000
 		"hull repair rate" 3
@@ -85,6 +85,7 @@ ship "Quarg Battleproteus"
 		"hull repair rate" 2
 		"hull energy" 2
 		"quarg rift access" 1
+		"self destruct" 0.99
 		"energy capacity" 25000
 		weapon
 			"blast radius" 700
