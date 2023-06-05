@@ -67,9 +67,6 @@ ship "Quarg Wardragon" "Quarg Wardragon (Automaton, Offense)"
 	turret -9 -14 "Quarg Skylance"
 	turret 9 -14 "Quarg Skylance"
 	
-shipyard "Navarch Basics"
-	"Quarg Battleproteus"
-	
 ship "Quarg Battleproteus"
 	sprite "ship/_quarg battleproteus"
 	thumbnail "ship/_quarg battleproteus"
