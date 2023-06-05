@@ -745,7 +745,7 @@ ship "Supravitae"
 		angle 45
 	bay "Fighter" -228.5 329.5
 		over
-		angle -45
+		angle 45
 	#Mirror column 1
 	bay "Fighter" 228.5 -346.5
 		over
@@ -808,7 +808,7 @@ ship "Supravitae"
 	bay "Fighter" -282.5 121.5
 		over
 		angle 45
-	bay "Fighter" -282.5 116.5
+	bay "Fighter" -282.5 166.5
 		over
 		angle 45
 	bay "Fighter" -282.5 211.5
@@ -833,7 +833,7 @@ ship "Supravitae"
 	bay "Fighter" 282.5 121.5
 		over
 		angle -45
-	bay "Fighter" 282.5 116.5
+	bay "Fighter" 282.5 166.5
 		over
 		angle -45
 	bay "Fighter" 282.5 211.5
@@ -886,7 +886,7 @@ ship "Supravitae"
 		over
 		angle 45
 	#Mirror column 2
-	bay "Fighter" -335.5 -279
+	bay "Fighter" 335.5 -279
 		over
 		angle -45
 	bay "Fighter" 335.5 -234
