@@ -73,6 +73,10 @@ system Arragandant
 		sprite planet/ocean2
 		distance 970
 		period 492
+		object "Arragat Harbor"
+			sprite planet/station_navarch1
+			distance 301
+			period 59
 	object
 		sprite planet/dust2
 		distance 1340

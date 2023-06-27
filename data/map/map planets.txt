@@ -32,6 +32,15 @@ planet Gulfosala
 	outfitter "Navarch Basics"
 	outfitter "Navarch Intermediate"
 	outfitter "Navarch Advanced"
+	
+planet "Arragat Harbor"
+	landscape land/station1
+	description "Arragat Harbor acts largely as a reserve shipyard for its host planet, but also serves as the single largest outrigger interchange point for Navarch captains looking to adjust their fleets' capabilities before heading out on more missions. As such, it is quite busy here, despite the relative inelegance of Navarch stations compared to their terrestrial worlds."
+	spaceport "The station is almost entirely spaceport, with artificial gravity being the only thing from keeping cargo and personnel from tumbling off the platforms. Numerous small tug drones work to expediently guide interchanging outriggers between ships, and a few Navarchs can be seen taking pictures of the bright trails left behind by the small nanoplasma thrusters the tugs use."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Outrigger Intermediate"
+	outfitter "Navarch Basics"
 
 planet Chukchi
 	landscape land/sea3

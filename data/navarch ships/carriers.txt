@@ -1,3 +1,5 @@
+# Pure Carriers
+
 ship "Legio"
 	sprite "ship/legio"
 	thumbnail "thumbnail/legio"
@@ -8,14 +10,16 @@ ship "Legio"
 		"hull" 87000
 		"required crew" 134
 		"bunks" 196
-		"mass" 950
-		"drag" 38.8
+		"mass" 3295 #Base mass of 950 for the sake of calculating HP. Extra dead weight is just to help improve carrier feel. Dead weight formula is ((2*BaseMass)+Outfit+Cargo)
+		"drag" 27.2
 		"heat dissipation" .45
 		"fuel capacity" 900
 		"cargo space" 110
-		"outfit space" 1285
+		"outfit space" 1330
 		"weapon capacity" 315
-		"engine capacity" 270
+		"engine capacity" 310
+		series "Tiered Carriers: Navarchs"
+		index 100
 		weapon
 			"blast radius" 300
 			"shield damage" 3000
@@ -36,7 +40,9 @@ ship "Legio"
 		"Analysis Scope" 3
 		
 		"Nanoplasma Thruster (Huge)"
+		"Nanoplasma Thruster (Tiny)"
 		"Nanoplasma Steering (Giant)"
+		"Nanoplasma Steering (Small)"
 		"Scram Drive"
 		
 	engine -33.5 280.5
@@ -129,6 +135,214 @@ ship "Legio"
 	explode "large explosion" 30
 	"final explode" "final explosion medium"
 	description "The Legio is a light escort carrier, designed for the Navarchs' smaller fleets. Like its bigger sibling, the Regnum, it features Phase Torpedoes, allowing it to provide fire support from afar while its assigned fighter complement tangles up the enemy."
+
+ship "Regnum"
+	sprite "ship/regnum"
+	thumbnail "thumbnail/regnum"
+	attributes
+		category "Utility"
+		"cost" 90000000
+		"shields" 366400
+		"hull" 158000
+		"required crew" 289
+		"bunks" 432
+		"mass" 6435 #Base mass of 1750 for HP calcs.
+		"drag" 50.8
+		"heat dissipation" .35
+		"fuel capacity" 1200
+		"cargo space" 200
+		"outfit space" 2775
+		"weapon capacity" 630
+		"engine capacity" 515
+		series "Tiered Carriers: Navarchs"
+		index 200
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
+	outfits
+		"Phase Torpedo" 4
+		"1-18 Anti-Fighter Rig" 2
+		"Monolithic Anti-Missile"
+		
+		"10x Fusion Reactor"
+		"Cluster Battery"
+		"Pantheon-Class Breach Sealant"
+		"Temple-Class Breach Sealant"
+		"Spectral Jammer" 2
+		"AHDU (Large)"
+		"AHDU (Medium)"
+		"AHDU (Small)"
+		"Navarch Boarding Supremacy" 4
+		"Analysis Scope" 4
+		
+		"Nanoplasma Thruster (Giant)"
+		"Nanoplasma Thruster (Small)"
+		"Nanoplasma Thruster (Tiny)"
+		"Nanoplasma Steering (Giant)" 2
+		"Scram Drive"
+		
+	engine -59 388
+		zoom 1.4
+	engine 59 388
+		zoom 1.4
+	gun -101 -158
+		under
+	gun -101 -158
+		under
+	gun 101 -158
+		under
+	gun 101 -158
+		under
+	turret 80 -168.5 "1-18 Anti-Fighter Rig"
+	turret -86.5 188 "Monolithic Anti-Missile"
+	turret -83.5 299.5 "1-18 Anti-Fighter Rig"
+	bay "Fighter" -95.5 -89.5 #Start of column 1; 6 bays
+		"over"
+		"angle" -45
+	bay "Fighter" -95.5 -45.5
+		"over"
+		"angle" -45
+	bay "Fighter" -95.5 -1
+		"over"
+		"angle" -45
+	bay "Fighter" -95.5 43
+		"over"
+		"angle" -45
+	bay "Fighter" -95.5 87
+		"over"
+		"angle" -45
+	bay "Fighter" -95.5 131.5
+		"over"
+		"angle" -45
+	bay "Fighter" -50 -261 #Start of column 2; 10 bays
+		"over"
+		"angle" -45
+	bay "Fighter" -50 -217
+		"over"
+		"angle" -45
+	bay "Fighter" -50 -173
+		"over"
+		"angle" -45
+	bay "Fighter" -50 -128.5
+		"over"
+		"angle" -45
+	bay "Fighter" -50 -84.5
+		"over"
+		"angle" -45
+	bay "Fighter" -50 -40.5
+		"over"
+		"angle" -45
+	bay "Fighter" -50 4
+		"over"
+		"angle" -45
+	bay "Fighter" -50 48
+		"over"
+		"angle" -45
+	bay "Fighter" -50 92
+		"over"
+		"angle" -45
+	bay "Fighter" -50 136.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -360.5 #Start of column 3; 17 bays
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -316.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -272.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -228.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -184
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -140
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -95.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -51.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 -7.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 37
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 81
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 125
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 169.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 213.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 257.5
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 302
+		"over"
+		"angle" -45
+	bay "Fighter" -7.5 346
+		"over"
+		"angle" -45
+	bay "Fighter" 53.5 146 #Start of column 4; 4 bays.
+		"over"
+		"angle" -4
+	bay "Fighter" 44 222.5
+		"over"
+	bay "Fighter" 45.5 280.5
+		"over"
+	bay "Fighter" 36 345
+		"over"
+	bay "Fighter" 96 -70  #Start of column 5; 9 bays
+		"over"
+		"angle" -45
+	bay "Fighter" 96 -26
+		"over"
+		"angle" -45
+	bay "Fighter" 96 18
+		"over"
+		"angle" -45
+	bay "Fighter" 96 62.5
+		"over"
+		"angle" -45
+	bay "Fighter" 96 106.5
+		"over"
+		"angle" -45
+	bay "Fighter" 96 150.5
+		"over"
+		"angle" -45
+	bay "Fighter" 96 195
+		"over"
+		"angle" -45
+	bay "Fighter" 96 239
+		"over"
+		"angle" -45
+	bay "Fighter" 96 283
+		"over"
+		"angle" -45
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Navarchs specialize in sea-to-space ship designs, and the mighty Regnum is a premiere feature of that ideology. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 46 fighters on tap, it's an impressive ship by all measures."
 	
 ship "Regio"
 	sprite "ship/regio"
@@ -140,14 +354,16 @@ ship "Regio"
 		"hull" 321500
 		"required crew" 589
 		"bunks" 701
-		"mass" 3150
-		"drag" 66.2
+		"mass" 10950 #Base mass of 3150 for health calcs.
+		"drag" 72.2
 		"heat dissipation" .3
 		"fuel capacity" 1500
 		"cargo space" 380
-		"outfit space" 4270
+		"outfit space" 4360
 		"weapon capacity" 940
-		"engine capacity" 625
+		"engine capacity" 715
+		series "Tiered Carriers: Navarchs"
+		index 300
 		weapon
 			"blast radius" 600
 			"shield damage" 6000
@@ -169,8 +385,9 @@ ship "Regio"
 		
 		"Nanoplasma Thruster (Giant)"
 		"Nanoplasma Thruster (Large)"
+		"Nanoplasma Thruster (Small)"
 		"Nanoplasma Steering (Giant)" 2
-		"Nanoplasma Steering (Medium)"
+		"Nanoplasma Steering (Huge)"
 		"Nanoplasma Steering (Small)"
 		"Scram Drive"
 		
@@ -373,212 +590,7 @@ ship "Regio"
 	"final explode" "final explosion huge"
 	description `The mighty Regio-class battleship is a sight to behold, either on the seas or among the stars. While it does show its age with a lack of Phase Torpedo tubes, refits over generations mean many of these ships use state-of-the-art shield and hull technologies, resulting in a ship that not only has a payload of nearly 100 fighters, but also is practically unkillable in the face of all but the largest of co-ordinated strikes.`
 
-ship "Regnum"
-	sprite "ship/regnum"
-	thumbnail "thumbnail/regnum"
-	attributes
-		category "Utility"
-		"cost" 90000000
-		"shields" 366400
-		"hull" 158000
-		"required crew" 289
-		"bunks" 432
-		"mass" 1750
-		"drag" 38.8
-		"heat dissipation" .35
-		"fuel capacity" 1200
-		"cargo space" 200
-		"outfit space" 2735
-		"weapon capacity" 630
-		"engine capacity" 475
-		weapon
-			"blast radius" 300
-			"shield damage" 3000
-			"hull damage" 1500
-			"hit force" 4500
-	outfits
-		"Phase Torpedo" 4
-		"1-18 Anti-Fighter Rig" 2
-		"Monolithic Anti-Missile"
-		
-		"10x Fusion Reactor"
-		"Cluster Battery"
-		"Pantheon-Class Breach Sealant"
-		"Temple-Class Breach Sealant"
-		"Spectral Jammer" 2
-		"AHDU (Large)"
-		"AHDU (Medium)"
-		"AHDU (Small)"
-		"Navarch Boarding Supremacy" 4
-		"Analysis Scope" 4
-		
-		"Nanoplasma Thruster (Giant)"
-		"Nanoplasma Thruster (Small)"
-		"Nanoplasma Thruster (Tiny)"
-		"Nanoplasma Steering (Giant)"
-		"Nanoplasma Steering (Huge)"
-		"Scram Drive"
-		
-	engine -59 388
-		zoom 1.4
-	engine 59 388
-		zoom 1.4
-	gun -101 -158
-		under
-	gun -101 -158
-		under
-	gun 101 -158
-		under
-	gun 101 -158
-		under
-	turret 80 -168.5 "1-18 Anti-Fighter Rig"
-	turret -86.5 188 "Monolithic Anti-Missile"
-	turret -83.5 299.5 "1-18 Anti-Fighter Rig"
-	bay "Fighter" -95.5 -89.5 #Start of column 1; 6 bays
-		"over"
-		"angle" -45
-	bay "Fighter" -95.5 -45.5
-		"over"
-		"angle" -45
-	bay "Fighter" -95.5 -1
-		"over"
-		"angle" -45
-	bay "Fighter" -95.5 43
-		"over"
-		"angle" -45
-	bay "Fighter" -95.5 87
-		"over"
-		"angle" -45
-	bay "Fighter" -95.5 131.5
-		"over"
-		"angle" -45
-	bay "Fighter" -50 -261 #Start of column 2; 10 bays
-		"over"
-		"angle" -45
-	bay "Fighter" -50 -217
-		"over"
-		"angle" -45
-	bay "Fighter" -50 -173
-		"over"
-		"angle" -45
-	bay "Fighter" -50 -128.5
-		"over"
-		"angle" -45
-	bay "Fighter" -50 -84.5
-		"over"
-		"angle" -45
-	bay "Fighter" -50 -40.5
-		"over"
-		"angle" -45
-	bay "Fighter" -50 4
-		"over"
-		"angle" -45
-	bay "Fighter" -50 48
-		"over"
-		"angle" -45
-	bay "Fighter" -50 92
-		"over"
-		"angle" -45
-	bay "Fighter" -50 136.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -360.5 #Start of column 3; 17 bays
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -316.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -272.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -228.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -184
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -140
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -95.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -51.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 -7.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 37
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 81
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 125
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 169.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 213.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 257.5
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 302
-		"over"
-		"angle" -45
-	bay "Fighter" -7.5 346
-		"over"
-		"angle" -45
-	bay "Fighter" 53.5 146 #Start of column 4; 4 bays.
-		"over"
-		"angle" -4
-	bay "Fighter" 44 222.5
-		"over"
-	bay "Fighter" 45.5 280.5
-		"over"
-	bay "Fighter" 36 345
-		"over"
-	bay "Fighter" 96 -70  #Start of column 5; 9 bays
-		"over"
-		"angle" -45
-	bay "Fighter" 96 -26
-		"over"
-		"angle" -45
-	bay "Fighter" 96 18
-		"over"
-		"angle" -45
-	bay "Fighter" 96 62.5
-		"over"
-		"angle" -45
-	bay "Fighter" 96 106.5
-		"over"
-		"angle" -45
-	bay "Fighter" 96 150.5
-		"over"
-		"angle" -45
-	bay "Fighter" 96 195
-		"over"
-		"angle" -45
-	bay "Fighter" 96 239
-		"over"
-		"angle" -45
-	bay "Fighter" 96 283
-		"over"
-		"angle" -45
-	leak "leak" 30 50
-	leak "flame" 30 80
-	leak "big leak" 30 30
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
-	"final explode" "final explosion large"
-	description "The Navarchs specialize in sea-to-space ship designs, and the mighty Regnum is a premiere. A massive carrier, modest in armament, but encased in ultra-heavy shields with a heavy duty hull. With its payload of 46 fighters on tap, it's an impressive ship by all measures."
+# Supravitae
 
 ship "Supravitae"
 	sprite "ship/supravitae"
