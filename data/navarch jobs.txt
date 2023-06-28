@@ -1,0 +1,324 @@
+# Cargo Jobs
+
+mission "Navarch Delivery (Small, Stable) [0]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 380 2 .04
+	to offer
+		random < 70
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 500000 600
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Small, Stable) [1]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 380 2 .04
+	to offer
+		random < 70
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 500000 600
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Small, Stable) [2]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 380 2 .04
+	to offer
+		random < 50
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 500000 600
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Small, Stable) [3]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 380 2 .04
+	to offer
+		random < 40
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 500000 600
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Small, Stable) [4]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 380 2 .04
+	to offer
+		random < 20
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 500000 600
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Small, Flux) [0]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 300 13 .04
+	to offer
+		random < 70
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 600000 600
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Small, Flux) [1]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 300 13 .04
+	to offer
+		random < 50
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 600000 600
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Small, Flux) [2]"
+	name "Delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 300 13 .04
+	to offer
+		random < 30
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 600000 600
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Medium, Stable) [0]"
+	name "Large delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 790 6 .07
+	to offer
+		random < 70
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 500000 625
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Medium, Stable) [1]"
+	name "Large delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 790 6 .07
+	to offer
+		random < 60
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 700000 625
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Medium, Stable) [2]"
+	name "Large delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 790 6 .07
+	to offer
+		random < 40
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 700000 625
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Medium, Stable) [3]"
+	name "Large delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 790 6 .07
+	to offer
+		random < 20
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 700000 625
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Medium, Flux) [0]"
+	name "Large delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 710 17 .05
+	to offer
+		random < 70
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 800000 625
+		dialog phrase "generic cargo delivery payment"
+	
+mission "Navarch Delivery (Medium, Flux) [1]"
+	name "Large delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 710 17 .05
+	to offer
+		random < 40
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 800000 625
+		dialog phrase "generic cargo delivery payment"
+	
+mission "Navarch Delivery (Large, Stable) [0]"
+	name "Huge delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 1520 8 .05
+	to offer
+		random < 70
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 900000 650
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Large, Stable) [1]"
+	name "Huge delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 1520 8 .05
+	to offer
+		random < 70
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 900000 650
+		dialog phrase "generic cargo delivery payment"
+		
+mission "Navarch Delivery (Large, Flux) [0]"
+	name "Huge delivery to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 1360 19 .03
+	to offer
+		random < 70
+	source
+		government "Navarch"
+	destination
+		distance 2 8
+		government "Navarch"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1000000 650
+		dialog phrase "generic cargo delivery payment"

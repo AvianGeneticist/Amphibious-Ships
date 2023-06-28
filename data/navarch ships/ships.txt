@@ -414,6 +414,90 @@ ship "Ordo"
 	"final explode" "final explosion large"
 	description "The Ordo is a middleweight cruiser fielded by the Navarchs, designed to provide an effective anti-fighter platform while still retaining some long-range, anti-capital capability as well. To this end, it has only 3 main guns of reduced size, providing it with the ability to provide long-ranged support between fending off fighter sorties."
 
+ship "Infracohors"
+	plural "Infracohors"
+	sprite "ship/infracohors"
+	thumbnail "thumbnail/infracohors"
+	attributes
+		category "Medium Warship"
+		"cost" 72000000
+		"shields" 128200
+		"hull" 142400
+		"required crew" 439
+		"bunks" 482
+		"mass" 850
+		"drag" 19.9
+		"heat dissipation" .62
+		"fuel capacity" 900
+		"cargo space" 45
+		"outfit space" 3025
+		"weapon capacity" 1320
+		"engine capacity" 270
+		series "Battleships: Navarchs"
+		index 60
+		weapon
+			"blast radius" 200
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 3200
+	outfits
+		"Shock Blaster Delta" 8
+		"4-26 Dual Turret" 2
+		"1-18 Anti-Fighter Rig" 4
+		"Formidable Anti-Missile" 2
+		
+		"10x Fusion Reactor"
+		"6x Fusion Reactor"
+		"Cluster Battery"
+		"Temple-Class Breach Sealant"
+		"Spectral Jammer"
+		"AHDU (Large)"
+		"AHDU (Medium)"
+		"AHDU (Small)" 2
+		"Analysis Scope" 2
+		"Navarch Boarding Supremacy" 2
+		
+		"Nanoplasma Thruster (Huge)"
+		"Nanoplasma Steering (Huge)"
+		"Nanoplasma Thruster (Tiny)"
+		"Nanoplasma Steering (Small)"
+		"Scram Drive"
+		
+	engine -32 146.5
+		zoom 1.2
+	engine 32 146.5
+		zoom 1.2
+	engine -7 200.5
+		zoom 0.4
+	engine 7 200.5
+		zoom 0.4
+	turret 0 -189 "4-26 Dual Turret"
+	turret 0 -150 "Shock Blaster Delta"
+	turret -46.5 -135 "1-18 Anti-Fighter Rig"
+	turret 46.5 -135 "1-18 Anti-Fighter Rig"
+	turret -47.5 -86 "Shock Blaster Delta"
+	turret 47.5 -86 "Shock Blaster Delta"
+	turret 0 -79 "Formidable Anti-Missile"
+	turret -56.5 0.5 "Shock Blaster Delta"
+	turret 56.5 0.5 "Shock Blaster Delta"
+	turret 0 82.5 "Formidable Anti-Missile"
+	turret -47.5 85 "Shock Blaster Delta"
+	turret 47.5 85 "Shock Blaster Delta"
+	turret -46.5 136 "1-18 Anti-Fighter Rig"
+	turret 46.5 136 "1-18 Anti-Fighter Rig"
+	turret 0 150 "Shock Blaster Delta"
+	turret 0 189 "4-26 Dual Turret"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 30
+	explode "small explosion" 35
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description `The Infracohors is a prototype "mini-battleship" designed as a testbed for the Navarchs' Shock Blaster turrets. The principle behind the design is that, by removing a need for barbettes, a ship can carry more armor and equipment in a similar space. The resultant ship is thus more mobile, tougher, and still capable of long-ranged attacks.`
+	
 # Heavy Warships
 
 ship "Divisio"

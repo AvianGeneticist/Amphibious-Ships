@@ -291,6 +291,56 @@ outfit "THEL Node"
 	description `The Navarchs have relatively little experience with beam technology compared to their tried and true "energy shell" designs. This prototypical weapon (dubbed the Tactical High Energy Laser) is their first such combat-practical design; a huge beam that carves through all but the thickest armor in its path, though compared to its projectile-based bretheren it suffers in the shield damage department.`
 	description `	While the weapon doesn't produce nearly as much firing force as its projectile-based counterparts, the energy and cooling requirements means it still needs a barbette to be handled properly.`
 
+outfit "Shock Blaster Delta"
+	category "Turrets"
+	cost 8500000
+	thumbnail "outfit/10 77"
+	series "Shock Blasters: Navarchs"
+	index 800
+	"mass" 105
+	"outfit space" -105
+	"weapon capacity" -105
+	"turret mounts" -1
+	weapon
+		sound "proton"
+		"hardpoint sprite" "hardpoint/10 77"
+		"hardpoint offset" 28.5
+		"turret turn" 1.4
+		"inaccuracy" .1
+		"velocity" 30
+		"lifetime" 1
+		"reload" 2.5
+		"burst count" 4
+		"burst reload" 2
+		"submunition" "Shock Blaster Bolt"
+			"offset" 2 0
+			"facing" 3
+		"submunition" "Shock Blaster Bolt"
+			"offset" 0 0
+		"submunition" "Shock Blaster Bolt"
+			"offset" -2 0
+			"facing" -3
+		"firing energy" 78
+		"firing force" 2
+		"firing heat" 56
+		"cluster"
+	description "Shock Blasters were designed as a method of building turrets that could provide effective damage at range without needing a barbette. The Shock Blaster Delta is the largest design that was successful in its goal: A rapid-fire, anti-area blaster that drains the electrical energy of struck ships, able to be mounted on any ship with the capacities to support it and capable of long-distance operations."
+
+outfit "Shock Blaster Bolt"
+	weapon
+		sprite "projectile/shock blast"
+			"frame rate" 2.5
+			"random start frame"
+		"hit effect" "emp spark"
+		"inaccuracy" 1.5
+		"random velocity" 2
+		"lifetime" 60
+		"random lifetime" 5
+		"shield damage" 28
+		"hull damage" 8
+		"ion damage" 0.5
+		"hit force" 3
+	
 outfit "3-22 Bombardier"
 	category "Guns"
 	cost 500000

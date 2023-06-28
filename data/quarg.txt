@@ -160,3 +160,10 @@ planet "quarg automata source a"
 	description ""
 	spaceport ""
 	attributes "requires: quarg rift access"
+	
+planet "quarg automata source b"
+	government "Quarg (Automata)"
+	description ""
+	spaceport ""
+	attributes "requires: quarg rift access"
+	

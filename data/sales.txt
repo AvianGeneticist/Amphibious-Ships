@@ -13,19 +13,28 @@ shipyard "Navarch Intermediate"
 shipyard "Navarch Advanced"
 	"Regnum"
 	"Divisio"
-	"Phylum"
 	
 shipyard "Navarch Expert"
 	"Regio"
 	"Regalis"
-	"Imperium"
 	"Supravitae"
+	
+# I'm trying to break up their shipyards a bit so not everything is found everywhere (also adds potential for flavour).
 	
 shipyard "Navarch Outrigger Intermediate"
 	"Infrafamilia"
 	"Infrafamilia (Minelayer)"
 	"Infrafamilia (Missile)"
 	"Infrafamilia (Logistic)"
+	
+shipyard "Navarch Logistics Expert"
+	"Imperium"
+
+shipyard "Navarch Experimental Intermediate"
+	"Infracohors"
+	
+shipyard "Navarch Experimental Advanced"
+	"Phylum"
 	
 outfitter "Navarch Basics"
 	"1-18 Anti-Fighter Rig"
@@ -61,7 +70,6 @@ outfitter "Navarch Intermediate"
 outfitter "Navarch Advanced"
 	"7-62 Twin Battery"
 	"10-77 Twin Battery"
-	"THEL Node"
 	"Monolithic Anti-Missile"
 	"Lathe Mine Bay"
 	"Ransacker ALS"
@@ -76,4 +84,7 @@ outfitter "Navarch Advanced"
 	"Nanoplasma Steering (Huge)"
 	"Nanoplasma Thruster (Giant)"
 	"Nanoplasma Steering (Giant)"
-	
+
+outfitter "Navarch Experimental Advanced"
+	"Hyperdrive Malformer"
+	"THEL Node"

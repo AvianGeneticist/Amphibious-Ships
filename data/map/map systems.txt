@@ -33,6 +33,7 @@ system Palyanad
 	link Arragandant
 	link Pellatagad
 	link Onirigad
+	link Ulogarad
 	fleet "Small Navarch" 1600
 	fleet "Medium Navarch" 3400
 	fleet "Large Navarch" 8000
@@ -94,6 +95,7 @@ system Pellatagad
 	government Navarch
 	link Arragandant
 	link Palyanad
+	link Forigahad
 	trade Clothing 270
 	trade Electronics 658
 	trade Equipment 523
@@ -250,7 +252,9 @@ system Qetarapad
 	habitable 6301.446
 	belt 1829 2
 	belt 5200 6
+	link Musolopenant
 	link Letarad
+	link Patarad
 	link Palletad
 	asteroids "small rock" 17 4.362
 	asteroids "large rock" 12 6.445
@@ -659,6 +663,9 @@ system Meraskad
 	trade Medical 677
 	trade Metal 360
 	trade Plastic 469
+	fleet "Small Navarch" 2000
+	fleet "Medium Navarch" 3200
+	fleet "Large Navarch" 7800
 	object
 		sprite star/b5
 		period 10
@@ -769,3 +776,601 @@ system Lenikad
 		distance 2769
 		period 771.178
 
+system Patarad
+	pos -1161.713 -1156.644
+	government Uninhabited
+	habitable 6660
+	belt 1645 5
+	belt 2162 4
+	link Lelohad
+	link Musolopenant
+	link Qetarapad
+	asteroids "small rock" 1 3.416
+	asteroids "medium rock" 161 2.105
+	asteroids "large rock" 15 2.001
+	asteroids "small metal" 10 2.45
+	asteroids "medium metal" 14 2.691
+	asteroids "large metal" 16 2.105
+	minables copper 8 2.457
+	minables gold 24 3.316
+	minables titanium 30 3.393
+	trade Clothing 335
+	trade Electronics 604
+	trade Equipment 696
+	trade Food 122
+	trade "Heavy Metals" 920
+	trade Industrial 827
+	trade "Luxury Goods" 1036
+	trade Medical 791
+	trade Metal 373
+	trade Plastic 245
+	fleet "Small Navarch" 1000
+	fleet "Medium Navarch" 2600
+	fleet "Large Navarch" 7000
+	object
+		sprite star/b3
+		distance 127.141
+		period 61.734
+		offset 180
+	object
+		sprite star/g0-old
+		distance 91.859
+		period 61.734
+	object
+		sprite planet/ganymede-b
+		distance 393
+		period 38.187
+	object
+		sprite planet/forest6
+		distance 677
+		period 86.339
+	object
+		sprite planet/ice7-b
+		distance 990
+		period 152.678
+	object
+		sprite planet/gas16
+		distance 1661
+		period 331.801
+		object
+			sprite planet/dust3-b
+			distance 239
+			period 139.668
+		object
+			sprite planet/dust5-b
+			distance 371
+			period 187.016
+	object
+		sprite planet/gas6-hot
+		distance 4335
+		period 1398.964
+
+system Lelohad
+	pos -1120.231 -1141.088
+	government Navarch
+	habitable 490
+	belt 2400 2
+	belt 3000 5
+	belt 4200 8
+	link Lepirilad
+	link Musolopenant
+	link Patarad
+	link Periandant
+	asteroids "small rock" 6 2.139
+	asteroids "medium rock" 7 1.445
+	asteroids "large rock" 1 1.821
+	asteroids "small metal" 12 2.774
+	asteroids "medium metal" 10 2.832
+	asteroids "large metal" 45 1.821
+	minables iron 204 3.61
+	minables titanium 91 3.246
+	minables silver 142 6
+	minables tungsten 82 1.5
+	trade Clothing 400
+	trade Electronics 726
+	trade Equipment 606
+	trade Food 217
+	trade "Heavy Metals" 692
+	trade Industrial 731
+	trade "Luxury Goods" 1026
+	trade Medical 597
+	trade Metal 298
+	trade Plastic 399
+	fleet "Small Navarch" 1500
+	fleet "Medium Navarch" 3300
+	fleet "Large Navarch" 8000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ocean5
+		distance 264
+		period 77.512
+	object
+		sprite planet/rock16
+		distance 743
+		period 365.97
+	object
+		sprite planet/gas2-hot
+		distance 1962
+		period 1570.401
+		object "Leload Station"
+			sprite planet/station_navarch1
+			distance 268.233
+			period 199.468
+	object
+		sprite planet/gas15-b
+		distance 2712
+		period 2552.093
+	object
+		sprite planet/gas9
+		distance 4172.651
+		period 7102.937
+		object
+			sprite planet/io
+			distance 276
+			period 173.326
+		object
+			sprite planet/rock3-b
+			distance 389
+			period 290.018
+	object
+		sprite planet/gas14-b
+		distance 6907.916
+		period 13224.407
+		object
+			sprite planet/ice0
+			distance 265
+			period 163.068
+		object
+			sprite planet/oberon
+			distance 372
+			period 441.884
+		object
+			sprite planet/rhea-b
+			distance 517
+			period 365.607
+
+system Melirad
+	pos -1060.676 -1110.718
+	government Uninhabited
+	habitable 10
+	belt 1227 3
+	link Lepirilad
+	link Periandant
+	link Ugonahad
+	asteroids "small rock" 3 2.856
+	asteroids "medium rock" 4 3.36
+	asteroids "large rock" 1 2.352
+	asteroids "small metal" 1 3.864
+	asteroids "medium metal" 3 3.57
+	asteroids "large metal" 5 3.36
+	minables lead 2 4.754
+	minables titanium 4 4.075
+	fleet "Small Navarch" 1000
+	fleet "Medium Navarch" 3600
+	fleet "Large Navarch" 8200
+	fleet "Quarg Automata (Swarmer)" 2200
+	fleet "Quarg Automata" 7100
+	object
+		sprite star/a3
+		period 10
+	object
+		sprite "planet/zenith cold"
+		distance 464
+		period 1264.262
+	object
+		sprite planet/desert10
+		distance 1130
+		period 4804.826
+	object
+		sprite planet/gas0
+		distance 2142
+		period 12539.759
+		object
+			sprite planet/ice8
+			distance 303
+			period 199.372
+		object
+			sprite planet/callisto
+			distance 437
+			period 239.078
+		object
+			sprite planet/dust0-b
+			distance 604
+			period 914.218
+	object "quarg automata source b"
+		sprite ""
+		distance 2489
+		period 0
+		offset 271
+	object
+		sprite planet/gas8
+		distance 3579
+		period 27083.36
+	object
+		sprite planet/gas2-b
+		distance 5728
+		period 54835.841
+
+system Periandant
+	pos -1089.417 -1098.125
+	government Navarch
+	habitable 3022.731
+	belt 1963 9
+	link Lelohad
+	link Lepirilad
+	link Melirad
+	link Ugonahad
+	link Ulogarad
+	asteroids "small rock" 6 1.54
+	asteroids "medium rock" 38 1.4
+	asteroids "large rock" 14 1.876
+	asteroids "medium metal" 25 2.016
+	asteroids "large metal" 8 2.1
+	minables iron 15 1.898
+	minables titanium 16 2.957
+	trade Clothing 438
+	trade Electronics 784
+	trade Equipment 516
+	trade Food 301
+	trade "Heavy Metals" 752
+	trade Industrial 670
+	trade "Luxury Goods" 1056
+	trade Medical 587
+	trade Metal 421
+	trade Plastic 471
+	fleet "Small Navarch" 1200
+	fleet "Medium Navarch" 2900
+	fleet "Large Navarch" 8200
+	object
+		sprite star/k8
+		distance 94.92
+		period 63.717
+	object
+		sprite star/a8
+		distance 68.58
+		period 63.717
+		offset 180
+	object
+		sprite planet/forest6-b
+		distance 335
+		period 44.61
+	object
+		sprite planet/callisto-b
+		distance 698
+		period 134.166
+	object Rugiboden
+		sprite planet/water1
+		distance 1556
+		period 446.555
+		object
+			sprite planet/miranda-b
+			distance 157.9
+			period 166.085
+		object
+			sprite planet/rock7
+			distance 244.216
+			period 358.751
+		object
+			sprite planet/dust7-b
+			distance 341.845
+			period 405
+	object
+		sprite planet/dust1-b
+		distance 3186
+		period 1308.365
+	object
+		sprite planet/gas8-b
+		distance 4258
+		period 2021.477
+		object
+			sprite planet/luna
+			distance 358
+			period 256.05
+		object
+			sprite planet/miranda
+			distance 476
+			period 491.272
+		object
+			sprite "planet/rock0"
+			distance 663
+			period 446.774
+	object
+		sprite planet/rock7-b
+		distance 7974
+		period 5180.535
+
+system Forigahad
+	pos -1063.343 -1039.458
+	government Navarch
+	habitable 980
+	belt 1314 6
+	belt 2168
+	link Pellatagad
+	link Ugonahad
+	link Ulogarad
+	asteroids "small rock" 18 2.668
+	asteroids "medium rock" 4 3.359
+	asteroids "large rock" 1 2.47
+	asteroids "medium metal" 10 3.013
+	asteroids "large metal" 6 3.656
+	trade Clothing 438
+	trade Electronics 789
+	trade Equipment 471
+	trade Food 330
+	trade "Heavy Metals" 857
+	trade Industrial 688
+	trade "Luxury Goods" 1182
+	trade Medical 588
+	trade Metal 435
+	trade Plastic 419
+	fleet "Small Navarch" 1000
+	fleet "Medium Navarch" 2400
+	fleet "Large Navarch" 6000
+	object
+		sprite star/giant
+		distance 158
+		period 99.301
+	object
+		sprite star/k0-old
+		distance 158
+		period 99.301
+		offset 180
+	object
+		sprite planet/cloud7
+		distance 505
+		period 145.005
+	object
+		sprite planet/titan-b
+		distance 830
+		period 305.537
+	object Cantabri
+		sprite planet/ocean7-b
+		distance 1287.414
+		period 845.516
+
+system Ugonahad
+	pos -1054.009 -1078.718
+	government Navarch
+	habitable 1310
+	belt 1485 2
+	belt 2000 2
+	belt 2079 8
+	link Forigahad
+	link Melirad
+	link Periandant
+	link Ulogarad
+	asteroids "small rock" 2 4.332
+	asteroids "medium rock" 3 3.624
+	asteroids "large rock" 2 2.961
+	asteroids "small metal" 9 3.006
+	asteroids "medium metal" 11 3.845
+	asteroids "large metal" 14 2.696
+	minables tungsten 1 5.535
+	fleet "Small Navarch" 1400
+	fleet "Medium Navarch" 3200
+	fleet "Large Navarch" 8000
+	object
+		sprite star/f8
+		period 10
+	object
+		sprite planet/mercury
+		distance 282
+		period 52.336
+	object
+		sprite planet/dust0
+		distance 593
+		period 159.59
+	object Byscay
+		sprite planet/cloud8-b
+		distance 1924.414
+		period 900.868
+	object
+		sprite planet/gas10-hot
+		distance 2356
+		period 1263.826
+	object
+		sprite planet/gas2
+		distance 5242
+		period 4194.4
+		object
+			sprite planet/rock17-b
+			distance 288
+			period 301.011
+	object
+		sprite planet/uranus
+		distance 6009
+		period 5147.871
+		object
+			sprite planet/rhea
+			distance 230
+			period 108.485
+
+system Lepirilad
+	pos -1098.306 -1126.569
+	government Navarch
+	habitable 490
+	belt 1773 3
+	belt 1812 2
+	belt 2530 8
+	link Lelohad
+	link Melirad
+	link Periandant
+	asteroids "small rock" 4 1.856
+	asteroids "medium rock" 11 2.117
+	asteroids "large rock" 12 2.465
+	asteroids "small metal" 1 1.769
+	asteroids "medium metal" 13 2.552
+	asteroids "large metal" 2 2.9
+	minables aluminum 2 4.048
+	trade Clothing 402
+	trade Electronics 812
+	trade Equipment 513
+	trade Food 191
+	trade "Heavy Metals" 677
+	trade Industrial 614
+	trade "Luxury Goods" 1128
+	trade Medical 527
+	trade Metal 311
+	trade Plastic 506
+	fleet "Small Navarch" 900
+	fleet "Medium Navarch" 2500
+	fleet "Large Navarch" 9000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock16-b
+		distance 259
+		period 75.32
+	object
+		sprite planet/desert3-b
+		distance 961
+		period 538.328
+		object
+			sprite planet/europa
+			distance 162
+			period 97.54
+	object
+		sprite planet/browndwarf-t
+		distance 1872
+		period 1463.594
+		object Straido
+			sprite planet/ocean9-b
+			distance 311
+			period 94
+	object
+		sprite planet/gas10
+		distance 3529
+		period 3788.257
+		object
+			sprite planet/ice0
+			distance 216
+			period 120
+	object
+		sprite planet/gas8-b
+		distance 5377.475
+		period 15210.517
+		object
+			sprite planet/rock7-b
+			distance 334
+			period 288.756
+
+system Ulogarad
+	pos -1084.083 -1062.866
+	government Navarch
+	habitable 5600
+	belt 1901 10
+	link Forigahad
+	link Periandant
+	link Ugonahad
+	link Palyanad
+	asteroids "small rock" 3 3.99
+	asteroids "medium rock" 6 3.062
+	asteroids "large rock" 4 2.691
+	asteroids "small metal" 1 3.016
+	asteroids "medium metal" 6 2.32
+	asteroids "large metal" 1 2.459
+	minables iron 1 5.543
+	minables silver 1 3.336
+	trade Clothing 434
+	trade Electronics 790
+	trade Equipment 505
+	trade Food 278
+	trade "Heavy Metals" 832
+	trade Industrial 649
+	trade "Luxury Goods" 1032
+	trade Medical 538
+	trade Metal 397
+	trade Plastic 443
+	fleet "Small Navarch" 1200
+	fleet "Medium Navarch" 3200
+	fleet "Large Navarch" 8400
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/rock19
+		distance 350
+		period 35
+	object
+		sprite planet/gas1-hot
+		distance 711
+		period 101.338
+	object
+		sprite planet/desert8-b
+		distance 1252
+		period 236.795
+		object
+			sprite planet/io-b
+			distance 169
+			period 83.048
+	object
+		sprite planet/gas0-hot
+		distance 1811
+		period 411.949
+	object Blihano
+		sprite planet/ice1
+		distance 4801
+		period 721
+
+system Musolopenant
+	pos -1142.898 -1173.014
+	government Navarch
+	habitable 4500
+	belt 1361 2
+	link Qetarapad
+	link Lelohad
+	link Patarad
+	asteroids "small rock" 12 3.167
+	asteroids "medium rock" 238 4.805
+	asteroids "large rock" 25 5.351
+	asteroids "small metal" 16 3.713
+	asteroids "medium metal" 86 2.894
+	asteroids "large metal" 24 3.658
+	minables copper 2 5.113
+	trade Clothing 375
+	trade Electronics 635
+	trade Equipment 700
+	trade Food 292
+	trade "Heavy Metals" 1001
+	trade Industrial 827
+	trade "Luxury Goods" 965
+	trade Medical 686
+	trade Metal 387
+	trade Plastic 333
+	fleet "Small Navarch" 1200
+	fleet "Medium Navarch" 3000
+	fleet "Large Navarch" 8000
+	object
+		sprite star/k-supergiant
+		period 10
+	object
+		sprite planet/gas14-b
+		distance 1193
+		period 245.705
+		object
+			sprite planet/desert4-b
+			distance 265
+			period 204.071
+		object
+			sprite planet/luna
+			distance 423
+			period 328.86
+	object
+		sprite planet/gas3-b
+		distance 2057
+		period 556.295
+	object Resei
+		sprite planet/gas6
+		distance 3042
+		period 1000.443
+		object
+			sprite planet/callisto-b
+			distance 390
+			period 201.565
+	object
+		sprite planet/dust4
+		distance 4410
+		period 1746.271
