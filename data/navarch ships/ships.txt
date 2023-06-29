@@ -333,6 +333,117 @@ ship "Genus"
 
 # Medium Warships
 
+ship "Familia"
+	sprite "ship/familia"
+	thumbnail "thumbnail/familia"
+	attributes
+		category "Medium Warship"
+		"cost" 68000000
+		"shields" 161200
+		"hull" 125800
+		"required crew" 492
+		"bunks" 547
+		"mass" 950
+		"drag" 15.4
+		"heat dissipation" .65
+		"fuel capacity" 600
+		"cargo space" 35
+		"outfit space" 3240
+		"weapon capacity" 1760
+		"engine capacity" 215
+		"barbettes" 2
+		series "Missile Boats: Navarchs"
+		index 900
+		weapon
+			"blast radius" 280
+			"shield damage" 2400
+			"hull damage" 1200
+			"hit force" 3900
+	outfits
+		"Ransacker ALS" 17
+		"7-62 Twin Battery" 2
+		"1-18 Anti-Fighter Rig" 8
+		"Formidable Anti-Missile" 2
+		"Intimidating Anti-Missile" 4
+		
+		"10x Fusion Reactor"
+		"4x Fusion Reactor"
+		"Planet Battery"
+		"Throne-Class Breach Sealant" 4
+		"Spectral Jammer" 3
+		"AHDU (Large)" 2
+		"Navarch Boarding Supremacy" 3
+		
+		"Nanoplasma Thruster (Large)"
+		"Nanoplasma Steering (Huge)"
+		"Nanoplasma Steering (Tiny)"
+		"Scram Drive"
+		
+	engine -30 211
+		zoom 1.2
+	engine 30 211
+		zoom 1.2
+	turret 0 -152.5 "Formidable Anti-Missile"
+	turret -35 -29.5
+	turret 35 -29.5
+	turret -35 13.5 "Intimidating Anti-Missile"
+	turret 35 13.5 "Intimidating Anti-Missile"
+	turret -47.5 46.5
+	turret 47.5 46.5
+	turret 0 66 "Formidable Anti-Missile"
+	turret -18.5 147
+	turret 18.5 147
+	turret -50 164 "Intimidating Anti-Missile"
+	turret 50 164 "Intimidating Anti-Missile"
+	turret -29 206.5
+	turret 29 206.5
+	#Primary turrets below
+	turret 0 -12 "7-62 Twin Battery"
+	turret 0 113.5 "7-62 Twin Battery"
+	gun 0 -200
+	gun -14 -192
+		angle -5
+	gun 14 -192
+		angle -5
+	gun -28 -180.5
+		angle -10
+	gun 28 -180.5
+		angle 10
+	gun -38 -151.5
+		angle -20
+	gun 38 -151.5
+		angle 20
+	gun -44 -134.5
+		angle -20
+	gun 44 -134.5
+		angle 20
+	gun -54 -122.5
+		angle -20
+	gun 54 -122.5
+		angle 20
+	gun -64 -110.5
+		angle -25
+	gun 64 -110.5
+		angle 25
+	gun -43.5 -79
+		angle -20
+	gun 43.5 -79
+		angle 20
+	gun -53 -67
+		angle -20
+	gun 53 -67
+		angle 20
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 30
+	explode "small explosion" 35
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description "A relic of an earlier age, the Familia-class missile cruiser has largely been supplanted by its smaller brother, the Subfamilia, in service. However, the Familia is still a long-ranged powerhouse, with its huge battery of Ransacker launchers and a pair of 7-62 batteries to shore up against more pinpoint targets. Additionally, the shield matrix is especially robust, adding noticeable amounts of durability (and weight) to an already difficult to hunt ship."
+
 ship "Ordo"
 	sprite "ship/ordo"
 	thumbnail "thumbnail/ordo"

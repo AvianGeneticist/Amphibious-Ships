@@ -294,7 +294,7 @@ outfit "THEL Node"
 outfit "Shock Blaster Delta"
 	category "Turrets"
 	cost 8500000
-	thumbnail "outfit/10 77"
+	thumbnail "outfit/shock blaster delta"
 	series "Shock Blasters: Navarchs"
 	index 800
 	"mass" 105
@@ -303,8 +303,8 @@ outfit "Shock Blaster Delta"
 	"turret mounts" -1
 	weapon
 		sound "proton"
-		"hardpoint sprite" "hardpoint/10 77"
-		"hardpoint offset" 28.5
+		"hardpoint sprite" "hardpoint/shock blaster delta"
+		"hardpoint offset" -28
 		"turret turn" 1.4
 		"inaccuracy" .1
 		"velocity" 30
@@ -316,7 +316,7 @@ outfit "Shock Blaster Delta"
 			"offset" 2 0
 			"facing" 3
 		"submunition" "Shock Blaster Bolt"
-			"offset" 0 0
+			"offset" 0 -1
 		"submunition" "Shock Blaster Bolt"
 			"offset" -2 0
 			"facing" -3
@@ -338,7 +338,7 @@ outfit "Shock Blaster Bolt"
 		"random lifetime" 5
 		"shield damage" 28
 		"hull damage" 8
-		"ion damage" 0.5
+		"ion damage" .5
 		"hit force" 3
 	
 outfit "3-22 Bombardier"

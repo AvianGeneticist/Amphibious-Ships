@@ -76,6 +76,11 @@ fleet "Small Navarch"
 		"Infracohors" 2
 		"Infrafamilia (Logistic)"
 		"Subclassis"
+	variant 8
+		"Familia"
+		"Infrafamilia (Missile)"
+		"Ordo"
+		"Subclassis"
 	variant 6
 		"Subfamilia"
 		"Regnum"
@@ -88,6 +93,15 @@ fleet "Small Navarch"
 	variant 6
 		"Infrafamilia (Missile)" 4
 		"Subfamilia" 2
+		"Subclassis"
+	variant 4
+		"Infrafamilia (Missile)" 2
+		"Familia"
+		"Infrafamilia (Logistic)" 3
+	variant 4
+		"Infrafamilia (Missile)" 2
+		"Subfamilia"
+		"Familia"
 		"Subclassis"
 	variant 4
 		"Ordo"
@@ -115,6 +129,12 @@ fleet "Small Navarch"
 		"Tribus"
 		"Genus"
 		"Imperium"
+	variant 2
+		"Subfamilia" 2
+		"Familia"
+		"Legio"
+		"Subvarietas" 26
+		"Infrafamilia (Logistic)" 2
 	variant 2
 		"Regalis"
 		"Subclassis"
@@ -188,6 +208,31 @@ fleet "Medium Navarch"
 		"Infrafamilia (Minelayer)" 3
 		"Infracohors" 2
 		"Subclassis"
+	variant 10
+		"Regalis"
+		"Familia" 2
+		"Subclassis" 3
+	variant 10
+		"Divisio"
+		"Familia" 2
+		"Regnum"
+		"Subvarietas" 46
+		"Subclassis" 3
+	variant 10
+		"Familia" 4
+		"Subvarietas" 4
+		"Imperium"
+	variant 10
+		"Subfamilia"
+		"Phylum"
+		"Infracohors"
+		"Familia"
+		"Subvarietas" 4
+		"Imperium"
+	variant 8
+		"Familia" 4
+		"Subvarietas" 4
+		"Imperium" 2
 	variant 8
 		"Phylum"
 		"Infracohors" 3
@@ -226,6 +271,12 @@ fleet "Medium Navarch"
 		"Subvarietas" 4
 		"Imperium"
 		"Infrafamilia (Logistic)"
+	variant 8
+		"Infrafamilia (Missile)" 2
+		"Familia" 3
+		"Subvarietas" 4
+		"Imperium"
+		"Infrafamilia (Logistic)"
 	variant 7
 		"Ordo" 2
 		"Infracohors" 2
@@ -243,6 +294,14 @@ fleet "Medium Navarch"
 		"Subvarietas" 26
 		"Subclassis" 3
 		"Infrafamilia (Logistic)" 2
+	variant 6
+		"Divisio"
+		"Phylum"
+		"Infracohors"
+		"Familia"
+		"Regnum"
+		"Subvarietas" 46
+		"Subclassis" 2
 	variant 6
 		"Phylum" 2
 		"Regio"
@@ -265,6 +324,20 @@ fleet "Medium Navarch"
 		"Infrafamilia"
 		"Subvarietas" 76
 		"Infrafamilia (Logistic)"
+	variant 6
+		"Subfamilia" 3
+		"Infrafamilia (Missile)" 4
+		"Familia" 2
+		"Subvarietas" 4
+		"Imperium"
+	variant 10
+		"Subfamilia"
+		"Infracohors"
+		"Familia"
+		"Regio"
+		"Subvarietas" 96
+		"Subclassis"
+		"Infrafamilia" 2
 	variant 4
 		"Regalis"
 		"Regio"
@@ -333,6 +406,12 @@ fleet "Large Navarch"
 		"Regnum"
 		"Subvarietas" 54
 		"Imperium" 2
+	variant 10
+		"Ordo"
+		"Supravitae"
+		"Familia" 2
+		"Subvarietas" 84
+		"Imperium" 2
 	variant 9
 		"Regalis"
 		"Infrafamilia" 7
@@ -363,6 +442,18 @@ fleet "Large Navarch"
 		"Supravitae"
 		"Subvarietas" 80
 		"Imperium"
+	variant 6
+		"Tribus" 3
+		"Regalis"
+		"Familia" 4
+		"Regnum"
+		"Subvarietas" 54
+		"Imperium" 2
+		"Subclassis" 2
+	variant 4
+		"Familia" 2
+		"Subvarietas" 24
+		"Imperium" 6
 	variant 4
 		"Tribus" 4
 		"Subfamilia" 3
@@ -426,6 +517,7 @@ fleet "Large Navarch"
 		"Tribus"
 		"Genus"
 		"Subfamilia"
+		"Familia"
 		"Ordo"
 		"Infracohors"
 		"Divisio"

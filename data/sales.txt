@@ -1,22 +1,29 @@
 shipyard "Navarch Basics"
 	"Subvarietas"
 	"Tribus"
-	"Genus"
 	"Infrafamilia"
-	"Subfamilia"
 
 shipyard "Navarch Intermediate"
 	"Ordo"
 	"Subclassis"
 	"Legio"
-
+	
+shipyard "Navarch Intermediate Missile"
+	"Genus"
+	"Subfamilia"
+	
 shipyard "Navarch Advanced"
 	"Regnum"
 	"Divisio"
 	
+shipyard "Navarch Advanced Missile"
+	"Familia"
+	
 shipyard "Navarch Expert"
 	"Regio"
 	"Regalis"
+	
+shipyard "Navarch Ultra"
 	"Supravitae"
 	
 # I'm trying to break up their shipyards a bit so not everything is found everywhere (also adds potential for flavour).

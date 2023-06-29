@@ -4,12 +4,18 @@ phrase "Navarch Names"
 		"N."
 		"F."
 		"P."
+		"A."
 	word
 		"S."
 		"V."
 		"B."
 	word
 		" "
+	phrase
+		"Navarch Names Sub 1" 3
+		"Navarch Names Sub 2" 2
+
+phrase "Navarch Names Sub 1"
 	word
 		"Frenzying"
 		"Stalwart"
@@ -21,9 +27,16 @@ phrase "Navarch Names"
 		"Hankering"
 		"Stalking"
 		"Menacing"
+		"Foreboding"
 		"Imposing"
 		"Snarling"
 		"Primed"
+		"Dedicated"
+		"Zealous"
+		"Persistent"
+		"Revered"
+		"Esteemed"
+		"Enlightened"
 	word
 		" "
 	word
@@ -40,14 +53,49 @@ phrase "Navarch Names"
 		"Tracker"
 		"Marauder"
 		"Seeker"
+		"Spectre"
 		"Researcher"
 		"Scientist"
+		
+phrase "Navarch Names Sub 2"
+	word
+		"Chosen"
+		"Hero"
+		"Paladin"
+		"Knight"
+		"Legend"
+		"Esteemed"
+		"Envoy"
+	word
+		" "
+	word
+		"of" 2
+		"from" 2
+		"von"
+	word
+		" "
+	word
+		"Gulfosala"
+		"Chukchi"
+		"Easibe"
+		"Laptev"
+		"Pechora"
+		"Beaufort"
+		"Fochexa"
+		"Norvik"
+		"Gomerce"
+		"Resei"
+		"Straido"
+		"Blihano"
+		"Byscay"
+		"Cantabri"
 		
 phrase "Navarch Fighters"
 	word
 		"Sharp"
 		"Serrated"
 		"Barbed"
+		"Hooked"
 	word
 		" "
 	word

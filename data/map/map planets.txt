@@ -27,8 +27,11 @@ planet Gulfosala
 	spaceport "The spaceport sprawls all over and around a lone continent around the size of south america; large ships wait at port around the coast, with several channels reserved for ships coming in for landing. Each dock here could hold 5-6 human ships of any size."
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
+	shipyard "Navarch Intermediate Missile"
 	shipyard "Navarch Advanced"
+	shipyard "Navarch Advanced Missile"
 	shipyard "Navarch Expert"
+	shipyard "Navarch Ultra"
 	outfitter "Navarch Basics"
 	outfitter "Navarch Intermediate"
 	outfitter "Navarch Advanced"
@@ -109,10 +112,13 @@ planet Gomerce
 	spaceport `The spaceport is encased in a large, domular shield that protects it from the "rust rain". Despite this, there is a rather robust shipyard located here, taking advantage of the practically limitless sources of raw materials in the waters and small islands around the spaceport.`
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
+	shipyard "Navarch Intermediate Missile"
+	shipyard "Navarch Advanced Missile"
 	shipyard "Navarch Advanced"
 	outfitter "Navarch Basics"
 	
 planet Resei
+	attributes "navarch research"
 	landscape land/opensea1
 	description "Resei is a perplexing gas giant formed mostly of water over a much denser gas core. As such, it forms an ocean that's miles deep, but with essentially no bottom. As such, many Navarch researchers have been drawn to this world, leading to it becoming a very advanced world."
 	spaceport "The spaceport has two layers, one for above-water interactions typical of Navarch fleets, but a second, subaquatic layer make of what looks to be reinforced glass, serving submarine-like vehicles as they dive deep into the oceans to investigate the turbulent zones where water and the gas core mix."
@@ -136,11 +142,13 @@ planet Straido
 	spaceport "The spaceport here is designed mostly for cargo and logistical ships rather than warships, so capital warships are typically serviced by intraplanetary shuttlecraft that use the deck space on such warships as landing pads. Despite this, orders are conducted with surprising efficiency, with many ships hosting shuttles even before they've come to rest in the water."
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
+	shipyard "Navarch Intermediate Missile"
 	shipyard "Navarch Logistics Expert"
 	outfitter "Navarch Basics"
 	outfitter "Navarch Intermediate"
 	
 planet Rugiboden
+	attributes "navarch research"
 	landscape land/ocean1-turbulent
 	description `Rugiboden is a large ocean planet with wild and unpredictable due to its 3 moons, once of which orbits "backwards" around the planet. Due to this, there's some research interest, and nanoplasma engines are often tested in the choppy waters.`
 	spaceport "The spaceport here is fairly small, hosted vertically along some large cliff faces, with docks that float somewhat freely on the water to avoid fighting the jostling tides. Fleet positions here are fairly uncommon, except for military contractors testing prototype works."
@@ -157,6 +165,7 @@ planet Byscay
 	description "Byscay is an ocean world buried under thick fog. Apparently, it was one of the first worlds the Navarchs settled post-exile, contributing to why all Navarch ships have overly powerful two-way telemetry transmitters."
 	spaceport "Hidden in the fog is the spaceport, where conditions are nearly white-out. You can't comfortably see from one side of a dock to another, and it seems the locals don't fare much better, as powerful spotlights are a feature every few yards. The locals here all have loud conversations as they work, presumably to give eachother ample notice of their location."
 	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate Missile"
 	outfitter "Navarch Basics"
 	
 planet Cantabri
