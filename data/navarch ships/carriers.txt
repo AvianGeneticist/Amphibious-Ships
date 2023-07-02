@@ -588,7 +588,7 @@ ship "Regio"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion huge"
-	description `The mighty Regio-class battleship is a sight to behold, either on the seas or among the stars. While it does show its age with a lack of Phase Torpedo tubes, refits over generations mean many of these ships use state-of-the-art shield and hull technologies, resulting in a ship that not only has a payload of nearly 100 fighters, but also is practically unkillable in the face of all but the largest of co-ordinated strikes.`
+	description `The mighty Regio-class carrier is a sight to behold, either on the seas or among the stars. While it does show its age with a lack of Phase Torpedo tubes, refits over generations mean many of these ships use state-of-the-art shield and hull technologies, resulting in a ship that not only has a payload of nearly 100 fighters, but also is practically unkillable in the face of all but the largest of co-ordinated strikes.`
 
 # Supravitae
 

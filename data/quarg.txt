@@ -68,6 +68,7 @@ ship "Quarg Wardragon" "Quarg Wardragon (Automaton, Offense)"
 	turret 9 -14 "Quarg Skylance"
 	
 ship "Quarg Battleproteus"
+	plural "Quarg Battleproteae"
 	sprite "ship/_quarg battleproteus"
 	thumbnail "ship/_quarg battleproteus"
 	attributes

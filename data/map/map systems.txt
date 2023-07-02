@@ -276,6 +276,7 @@ system Qetarapad
 	fleet "Small Navarch" 1800
 	fleet "Medium Navarch" 3800
 	fleet "Large Navarch" 9000
+	fleet "Navarch Miners" 2500
 	object
 		sprite star/m8
 		distance 112.157
@@ -418,6 +419,7 @@ system Peranigad
 	fleet "Small Navarch" 2400
 	fleet "Medium Navarch" 3200
 	fleet "Large Navarch" 12000
+	fleet "Navarch Miners" 2500
 	object
 		sprite star/nova
 		period 9836
@@ -650,9 +652,6 @@ system Meraskad
 	asteroids "medium metal" 31 3.097
 	asteroids "large metal" 59 2.783
 	minables titanium 13 3.008
-	fleet "Small Navarch" 3200
-	fleet "Medium Navarch" 4100
-	fleet "Large Navarch" 5200
 	trade Clothing 301
 	trade Electronics 600
 	trade Equipment 567
@@ -746,6 +745,7 @@ system Lenikad
 	fleet "Small Navarch" 1800
 	fleet "Medium Navarch" 3400
 	fleet "Large Navarch" 7000
+	fleet "Navarch Miners" 2500
 	object
 		sprite star/b-dwarf
 		distance 126.856
@@ -879,6 +879,7 @@ system Lelohad
 	fleet "Small Navarch" 1500
 	fleet "Medium Navarch" 3300
 	fleet "Large Navarch" 8000
+	fleet "Navarch Miners" 2500
 	object
 		sprite star/k0
 		period 10

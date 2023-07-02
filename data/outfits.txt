@@ -222,6 +222,16 @@ outfit "Analysis Scope"
 	"tactical scan power" 256
 	description "The Navarchs engage in combat at distances far greater than most species, so their scanners are tuned to work at extreme ranges. Despite only being twice the size of a human tactical scanner, this advanced scope is nearly 8 times as powerful."
 
+outfit "Mass Mineral Proc Array"
+	category "Systems"
+	cost 1040000
+	thumbnail "outfit/asteroid scanner"
+	"mass" 16
+	"outfit space" -16
+	"energy consumption" 1.2
+	"asteroid scan power" 400
+	description `A typical Navarch mining fleet includes one central carrier responsible co-ordinating the entire fleet, and part of those duties include procing all asteroids in the vacinity for valuable minerals. This powerful scanner consumes some energy, but provides an unreal level of asteroid scanning.`
+	
 outfit "Navarch Boarding Supremacy"
 	category "Hand to Hand"
 	cost 20000

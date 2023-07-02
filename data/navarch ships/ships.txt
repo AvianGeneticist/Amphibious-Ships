@@ -780,6 +780,7 @@ ship "Phylum"
 	description `The Phylum is an experimental battleship featuring a number of new and exciting technologies by the Navarchs; most notably, their new beam weapon, the THEL. Armed for heavy anti-capital duty, the Phylum is a fearsome ship to engage, however a reduced amount of deck space compared to the tried and true Divisio means that the ships tend to fare well in different conditions, rather than one being overwhelmingly favourable compared to the other.`
 
 ship "Regalis"
+	plural "Regali"
 	sprite "ship/regalis"
 	thumbnail "thumbnail/regalis"
 	attributes

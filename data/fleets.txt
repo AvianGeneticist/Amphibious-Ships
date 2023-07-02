@@ -531,3 +531,20 @@ fleet "Large Navarch"
 		"Subclassis"
 		"Imperium"
 		"Infrafamilia (Logistic)"
+		
+fleet "Navarch Miners"
+	government "Navarch"
+	names "Navarch Names"
+	fighters "Navarch Fighters"
+	cargo 0
+	personality
+		confusion 10
+		heroic vindictive mining harvests
+	variant 8
+		"Regio (Mining)"
+		"Subvarietas (Mining)" 96
+		"Subclassis" 4
+	variant 4
+		"Regnum (Mining)"
+		"Subvarietas (Mining)" 54
+		"Imperium" 2
