@@ -137,6 +137,8 @@ mission "Navarch Contact Quarg Reaction"
 	landing
 	source
 		not government "Navarch"
+	to offer
+		has "First Contact: Navarchs: offered"
 	on offer
 		conversation
 			`As you land on <planet>, you notice a Quarg ship closely following behind you. As you dock, several Quarg exit the ship, and walk towards yours. Nervously, you exit the hatch of your own ship.`
