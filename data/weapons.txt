@@ -366,6 +366,7 @@ outfit "3-22 Bombardier"
 		"firing heat" 260
 		"cluster"
 	description "A highly specialized cannon designed for fighter-to-capital warfare. Though slightly smaller caliber than its battleship-mounted cousins, the 3-22 Bombardier is outfitted with armor-piercing projectile forms that cause immense damage on impact at the cost of poor performance against crowds."
+	description "	To counteract the considerable hit force buildup that can accrue on a target under fire from a large swarm of Subvarietas, the Navarchs have designed this weapon to pull a target slightly closer to the ship, significantly reducing the likelihood a sortie of Subvarietas will be kited away from their support fleet."
 
 outfit "3-22 Round"
 	weapon
@@ -373,7 +374,7 @@ outfit "3-22 Round"
 			"frame rate" 5
 		"hit effect" "plasma explosion"
 		"lifetime" 40
-		"hit force" 60
+		"hit force" -15
 		"shield damage" 180
 		"hull damage" 150
 
