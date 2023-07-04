@@ -81,6 +81,15 @@ fleet "Small Navarch"
 		"Infrafamilia (Missile)"
 		"Ordo"
 		"Subclassis"
+	variant 8
+		"Ordo"
+		"Subvarietas" 38
+		"Parvregalimen"
+	variant 8
+		"Tribus"
+		"Subfamilia"
+		"Subvarietas" 38
+		"Parvregalimen"
 	variant 6
 		"Subfamilia"
 		"Regnum"
@@ -94,6 +103,10 @@ fleet "Small Navarch"
 		"Infrafamilia (Missile)" 4
 		"Subfamilia" 2
 		"Subclassis"
+	variant 6
+		"Familia"
+		"Subvarietas" 38
+		"Parvregalimen"
 	variant 4
 		"Infrafamilia (Missile)" 2
 		"Familia"
@@ -229,6 +242,20 @@ fleet "Medium Navarch"
 		"Familia"
 		"Subvarietas" 4
 		"Imperium"
+	variant 10
+		"Subfamilia" 2
+		"Divisio"
+		"Legio"
+		"Subvarietas" 64
+		"Subclassis"
+		"Parvregalimen"
+	variant 10
+		"Regalis"
+		"Familia"
+		"Infrafamilia"
+		"Subvarietas" 38
+		"Subclassis"
+		"Parvregalimen"
 	variant 8
 		"Familia" 4
 		"Subvarietas" 4
@@ -277,6 +304,11 @@ fleet "Medium Navarch"
 		"Subvarietas" 4
 		"Imperium"
 		"Infrafamilia (Logistic)"
+	variant 8
+		"Regio"
+		"Subvarietas" 138
+		"Imperium"
+		"Parvregalimen"
 	variant 7
 		"Ordo" 2
 		"Infracohors" 2
@@ -430,6 +462,11 @@ fleet "Large Navarch"
 		"Regnum"
 		"Subvarietas" 126
 		"Imperium"
+	variant 8
+		"Phylum" 2
+		"Infracohors" 2
+		"Subvarietas" 152
+		"Parvregalimen" 4
 	variant 6
 		"Regalis" 2
 		"Regio" 2
@@ -450,6 +487,13 @@ fleet "Large Navarch"
 		"Subvarietas" 54
 		"Imperium" 2
 		"Subclassis" 2
+	variant 6
+		"Tribus" 2
+		"Regalis" 2
+		"Familia"
+		"Subvarietas" 80
+		"Imperium"
+		"Parvregalimen" 2
 	variant 4
 		"Familia" 2
 		"Subvarietas" 24
@@ -510,6 +554,19 @@ fleet "Large Navarch"
 		"Subvarietas" 84
 		"Infracohors"
 		"Imperium"
+	variant 2
+		"Tribus" 2
+		"Subfamilia" 2
+		"Familia"
+		"Divisio"
+		"Regalis"
+		"Supravitae"
+		"Subvarietas" 114
+		"Parvregalimen
+	variant 2
+		"Regio" 3
+		"Subvarietas" 402
+		"Parvregalimen" 3
 	variant 1
 		"Infrafamilia"
 		"Infrafamilia (Minelayer)"
@@ -527,9 +584,10 @@ fleet "Large Navarch"
 		"Legio"
 		"Regnum"
 		"Regio"
-		"Subvarietas" 172
+		"Subvarietas" 210
 		"Subclassis"
 		"Imperium"
+		"Parvregalimen"
 		"Infrafamilia (Logistic)"
 		
 fleet "Navarch Miners"
@@ -540,6 +598,15 @@ fleet "Navarch Miners"
 	personality
 		confusion 10
 		heroic vindictive mining harvests
+	variant 12
+		"Parvregalimen"
+		"Subvarietas (Mining)" 38
+	variant 8
+		"Parvregalimen" 2
+		"Subvarietas (Mining)" 76
+	variant 4
+		"Parvregalimen" 3
+		"Subvarietas (Mining)" 114
 	variant 8
 		"Regio (Mining)"
 		"Subvarietas (Mining)" 96
