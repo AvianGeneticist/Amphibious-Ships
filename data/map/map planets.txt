@@ -126,6 +126,8 @@ planet Resei
 	shipyard "Navarch Experimental Intermediate"
 	shipyard "Navarch Experimental Advanced"
 	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Experimental Intermediate"
 	outfitter "Navarch Experimental Advanced"
 
 planet "Leload Station"

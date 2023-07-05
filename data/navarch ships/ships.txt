@@ -608,7 +608,9 @@ ship "Infracohors"
 		"10x Fusion Reactor"
 		"6x Fusion Reactor"
 		"Cluster Battery"
-		"Temple-Class Breach Sealant"
+		"Accretion Capacitor"
+		"Throne-Class Breach Sealant" 2
+		`"Lythang" Rearmorer`
 		"Spectral Jammer"
 		"AHDU (Large)"
 		"AHDU (Medium)"
@@ -784,8 +786,10 @@ ship "Phylum"
 		
 		"10x Fusion Reactor" 2
 		"Cluster Battery"
-		"Pantheon-Class Breach Sealant"
-		"Spectral Jammer" 2
+		"Comet Capacitor"
+		"Throne-Class Breach Sealant" 3
+		`"Kecid" Rearmorer`
+		"Spectral Jammer"
 		"AHDU (Large)" 4
 		"Navarch Boarding Supremacy" 4
 		"Analysis Scope" 3

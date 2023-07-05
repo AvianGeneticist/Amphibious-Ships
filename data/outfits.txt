@@ -1,3 +1,5 @@
+# Regeneration
+
 outfit "Pantheon-Class Breach Sealant"
 	category "Systems"
 	cost 4000000
@@ -36,6 +38,34 @@ outfit "Throne-Class Breach Sealant"
 	"shield energy" 5.6
 	"hull repair rate" 1.12
 	description "Utilizing techniques discovered during the creation of the larger Pantheon-Class Breach Sealant, the Throne-Class is a far smaller rig designed for small torpedo boats or fighters. A little over one-tenth the size of the Pantheon-Class, the Throne-Class serves its role well."
+
+outfit `"Kecid" Rearmorer`
+	category "Systems"
+	cost 1520000
+	thumbnail "outfit/large shield"
+	series "Shields: Navarchs"
+	index 100
+	"mass" 313
+	"outfit space" -313
+	"hull repair rate" 28.1
+	"hull energy" 2.81
+	"energy consumption" 30.91
+	description `This larger rearmorer is capable of repairing even the largest Navarch ships in a fraction of the time that a breach sealant unit of comparable size would, but requires an enormous amount of energy to keep running and has no ability to recover a ship's shields.`
+
+outfit `"Lythang" Rearmorer`
+	category "Systems"
+	cost 1520000
+	thumbnail "outfit/small shield"
+	series "Shields: Navarchs"
+	index 100
+	"mass" 107
+	"outfit space" -107
+	"hull repair rate" 9.1
+	"hull energy" .91
+	"energy consumption" 10.01
+	description `Experimental Navarch vessels rely primarily on their cutting-edge armor rather than shield matricies. These odd "hull reactors" contain loops that allow them to circulate a gel that solidifies and crystallizes into this new armor when exposed to open space, allowing a ship to repair itself at great speed. The system takes a constant supply of energy to fabricate and circulate replacement fluid, but as a consequence, requires very little active energy when the hull is damaged.`
+
+# Power
 
 outfit "20x Fusion Reactor"
 	category "Power"

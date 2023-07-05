@@ -99,6 +99,10 @@ outfitter "Navarch Advanced"
 	"Nanoplasma Thruster (Giant)"
 	"Nanoplasma Steering (Giant)"
 
+outfitter "Navarch Experimental Intermediate"
+	`"Lythang" Rearmorer`
+	
 outfitter "Navarch Experimental Advanced"
 	"Hyperdrive Malformer"
 	"THEL Node"
+	`"Kecid" Rearmorer`
