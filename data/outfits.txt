@@ -109,9 +109,21 @@ outfit "2x Fusion Reactor"
 	"heat generation" 40
 	description "For their fighters, the Navarchs simply scaled down their pre-existing reactor design. This isn't a particularly elegant solution, but provides the necessary energy to run all of a Subvarietas' systems and weapons."
 
+outfit "1x Fusion Reactor"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/core"
+	series "Reactors: Navarchs"
+	index 100
+	"mass" 32
+	"outfit space" -32
+	"energy generation" 9.7
+	"heat generation" 18
+	description "This is a miniscule generator by Navarch standards, allowing their smallest ships to boast significant electrical output while remaining compact."
+
 outfit "Cluster Battery"
 	category "Power"
-	cost 320000
+	cost 1280000
 	thumbnail "outfit/huge battery"
 	series "Energy Storage: Navarchs"
 	index 600
@@ -122,7 +134,7 @@ outfit "Cluster Battery"
 
 outfit "Galaxy Battery"
 	category "Power"
-	cost 320000
+	cost 640000
 	thumbnail "outfit/large battery"
 	series "Energy Storage: Navarchs"
 	index 500
@@ -152,7 +164,18 @@ outfit "Moon Battery"
 	"outfit space" -50
 	"energy capacity" 56000
 	description "This relatively compact battery is used by small Navarch ships with low energy needs, such as their light carriers."
-	
+
+outfit "Accretion Capacitor"
+	category "Power"
+	cost 60000
+	thumbnail "outfit/small battery"
+	series "Energy Storage: Navarchs"
+	index 200
+	"mass" 20
+	"outfit space" -20
+	"energy capacity" 25000
+	description "This larger capacitor was designed by the Navarchs for small ships with inconsistent energy needs, such as those fielding lots of anti-missile."
+
 outfit "Comet Capacitor"
 	category "Power"
 	cost 20000
@@ -190,7 +213,7 @@ outfit "AHDU (Small)"
 	"outfit space" -20
 	"cooling" 43.2
 	description "This small Heat Dissipation Unit is designed as a small add-on for most Navarch Vessels, but has use as primary cooling on some of their smallest ships."
-	
+
 outfit "Fuel Distillery"
 	category "Systems"
 	cost 1000000

@@ -1,5 +1,53 @@
 # Fighters
 
+ship "Forma"
+	plural "Formae"
+	sprite "ship/forma"
+	thumbnail "thumbnail/forma"
+	attributes
+		category "Fighter"
+		"cost" 4700000
+		"shields" 13300
+		"hull" 12700
+		"automaton" 1
+		"mass" 18
+		"drag" 1.5
+		"heat dissipation" 1.2
+		"outfit space" 228
+		"weapon capacity" 62
+		"engine capacity" 47
+		weapon
+			"blast radius" 24
+			"shield damage" 240
+			"hull damage" 120
+			"hit force" 360
+	outfits
+		"0.6-16 Autocannon" 2
+		"Intimidating Anti-Missile"
+		
+		"Throne-Class Breach Sealant"
+		"Accretion Capacitor"
+		"1x Fusion Reactor"
+		"AHDU (Small)"
+		
+		"Nanoplasma Thruster (Small)"
+		"Nanoplasma Steering (Tiny)"
+	engine -17 45
+		zoom 0.4
+	engine 17 45
+		zoom 0.4
+	engine -7 47
+		zoom 0.7
+	engine 7 47
+		zoom 0.7
+	gun -9 -45
+	gun 9 -45
+	turret 0 20.5
+	explode "tiny explosion" 16
+	explode "small explosion" 18
+	"final explode" "final explosion small"
+	description `Building on techniques learned during the construction of the Subvarietas, the Forma-class fighter is designed as a deployable anti-missile net, allowing any fleet to rapidly extend its field of missile denial. The design does have some drawbacks, however, such as the reduced engine capacity and hampered outfit space, meaning the ship is only used in its dedicated anti-missile role.`
+
 ship "Subvarietas"
 	plural "Subvarietas"
 	sprite "ship/subvarietas"
@@ -45,7 +93,7 @@ ship "Subvarietas"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
-	description `With their fighters being deployed in such significant numbers with the expectation of casualties, the Navarchs invested heavily in advanced automation designs. The resultant fighters, known as the Subvarietas, are practically miniature warships, able to soak up an absurd amount of damage while doling out both anti-capital and anti-fighter fire.`
+	description `With their fighters being deployed in such significant numbers with the expectation of casualties, the Navarchs invested heavily in advanced automaton designs. The resultant fighters, known as the Subvarietas, are practically miniature warships, able to soak up an absurd amount of damage while doling out both anti-capital and anti-fighter fire.`
 	description `	It's actually quite impressive how highly engineered these ships are; armor is strategically placed around every outfit compartment, reducing both the space and mass the armor takes up while providing maximum protection.`
 
 # Light Warships

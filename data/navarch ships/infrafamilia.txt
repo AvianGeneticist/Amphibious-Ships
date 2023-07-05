@@ -237,6 +237,69 @@ ship "Infrafamilia" "Infrafamilia (Missile)"
 
 # Logistical Variants
 
+ship "Infrafamilia" "Infrafamilia (Carrier)"
+	sprite "ship/infrafamilia carrier"
+	thumbnail "thumbnail/infrafamilia carrier"
+	add attributes
+		"cost" 3000000
+		"shields" 20050
+		"hull" 10600
+		"mass" 100
+		"drag" 1.9
+		"required crew" 28
+		"outfit space" 100
+	outfits
+		"4-26 Dual Turret" 2
+		"1-18 Anti-Fighter Rig" 6
+		"Formidable Anti-Missile"
+		"Intimidating Anti-Missile"
+		
+		"4x Fusion Reactor"
+		"1x Fusion Reactor"
+		"Planet Battery"
+		"Comet Capacitor"
+		"Temple-Class Breach Sealant"
+		"Spectral Jammer"
+		"AHDU (Medium)"
+		"Navarch Boarding Supremacy"
+		
+		"Nanoplasma Thruster (Medium)"
+		"Nanoplasma Thruster (Small)"
+		"Nanoplasma Steering (Huge)"
+		"Scram Drive"
+		
+	engine -18 191.5
+	engine 18 191.5
+	turret 0 -213.5 "Formidable Anti-Missile"
+	turret 0 -168.5 "4-26 Dual Turret"
+	turret -23.5 -76
+	turret 23.5 -76
+	turret -23.5 7.5
+	turret 23.5 7.5
+	turret -23.5 93.5
+	turret 23.5 93.5
+	turret 0 154 "4-26 Dual Turret"
+	turret 0 198.5 "Intimidating Anti-Missile"
+	bay "Fighter" 101 -87
+		over
+		angle -45
+	bay "Fighter" 83 -13
+		over
+		angle -45
+	bay "Fighter" 116 -13
+		over
+		angle -45
+	bay "Fighter" 83 26
+		over
+		angle -45
+	bay "Fighter" 116 26
+		over
+		angle -45
+	bay "Fighter" 101 95
+		over
+		angle -45
+	description `The introduction of the Forma-class defense fighter meant that even small fighter payloads could be valuable in Navarch fleets, contributing to a fleet's overall defensive power. This configuration of the Infrafamilia allows it to do double duty as both a light warship and carrier, delivering a degree of flexibility not otherwise found on small ships.`
+	
 ship "Infrafamilia" "Infrafamilia (Logistic)"
 	sprite "ship/infrafamilia logistic"
 	thumbnail "thumbnail/infrafamilia logistic"

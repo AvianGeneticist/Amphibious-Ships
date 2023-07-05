@@ -627,7 +627,7 @@ mission "Navarch Passengers (Large, Stable) [1]"
 		payment 1200000 650
 		dialog phrase "generic passenger dropoff payment"
 		
-mission "Navarch Passengers (Large, Stable) [1]"
+mission "Navarch Passengers (Large, Stable) [2]"
 	name "Huge work crew to <planet>"
 	job
 	repeat
