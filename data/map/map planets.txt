@@ -20,6 +20,46 @@ wormhole "Navarch Wormhole"
 	link Theranid Palyanad
 	link Palyanad Theranid
 	color 0.1 0.1 1.0
+	
+planet "Vortilant-Ulirad Wormhole"
+	spaceport ""
+	wormhole "Vortilant-Ulirad Wormhole"
+	
+wormhole "Vortilant-Ulirad Wormhole"
+	mappable
+	link Vortilant Ulirad
+	link Ulirad Vortilant
+	color 0.3 0.3 0.8
+
+planet "Aparikad-Ulirad Wormhole"
+	spaceport ""
+	wormhole "Aparikad-Ulirad Wormhole"
+	
+wormhole "Aparikad-Ulirad Wormhole"
+	mappable
+	link Aparikad Ulirad
+	link Ulirad Aparikad
+	color 0.3 0.3 0.8
+
+planet "Aparikad-Plairwad Wormhole"
+	spaceport ""
+	wormhole "Aparikad-Plairwad Wormhole"
+	
+wormhole "Aparikad-Plairwad Wormhole"
+	mappable
+	link Aparikad Plairwad
+	link Plairwad Aparikad
+	color 0.3 0.3 0.8
+
+planet "Vortilant-Aparikad Wormhole"
+	spaceport ""
+	wormhole "Vortilant-Aparikad Wormhole"
+	
+wormhole "Vortilant-Aparikad Wormhole"
+	mappable
+	link Vortilant Aparikad
+	link Aparikad Vortilant
+	color 0.3 0.3 0.8
 
 planet Gulfosala
 	landscape land/beach1
@@ -131,6 +171,7 @@ planet Resei
 	outfitter "Navarch Experimental Advanced"
 
 planet "Leload Station"
+	attributes "navarch research"
 	landscape land/station12
 	description "Leload Station is a mining platform that was built by the Navarchs to take advantage of the colossal amount of raw resources available in the system; as a consequence, however, Leiload System is the subject of frequent asteroid impacts, and thus heavy defenses are necessary; some of the turrets here are sourced from the research centers nearby, using the station as a testbed for long-ranged cannons and other such things."
 	spaceport `Unlike other Navarch Stations, there is a suprising amount of non-dock station here, with vast interior spaces used for mineral processing and storage. The working population here exceeds some human planets, with a few pamphlets boasting a figure of "800,000 strong arms in the workplace family".`
@@ -140,6 +181,7 @@ planet "Leload Station"
 	outfitter "Navarch Basics"
 
 planet Straido
+	landscape land/oceancity3
 	description "A warm ocean planet tidally locked with its parent brown dwarf, Straido is home to a large maritime city that's responsible for exports of fish across a good swathe of Navarch space. The population here exceeds 100 billion individuals, and the planet is remarkably self-sufficient compared to similarly urban human worlds."
 	spaceport "The spaceport here is designed mostly for cargo and logistical ships rather than warships, so capital warships are typically serviced by intraplanetary shuttlecraft that use the deck space on such warships as landing pads. Despite this, orders are conducted with surprising efficiency, with many ships hosting shuttles even before they've come to rest in the water."
 	shipyard "Navarch Basics"
@@ -152,7 +194,7 @@ planet Straido
 planet Rugiboden
 	attributes "navarch research"
 	landscape land/ocean1-turbulent
-	description `Rugiboden is a large ocean planet with wild and unpredictable due to its 3 moons, once of which orbits "backwards" around the planet. Due to this, there's some research interest, and nanoplasma engines are often tested in the choppy waters.`
+	description `Rugiboden is a large ocean planet with wild and unpredictable tides due to its 3 moons, once of which orbits "backwards" around the planet. Due to this, there's some research interest, and nanoplasma engines are often tested in the choppy waters.`
 	spaceport "The spaceport here is fairly small, hosted vertically along some large cliff faces, with docks that float somewhat freely on the water to avoid fighting the jostling tides. Fleet positions here are fairly uncommon, except for military contractors testing prototype works."
 	shipyard "Navarch Basics"
 	outfitter "Navarch Basics"
@@ -178,3 +220,126 @@ planet Cantabri
 	shipyard "Navarch Logistics Expert"
 	outfitter "Navarch Basics"
 	outfitter "Navarch Intermediate"
+
+planet Bayja
+	landscape land/opensea1
+	description `Bayja is an ocean moon that exhibits extremely strong tidal actions due to the gravity of its host planet; the tides here can exceed a grade of 5 degrees during the "close" part of the planet's rotation. As such, permanent settlements are a rarity here, with most livingspaces just being retired military ships (some of which are old enough that they are no longer sold in Navarch space).`
+	spaceport `The "spaceport" is essentially just a Supravitae that has had most of its weapons stripped off in favour of marketplaces and communications equipment, co-ordinating the thousands of independent houseboats on-world. Some free-floating raftlike boats exist to serve trade between fleets, driven by smaller versions of the nanoplasma engines used on ships.`
+
+planet "Ulad Station"
+	attributes "navarch research"
+	landscape land/station7
+	description "Ulad Station started as a small research station for the sake of researching the vast wormhole network threaded through Navarch space, but has quickly grown to be a hub of Navarch research, with its Outrigger facilities being opened and a small shipyard being opened up to see how newly built prototype ships survive wormhole navigation."
+	spaceport "The spaceport is surprisingly robust, stretching a good distance around the wormhole. Outriggers and Experimental vessels compete somewhat for the slightly limited dock space, but overall, things seem to operate fairly smoothly."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Outrigger Intermediate"
+	shipyard "Navarch Experimental Intermediate"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Experimental Intermediate"
+	
+planet Seanor
+	landscape land/oceansunset1
+	description "Seanor is an industrial powerhouse, responsible not for the export of ships and outfits, but many commodities needed by the Navarch population. The population here is nearly 500 billion, with much of the industry taking place in subaquatic sectors in the shallow end of the oceans, protecting from the scorching heat of the star the planet is tidally locked with."
+	spaceport "Seanor's spaceport is a ringworld-esque docking structure, constructed in the twilight zone between the sun-facing and dark sides of the planet. Though the spaceport isn't particularly special beyond this, the permanent sunset is breathtaking, and even the locals who've been here all their lives can be seen taking an appreciative glance every now and then."
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	
+planet Gulboth
+	landscape land/oceancliffs2
+	description "Gulboth is a rocky world by Navarch standards, but is still about 70% ocean by surface area. Most of the land here is high continents, shattered with fjords. The native species here are mostly flighted creatures, the smallest of which is still about 5 feet tall when full grown. As such, hunting is a popular sport here."
+	spaceport "The spaceport is an interesting mix of highly advanced Navarch fare and rural, sporting community energy, with decorated generals and admirals jovially sharing the same streets and amenities on-world."
+
+planet Iroise
+	landscape land/fields18
+	description "This world's water is largely in the form of large lakes, and thus the Navarch presence here is somewhat limited. However, it is a very productive farming world, producing feed for farm animals across a fair portion of Navarch space. Because of this, Iroise's limited shipyard space is reserved entirely for logistical ships."
+	spaceport `The spaceports are built across a few great lakes, most of which are only just deep enough for an Imperium to safely touch down in without major complications. As such the "diving lanes" are tightly regulated, ships being shuttled in and out of port very quickly to make the most of the limited deep water available.`
+
+planet Shearis
+	landscape land/opensea2
+	description "Shearish is a fairly backwater Navarch world, home to a few billion Navarch citizens. There's a limited research presence here, but overall the planet is widely considered of little importance to the Navarchs."
+	spaceport "The spaceport here is built in the frigid, but unfrozen waters of the equator. Compared to some larger Navarch worlds, the pace here is rather laid back, and a significant portion of the working population seems to be retired volunteers."
+
+planet Secelt
+	landscape land/oceancity1
+	description "Secelt is a large, rocky ocean world, home to large peninsulas that house large factory complexes. A large logistics shipyard is set up here, allowing native captains to take jobs exporting the large amounts of refined and manufactured resources from here, but it is otherwise surprisingly underpopulated, with a permanent residence of only about 5 billion Navarchs."
+	spaceport "The spaceport is built around a large inlet in one of the larger continental shelves, where a luxuriant amount of loading equipment serves to load and unload large amounts of cargo from the frequent logistical fleets."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Logistics Expert"
+	outfitter "Navarch Basics"
+	
+planet Gunaple
+	landscape land/oceancity2
+	description "Gunaple is a military-industrial world, home to large shipyards specializing in missile boat construction and the production of missile fabrication units for use aboard said missile boats."
+	spaceport "A fair amount of the docking space is reserved for newly built or still-building missile boats, with some docks open for pedestrian viewing. Navarchs of all ages can be seen admiring the thousands-strong work crews that work on putting ships together."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate Missile"
+	shipyard "Navarch Advanced Missile"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Advanced"
+	
+planet "Uladant Station"
+	landscape land/sivael8
+	description "Uladant Station is a heavily fortified military-research station, where ships of all kinds are put to test against the abnormally strong Quarg Automaton presence in the system. Housing facilities are surprisingly common here, considering it's not often an hour goes by without the station being lurched around by the firing of a dozen or more gigantic gun batteries."
+	spaceport "The spaceport is heavily guarded by large turrets, similar to those aboard Navarch ships. Experimental missile launchers occasionally fire into open space, hoping to pre-emptively strike an encroaching Quarg target. Military fleets are far from short in supply here, with some of the highest Navarch presence in any system."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Intermediate Missile"
+	shipyard "Navarch Advanced"
+	shipyard "Navarch Advanced Missile"
+	shipyard "Navarch Expert"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	
+planet Kotorbay
+	landscape land/oceancity1
+	description "Kotorbay is a large ocean world, home to one of the largest mineral processing and distributing centers in all of Navarch space."
+	spaceport "The spaceport is a highly optimized machine, rapidly loading vast quantities of minerals into any logistical ship that comes into port with reckless efficiency. It's operations like these that show how the Navarchs can so capably contend with the Quarg."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Logistics Expert"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	
+planet Cagliari
+	landscape land/oceancity3
+	description `Cagliari is a mining outpost that forgot to stop growing about a millenium ago. It is now one of the largest, most populous worlds in Navarch space, owing its prosperity to an absurdly high mineral content in the system it inhabits. Additionally, Cagliari supplies some exotic materials to research systems nearby, earning it a fair pay in the open market. It is for this reason that the Navarchs widely refer to this planet as their "home away from home", despite the fact that the planet doesn't even have a proper shipyard; just a basic station for supplying and outfitting logistical vessels.`
+	spaceport "The spaceport here is constructed around long fjords, where logistical ships can come to a low cruising speed and still be serviced by the time they reach the opening at the other end of the fjords the supply depots are built around. In this way, it is very rare that cargo jams happen, as ships are constantly on the move through well-organized supply lines."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Logistics Expert"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Advanced"
+	
+planet Tyrrhen
+	attributes "navarch research"
+	landscape land/myrabella4
+	description "Tyrrhen is a research world focused on developing post-scarcity sources of energy and materials. Rumour has it that, behind closed doors, there are prototype cells capable of scrubbing the cosmic microwave background for energy."
+	spaceport "The spaceport here is fairly secluded, hosting a few small research fleets at a time. Contrary to most of Navarch space, where crews commonly sing shanties or converse while they work, the crews here are fairly quiet, keeping talk largely to just business."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Experimental Intermediate"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Experimental Intermediate"
+	
+planet Venetioon
+	landscape land/ocean1-turbulent
+	description "Venetioon is a temperate ocean world, home to frequent rain, but very little storms. The water here is exceptionally soft, so many Navarchs come here for recreation. There's some industry here, but it's largely administrative and bureaucratic, leading to a surprisingly quiet world."
+	spaceport "The spaceport is fairly calm, though many Navarch tourists end up pulling you into photos, with or without your permission. The mood of the spaceport is jovial, with work crews loading at a very lax pace compared to more heavily regulated worlds."
+
+planet "Porwant Station"
+	description "Porwant Station is one of the few places in Navarch space where the equipment for properly processing yottrite can be found, and the resultant resources produced are shipped to all corners of Navarch space."
+	spaceport "The spaceport here is fairly sparse, and this is one of the stations incapable of interchanging outriggers. As such, save for small fleets coming to pick up allotments of yottrite-derived materials, the spaceport is rather quiet."
+	shipyard "Navarch Basics"
+	outfitter "Navarch Basics"
+	
+planet Venif
+	description "Venif is a super-ocean world, rich not in resources, but space and tranquil waters. Many industries, both labor and bureaucratic, have been set up here, and over the course of time the planet has become one of the few places where all the stars have aligned to allow for Supravitae construction."
+	spaceport "The spaceport here is a marvel of automated engineering, with thousands of workers working smoothly with machines to assemble Supravitaes for use in Navarch warfleets. It is for this reason alone that Venif's spaceport is so huge, pristine Supravitaes lining the docks, awaiting their new captains and crews."
+	shipyard "Navarch Basics"
+	shipyard "Navarch Intermediate"
+	shipyard "Navarch Advanced"
+	shipyard "Navarch Expert"
+	shipyard "Navarch Ultra"
+	outfitter "Navarch Basics"
+	outfitter "Navarch Intermediate"
+	outfitter "Navarch Advanced"

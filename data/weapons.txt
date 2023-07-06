@@ -14,16 +14,16 @@ outfit "14-103 Twin Battery"
 		"hardpoint sprite" "hardpoint/10 77"
 		"fire effect" "small explosion" 3
 		"fire effect" "smoke" 16
-		"hardpoint offset" 12.5
+		"hardpoint offset" 56
 		"turret turn" 0.5
 		"inaccuracy" .1
 		"velocity" 14
 		"lifetime" 1
 		"reload" 300
 		"submunition" "14-103 Shell"
-			"offset" 8 0
+			"offset" 4 0
 		"submunition" "14-103 Shell"
-			"offset" -8 0
+			"offset" -4 0
 		"firing energy" 14200
 		"firing force" 3800
 		"firing heat" 32800
@@ -64,16 +64,16 @@ outfit "10-77 Twin Battery"
 		"hardpoint sprite" "hardpoint/10 77"
 		"fire effect" "small explosion" 2
 		"fire effect" "smoke" 10
-		"hardpoint offset" 12.5
+		"hardpoint offset" 54
 		"turret turn" 0.8
 		"inaccuracy" .2
 		"velocity" 16
 		"lifetime" 1
 		"reload" 180
 		"submunition" "10-77 Shell"
-			"offset" 8 0
+			"offset" 4 0
 		"submunition" "10-77 Shell"
-			"offset" -8 0
+			"offset" -4 0
 		"firing energy" 6200
 		"firing force" 2400
 		"firing heat" 14400
@@ -110,16 +110,16 @@ outfit "7-62 Twin Battery"
 	weapon
 		sound "detainer"
 		"hardpoint sprite" "hardpoint/10 77"
-		"hardpoint offset" 28.5
+		"hardpoint offset" 50
 		"turret turn" 1.0
 		"inaccuracy" .2
 		"velocity" 20
 		"lifetime" 1
 		"reload" 120
 		"submunition" "7-62 Shell"
-			"offset" 8 0
+			"offset" 4 0
 		"submunition" "7-62 Shell"
-			"offset" -8 0
+			"offset" -4 0
 		"firing energy" 3200
 		"firing force" 1400
 		"firing heat" 6600
@@ -145,7 +145,7 @@ outfit "7-62 Shell"
 outfit "4-26 Dual Turret"
 	category "Turrets"
 	cost 1000000
-	thumbnail "outfit/proton gun"
+	thumbnail "outfit/4 26"
 	series "Caliber Turrets: Navarchs"
 	index 700
 	"mass" 61
@@ -156,9 +156,14 @@ outfit "4-26 Dual Turret"
 		sprite "projectile/plasma"
 			"frame rate" 5
 		sound "plasma"
+		"hardpoint sprite" "hardpoint/4 26"
+		"hardpoint offset" 9.5
 		"hit effect" "plasma explosion" 3
 		"inaccuracy" 0.3
-		"submunition" "4-26 Shell" 2
+		"submunition" "4-26 Shell"
+			offset 4 0
+		"submunition" "4-26 Shell"
+			offset -4 0
 		"turret turn" 1.4
 		"velocity" 22
 		"lifetime" 1
@@ -185,7 +190,7 @@ outfit "4-26 Shell"
 outfit "1-18 Anti-Fighter Rig"
 	category "Turrets"
 	cost 300000
-	thumbnail "outfit/proton gun"
+	thumbnail "outfit/1 18"
 	series "Caliber Turrets: Navarchs"
 	index 200
 	"mass" 19
@@ -193,11 +198,15 @@ outfit "1-18 Anti-Fighter Rig"
 	"weapon capacity" -19
 	"turret mounts" -1
 	weapon
-		sprite "projectile/proton"
 		sound "proton"
+		"hardpoint sprite" "hardpoint/1 18"
+		"hardpoint offset" -22
 		"hit effect" "proton impact" 2
 		"inaccuracy" 12
-		"submunition" "1-18 Round" 2
+		"submunition" "1-18 Round"
+			offset 4 0
+		"submunition" "1-18 Round"
+			offset -4 0
 		"turret turn" 3
 		"velocity" 28
 		"lifetime" 1
@@ -212,9 +221,7 @@ outfit "1-18 Anti-Fighter Rig"
 
 outfit "1-18 Round"
 	weapon
-		sprite "projectile/proton fragment"
-			"no repeat"
-			"frame rate" 2
+		sprite "projectile/tiny caliber navarch"
 		"hit effect" "proton impact"
 		"inaccuracy" 1
 		"lifetime" 20
@@ -225,7 +232,7 @@ outfit "1-18 Round"
 outfit "1-24 Anti-Fighter Array"
 	category "Turrets"
 	cost 300000
-	thumbnail "outfit/proton gun"
+	thumbnail "outfit/1 18"
 	series "Caliber Turrets: Navarchs"
 	index 180
 	"mass" 92
@@ -233,12 +240,16 @@ outfit "1-24 Anti-Fighter Array"
 	"weapon capacity" -92
 	"turret mounts" -1
 	weapon
-		sprite "projectile/proton"
 		sound "proton"
-		"hit effect" "proton impact" 6
-		"inaccuracy" 14
-		"submunition" "1-24 Round" 8
-		"turret turn" 3
+		"hardpoint sprite" "hardpoint/1 18"
+		"hardpoint offset" -22
+		"hit effect" "proton impact" 2
+		"inaccuracy" 12
+		"submunition" "1-18 Round" 4
+			offset 4 0
+		"submunition" "1-18 Round" 4
+			offset -4 0
+		"turret turn" 2.1
 		"velocity" 36
 		"lifetime" 1
 		"reload" 1.2
@@ -252,9 +263,7 @@ outfit "1-24 Anti-Fighter Array"
 
 outfit "1-24 Round"
 	weapon
-		sprite "projectile/proton fragment"
-			"no repeat"
-			"frame rate" 2
+		sprite "projectile/tiny caliber navarch"
 		"hit effect" "proton impact"
 		"inaccuracy" 6
 		"lifetime" 20
@@ -387,11 +396,11 @@ outfit "0.6-16 Autocannon"
 	"weapon capacity" -11
 	"gun ports" -1
 	weapon
-		sprite "projectile/proton"
 		sound "proton"
 		"hit effect" "proton impact"
 		"inaccuracy" 4
 		"submunition" "0.6-16 Shell"
+		"hardpoint offset" -18
 		"velocity" 18
 		"lifetime" 1
 		"reload" 1
@@ -403,9 +412,7 @@ outfit "0.6-16 Autocannon"
 
 outfit "0.6-16 Shell"
 	weapon
-		sprite "projectile/proton fragment"
-			"no repeat"
-			"frame rate" 2
+		sprite "projectile/tiny caliber navarch"
 		"hit effect" "proton impact"
 		"lifetime" 25
 		"hit force" 1

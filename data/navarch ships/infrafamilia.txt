@@ -7,8 +7,8 @@ ship "Infrafamilia"
 	attributes
 		category "Utility"
 		"cost" 16000000
-		"shields" 78500
-		"hull" 50800
+		"shields" 61300
+		"hull" 60400
 		"required crew" 119
 		"bunks" 188
 		"mass" 400

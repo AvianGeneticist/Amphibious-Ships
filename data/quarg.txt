@@ -262,3 +262,15 @@ planet "quarg automata source b"
 	spaceport ""
 	attributes "requires: quarg rift access"
 	
+planet "quarg automata source c-1"
+	government "Quarg (Automata)"
+	description ""
+	spaceport ""
+	attributes "requires: quarg rift access"
+	
+planet "quarg automata source c-2"
+	government "Quarg (Automata)"
+	description ""
+	spaceport ""
+	attributes "requires: quarg rift access"
+	

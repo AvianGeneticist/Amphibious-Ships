@@ -129,6 +129,7 @@ mission "First Contact: Navarchs"
 					
 			label space
 			`	The Navarch thinks for a long moment. "Hmm... Well, you should probably know that our space has occasional pockets of systems that only have one entrance or exit; it can be a problem if you want to get somewhere quickly," The Navarch says.`
+			`	The Navarch then perks up, "Ah, you should take some time to map out the wormholes in our space; most of 'em are tucked in dead ends, but they can be mighty handy if you need to slip somewhere quickly; not to mention it saves on fuel," He adds.`
 			choice
 				`	"Thank you for your advice; I think I'll go now."`
 					decline

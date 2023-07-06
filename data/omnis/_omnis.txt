@@ -1,52 +1,48 @@
-shipyard "Navarch Basics"
+system "Omnis"
+	add link "Omnis (Navarch)"
+
+system "Omnis (Navarch)"
+	"jump range" 3000
+	government "Omnis"
+	link "Omnis"
+	pos 0 -10100
+	object
+		sprite "star/nova"
+	object "Navarch"
+		sprite "star/nova-core"
+
+planet "Navarch"
+	description ""
+	spaceport ""
+	shipyard "navarch"
+	outfitter "navarch"
+	
+shipyard "navarch"
 	"Subvarietas"
 	"Forma"
 	"Tribus"
-	"Infrafamilia"
-
-shipyard "Navarch Intermediate"
-	"Ordo"
-	"Subclassis"
-	"Legio"
-	
-shipyard "Navarch Intermediate Missile"
-	"Genus"
-	"Subfamilia"
-	
-shipyard "Navarch Advanced"
-	"Regnum"
-	"Divisio"
-	
-shipyard "Navarch Advanced Missile"
-	"Familia"
-	
-shipyard "Navarch Expert"
-	"Regio"
-	"Regalis"
-	
-shipyard "Navarch Ultra"
-	"Supravitae"
-	
-# I'm trying to break up their shipyards a bit so not everything is found everywhere (also adds potential for flavour).
-	
-shipyard "Navarch Outrigger Intermediate"
 	"Infrafamilia"
 	"Infrafamilia (Minelayer)"
 	"Infrafamilia (Missile)"
 	"Infrafamilia (Logistic)"
 	"Infrafamilia (Carrier)"
-	
-shipyard "Navarch Logistics Expert"
+	"Ordo"
+	"Subclassis"
+	"Legio"
+	"Genus"
+	"Subfamilia"
+	"Familia"
+	"Regnum"
+	"Divisio"
+	"Regio"
+	"Regalis"
+	"Supravitae"
 	"Imperium"
 	"Parvregalimen"
-
-shipyard "Navarch Experimental Intermediate"
 	"Infracohors"
-	
-shipyard "Navarch Experimental Advanced"
 	"Phylum"
 	
-outfitter "Navarch Basics"
+outfitter "navarch"
 	"1-18 Anti-Fighter Rig"
 	"3-22 Bombardier"
 	"0.6-16 Autocannon"
@@ -65,13 +61,9 @@ outfitter "Navarch Basics"
 	"Nanoplasma Steering (Tiny)"
 	"Nanoplasma Thruster (Small)"
 	"Nanoplasma Steering (Small)"
-
-outfitter "Navarch Intermediate"
 	"1-24 Anti-Fighter Array"
 	"4-26 Dual Turret"
 	"Formidable Anti-Missile"
-	"Lathe Mine Bay"
-	"Ransacker ALS"
 	"Phase Torpedo"
 	"Temple-Class Breach Sealant"
 	"6x Fusion Reactor"
@@ -84,12 +76,12 @@ outfitter "Navarch Intermediate"
 	"Nanoplasma Steering (Medium)"
 	"Nanoplasma Thruster (Large)"
 	"Nanoplasma Steering (Large)"
-
-outfitter "Navarch Advanced"
 	"7-62 Twin Battery"
 	"10-77 Twin Battery"
 	"14-103 Twin Battery"
 	"Monolithic Anti-Missile"
+	"Lathe Mine Bay"
+	"Ransacker ALS"
 	"Pantheon-Class Breach Sealant"
 	"10x Fusion Reactor"
 	"Cluster Battery"
@@ -101,11 +93,8 @@ outfitter "Navarch Advanced"
 	"Nanoplasma Steering (Huge)"
 	"Nanoplasma Thruster (Giant)"
 	"Nanoplasma Steering (Giant)"
-
-outfitter "Navarch Experimental Intermediate"
 	`"Lythang" Rearmorer`
-	
-outfitter "Navarch Experimental Advanced"
 	"Hyperdrive Malformer"
 	"THEL Node"
 	`"Kecid" Rearmorer`
+
