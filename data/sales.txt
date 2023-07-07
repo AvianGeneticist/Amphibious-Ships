@@ -36,6 +36,13 @@ shipyard "Navarch Outrigger Intermediate"
 	"Infrafamilia (Logistic)"
 	"Infrafamilia (Carrier)"
 	
+shipyard "Navarch Outrigger Advanced"
+	"Subsectio"
+	"Subsectio (Mine Carrier)"
+	"Subsectio (Mine Logistic)"
+	"Subsectio (Missile Carrier)"
+	"Subsectio (Missile Logistic)"
+	
 shipyard "Navarch Logistics Expert"
 	"Imperium"
 	"Parvregalimen"

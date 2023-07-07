@@ -1043,6 +1043,7 @@ ship "Imperium"
 		"outfit space" 4070
 		"weapon capacity" 1290
 		"engine capacity" 335
+		"barbettes" 3
 		series "Core Logistics: Navarchs"
 		index 500
 		weapon

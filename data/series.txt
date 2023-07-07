@@ -10,4 +10,4 @@ category "series"
 	"Missile Boats: Navarchs" 500
 	"Battleships: Navarchs" 600
 	"Core Logistics: Navarchs" 650
-	"Infrafamilia: Navarchs" 50
+	"Outriggers: Navarchs" 50
