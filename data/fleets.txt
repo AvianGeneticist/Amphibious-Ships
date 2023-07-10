@@ -114,6 +114,23 @@ fleet "Small Navarch"
 		"Subsectio (Missile Carrier)"
 		"Subsectio (Missile Logistic)"
 		"Forma" 6
+	variant 8
+		"Tribus" 2
+		"Ordo"
+		"Microphylum"
+		"Infrafamilia (Logistic)"
+	variant 8
+		"Tribus" 2
+		"Ordo"
+		"Microphylum"
+		"Infrafamilia (Carrier)"
+		"Forma" 6
+	variant 8
+		"Legio"
+		"Microphylum"
+		"Subsectio (Missile Carrier)"
+		"Subvarietas" 30
+		"Forma" 8
 	variant 6
 		"Subfamilia"
 		"Regnum"
@@ -200,6 +217,11 @@ fleet "Small Navarch"
 		"Subsectio (Mine Logistic)"
 		"Subsectio (Missile Logistic)"
 		"Forma" 6
+	variant 2
+		"Legio"
+		"Microphylum" 2
+		"Infracohors"
+		"Subvarietas" 26
 	
 fleet "Medium Navarch"
 	government "Navarch"
@@ -312,6 +334,29 @@ fleet "Medium Navarch"
 		"Subvarietas" 6
 		"Forma" 6
 		"Subclassis" 2
+	variant 10
+		"Tribus" 2
+		"Phylum"
+		"Regnum"
+		"Subclassis" 2
+		"Microphylum" 2
+	variant 10
+		"Subfamilia"
+		"Divisio"
+		"Infracohors"
+		"Legio"
+		"Subclassis"
+		"Microphylum"
+		"Subsectio (Mine Carrier)"
+		"Forma" 28
+		"Subvarietas" 10
+	variant 10
+		"Divisio"
+		"Infracohors"
+		"Parvregalimen"
+		"Microphylum"
+		"Infrafamilia"
+		"Subsectio"
 	variant 8
 		"Phylum"
 		"Regnum"
@@ -409,6 +454,12 @@ fleet "Medium Navarch"
 		"Subsectio (Missile Logistic)"
 		"Subsectio (Mine Carrier)"
 		"Subvarietas" 6
+	variant 8
+		"Regalis"
+		"Imperium"
+		"Microphylum"
+		"Infrafamilia (Minelayer)" 2
+		"Infrafamilia (Missile)"
 	variant 7
 		"Ordo" 2
 		"Infracohors" 2
@@ -474,6 +525,14 @@ fleet "Medium Navarch"
 		"Subsectio (Missile Carrier)"
 		"Subvarietas" 90
 		"Forma" 24
+	variant 6
+		"Tribus" 2
+		"Phylum"
+		"Microphylum"
+		"Subsectio (Mine Logistic)"
+		"Subsectio (Missile Carrier)"
+		"Subsectio (Missile Logistic)"
+		"Forma" 12
 	variant 4
 		"Subfamilia"
 		"Infracohors"
@@ -580,6 +639,14 @@ fleet "Large Navarch"
 		"Subsectio (Missile Logistic)"
 		"Subvarietas" 98
 		"Forma" 20
+	variant 10
+		"Ordo" 2
+		"Divisio" 2
+		"Regnum"
+		"Subclassis"
+		"Imperium"
+		"Parvregalimen" 2
+		"Microphylum"
 	variant 9
 		"Regalis"
 		"Infrafamilia" 7
@@ -589,6 +656,15 @@ fleet "Large Navarch"
 		"Subvarietas" 100
 		"Imperium"
 		"Infrafamilia (Logistic)" 6
+	variant 8
+		"Tribus" 6
+		"Subfamilia" 3
+		"Familia" 2
+		"Regalis"
+		"Imperium"
+		"Microphylum"
+		"Subsectio (Mine Logistic)"
+		"Subsectio (Missile Logistic)"
 	variant 8
 		"Tribus" 3
 		"Subfamilia"
@@ -603,6 +679,15 @@ fleet "Large Navarch"
 		"Infracohors" 2
 		"Subvarietas" 152
 		"Parvregalimen" 4
+	variant 8
+		"Phylum"
+		"Supravitae"
+		"Subclassis" 2
+		"Microphylum" 3
+		"Infrafamilia (Missile)"
+		"Subsectio (Missile Carrier)"
+		"Subvarietas" 72
+		"Forma" 16
 	variant 6
 		"Regalis" 2
 		"Regio" 2
