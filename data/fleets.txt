@@ -131,6 +131,9 @@ fleet "Small Navarch"
 		"Subsectio (Missile Carrier)"
 		"Subvarietas" 30
 		"Forma" 8
+	variant 8
+		"Dominium (Experimental)"
+		"Subforma" 100
 	variant 6
 		"Subfamilia"
 		"Regnum"
@@ -357,6 +360,22 @@ fleet "Medium Navarch"
 		"Microphylum"
 		"Infrafamilia"
 		"Subsectio"
+	variant 10
+		"Subfamilia"
+		"Dominium"
+		"Dominium (Experimental)"
+		"Subforma" 100
+	variant 9
+		"Infracohors"
+		"Infrafamilia (Logistic)" 2
+		"Dominium"
+	variant 9
+		"Dominium"
+		"Dominium (Experimental)"
+		"Infrafamilia (Mine)"
+		"Infrafamilia (Carrier)"
+		"Forma" 6
+		"Subforma" 100
 	variant 8
 		"Phylum"
 		"Regnum"
@@ -366,6 +385,15 @@ fleet "Medium Navarch"
 		"Subsectio (Missile Logistic)"
 		"Subvarietas" 40
 		"Forma" 18
+	variant 8
+		"Genus" 2
+		"Ordo"
+		"Legio"
+		"Dominium (Experimental)"
+		"Subclassis" 2
+		"Forma" 12
+		"Subvarietas" 14
+		"Subforma" 100
 	variant 8
 		"Familia" 4
 		"Subvarietas" 4
@@ -460,6 +488,11 @@ fleet "Medium Navarch"
 		"Microphylum"
 		"Infrafamilia (Minelayer)" 2
 		"Infrafamilia (Missile)"
+	variant 8
+		"Infracohors"
+		"Phylum"
+		"Dominium (Experimental)"
+		"Subforma" 100
 	variant 7
 		"Ordo" 2
 		"Infracohors" 2
@@ -479,6 +512,12 @@ fleet "Medium Navarch"
 		"Forma" 2
 		"Subclassis" 3
 		"Infrafamilia (Logistic)" 2
+	variant 6
+		"Divisio"
+		"Regnum"
+		"Dominium"
+		"Subvarietas" 42
+		"Forma" 4
 	variant 6
 		"Divisio"
 		"Phylum"
@@ -647,6 +686,16 @@ fleet "Large Navarch"
 		"Imperium"
 		"Parvregalimen" 2
 		"Microphylum"
+	variant 10
+		"Tribus" 4
+		"Subfamilia"
+		"Familia" 2
+		"Dominium (Experimental)"
+		"Regio"
+		"Imperium"
+		"Subvarietas" 80
+		"Forma" 20
+		"Subforma" 100
 	variant 9
 		"Regalis"
 		"Infrafamilia" 7
@@ -656,6 +705,13 @@ fleet "Large Navarch"
 		"Subvarietas" 100
 		"Imperium"
 		"Infrafamilia (Logistic)" 6
+	variant 9
+		"Ordo"
+		"Regio"
+		"Microphylum" 2
+		"Dominium"
+		"Subsectio (Mine Logistic)"
+		"Subsectio (Missile Carrier)"
 	variant 8
 		"Tribus" 6
 		"Subfamilia" 3
@@ -700,6 +756,17 @@ fleet "Large Navarch"
 		"Supravitae"
 		"Subvarietas" 80
 		"Imperium"
+	variant 6
+		"Genus" 2
+		"Phylum"
+		"Regnum"
+		"Dominium (Experimental)" 2
+		"Parvregalimen"
+		"Subsectio (Mine Carrier)"
+		"Subsectio (Missile Carrier)"
+		"Subvarietas" 84
+		"Forma" 24
+		"Subforma" 200
 	variant 6
 		"Tribus" 3
 		"Regalis"
@@ -851,6 +918,12 @@ fleet "Navarch Miners"
 	variant 4
 		"Parvregalimen" 3
 		"Subvarietas (Mining)" 114
+	variant 6
+		"Dominium (Experimental)"
+		"Subforma (Mining)" 100
+	variant 2
+		"Dominium (Experimental)" 2
+		"Subforma (Mining)" 200
 	variant 8
 		"Regio (Mining)"
 		"Subvarietas (Mining)" 96

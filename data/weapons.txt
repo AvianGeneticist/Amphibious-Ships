@@ -349,6 +349,44 @@ outfit "Shock Blaster Bolt"
 		"hull damage" 8
 		"ion damage" .5
 		"hit force" 3
+
+outfit "5-36 Bombardier"
+	category "Guns"
+	cost 1200000
+	thumbnail "outfit/proton gun"
+	"mass" 36
+	"outfit space" -36
+	"weapon capacity" -36
+	"gun ports" -1
+	weapon
+		sprite "projectile/plasma"
+			"frame rate" 5
+		sound "plasma"
+		"hit effect" "plasma explosion" 3
+		"inaccuracy" 0.5
+		"submunition" "5-36 Round"
+		"velocity" 16
+		"lifetime" 1
+		"reload" 60
+		"burst count" 2
+		"burst reload" 20
+		"firing energy" 220
+		"firing force" 60
+		"firing heat" 500
+		"piercing" 0.15
+		"cluster"
+	description `Found aboard the newly developed Subformae, these modest cannons are capable of delivering significant anti-capital damage, with the sophisticated projectile shapes causing a small amount of damage to hull regardless of the target's shield state.`
+
+outfit "5-36 Round"
+	weapon
+		sprite "projectile/plasma"
+			"frame rate" 5
+		"hit effect" "plasma explosion"
+		"lifetime" 50
+		"hit force" -30
+		"shield damage" 370
+		"hull damage" 325
+		"piercing" 0.15
 	
 outfit "3-22 Bombardier"
 	category "Guns"

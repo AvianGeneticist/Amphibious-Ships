@@ -92,6 +92,7 @@ planet Chukchi
 	spaceport `The spaceport here is entirely seabound, with large "runways" for ships to land on the water. As expected, the scope is truly massive; each dock here is roughly six times the size of the largest human space docks.`
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
+	shipyard "Navarch Logistics Intermediate"
 	shipyard "Navarch Logistics Advanced"
 	shipyard "Navarch Logistics Expert"
 	outfitter "Navarch Basics"
@@ -115,6 +116,7 @@ planet Pechora
 	spaceport "The spaceport on Pechora is highly organized and automated; even the Navarchs' largest cargo ships are very swiftly loaded with kilotons of refined metals for export."
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
+	shipyard "Navarch Logistics Intermediate"
 	shipyard "Navarch Logistics Advanced"
 	shipyard "Navarch Logistics Expert"
 	outfitter "Navarch Basics"
@@ -125,7 +127,8 @@ planet Beaufort
 	description "Beaufort is an artificial planet made from aeons of accumulated metal slag painstakingly melted together using its parent star's residual heat, before being poulated with large water channels to accomodate a limited Navarch presence here. Beaufort's value comes from the presence of yottrite in its home system, which the Navarchs use in their ships and weapons."
 	spaceport "Beaufort's spaceport seems to have been formed of molten metal slag like much of the rest of its surface, with natural outcrops serving as docking bays. Though the planet's surface is surprisingly temperate and has enough gravity to hold the water channels in place, it has no noticeable atmosphere."
 	shipyard "Navarch Basics"
-	shipyard "Navarch Logistics Expert"
+	shipyard "Navarch Logistics Intermediate"
+	shipyard "Navarch Logistics Advanced"
 	outfitter "Navarch Basics"
 	
 planet Fochexa
@@ -156,8 +159,9 @@ planet Gomerce
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
 	shipyard "Navarch Intermediate Missile"
-	shipyard "Navarch Advanced Missile"
 	shipyard "Navarch Advanced"
+	shipyard "Navarch Logistics Intermediate"
+	shipyard "Navarch Logistics Advanced"
 	outfitter "Navarch Basics"
 	
 planet Resei
@@ -168,6 +172,7 @@ planet Resei
 	shipyard "Navarch Basics"
 	shipyard "Navarch Experimental Intermediate"
 	shipyard "Navarch Experimental Advanced"
+	shipyard "Navarch Experimental Expert"
 	outfitter "Navarch Basics"
 	outfitter "Navarch Intermediate"
 	outfitter "Navarch Experimental Intermediate"
@@ -190,6 +195,7 @@ planet Straido
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
 	shipyard "Navarch Intermediate Missile"
+	shipyard "Navarch Logistics Intermediate"
 	shipyard "Navarch Logistics Advanced"
 	shipyard "Navarch Logistics Expert"
 	outfitter "Navarch Basics"
@@ -221,6 +227,8 @@ planet Cantabri
 	description "The Navarchs aren't much for luxurious living, instead preferring to show off their status with impressive private militias. However, Cantabri is one of the few worlds reserved for the elite who doesn't want to spend their whole life aboard a cruising vessel. The planet's seas are a rich blue, and are calm enough that you can see your reflection in them. The Navarchs here are a slightly uppity sort compared to most you've met, but the mood here is overall pleasant and tranquil."
 	spaceport `The spaceport is built in a specifically reserved sect of ocean, leaving the rest of the waters placid for the locals to enjoy. The market here deals in lots of luxury goods, and most Navarchs here seem to be of a significantly different caste than the hard-working naval crews or the diligent researchers, and most attempt to stop you to tell you stories of their "past lives" as one of such roles.`
 	shipyard "Navarch Basics"
+	shipyard "Navarch Logistics Intermediate"
+	shipyard "Navarch Logistics Advanced"
 	shipyard "Navarch Logistics Expert"
 	outfitter "Navarch Basics"
 	outfitter "Navarch Intermediate"
@@ -270,6 +278,7 @@ planet Secelt
 	spaceport "The spaceport is built around a large inlet in one of the larger continental shelves, where a luxuriant amount of loading equipment serves to load and unload large amounts of cargo from the frequent logistical fleets."
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate"
+	shipyard "Navarch Logistics Intermediate"
 	shipyard "Navarch Logistics Advanced"
 	shipyard "Navarch Logistics Expert"
 	outfitter "Navarch Basics"
@@ -281,6 +290,7 @@ planet Gunaple
 	shipyard "Navarch Basics"
 	shipyard "Navarch Intermediate Missile"
 	shipyard "Navarch Advanced Missile"
+	shipyard "Navarch Logistics Intermediate"
 	shipyard "Navarch Logistics Advanced"
 	outfitter "Navarch Basics"
 	outfitter "Navarch Intermediate"

@@ -49,12 +49,15 @@ shipyard "Navarch Outrigger Advanced"
 
 # Logistics
 
-shipyard "Navarch Logistics Advanced"
+shipyard "Navarch Logistics Intermediate"
 	"Microphylum"
 
-shipyard "Navarch Logistics Expert"
+shipyard "Navarch Logistics Advanced"
 	"Imperium"
 	"Parvregalimen"
+
+shipyard "Navarch Logistics Expert"
+	"Dominium"
 
 # Experimentals
 
@@ -63,6 +66,9 @@ shipyard "Navarch Experimental Intermediate"
 	
 shipyard "Navarch Experimental Advanced"
 	"Phylum"
+
+shipyard "Navarch Experimental Expert"
+	"Dominium (Experimental)"
 	
 outfitter "Navarch Basics"
 	"1-18 Anti-Fighter Rig"
