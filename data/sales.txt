@@ -6,7 +6,7 @@ shipyard "Navarch Basics"
 
 shipyard "Navarch Intermediate"
 	"Ordo"
-	"Subclassis"
+	"Nixus"
 	"Legio"
 	
 shipyard "Navarch Advanced"
@@ -49,6 +49,9 @@ shipyard "Navarch Outrigger Advanced"
 
 # Logistics
 
+shipyard "Navarch Logistics Basics"
+	"Subclassis"
+
 shipyard "Navarch Logistics Intermediate"
 	"Microphylum"
 
@@ -60,6 +63,9 @@ shipyard "Navarch Logistics Expert"
 	"Dominium"
 
 # Experimentals
+
+shipyard "Navarch Experimental Basics"
+	"Subforma"
 
 shipyard "Navarch Experimental Intermediate"
 	"Infracohors"

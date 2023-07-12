@@ -157,13 +157,16 @@ system "Omnis (Navarch)"
 			sprite "ship/forma"
 			distance 200
 			offset 190
-	add object "Microphylum "
-		sprite "ship/microphylum"
+	add object "Nixus "
+		sprite "ship/nixus"
 		distance 2000
 		offset 255
-		
+	add object "Microphylum "
+		sprite "ship/microphylum"
+		distance 2750
+		offset 255
 	
-		
+
 planet "Forma "
 	bribe 0
 	government "Arena"
@@ -515,6 +518,17 @@ fleet "Imperium "
 		"Imperium"
 		"Forma" 4
 		
+planet "Nixus "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Nixus "
+		threshold 0
+fleet "Nixus "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Nixus"
 planet "Microphylum "
 	bribe 0
 	government "Arena"
